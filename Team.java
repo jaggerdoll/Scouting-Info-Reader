@@ -12,8 +12,8 @@ public class Team
 	private double teleOpHigherShootingPercentage;
 	private boolean canShootHigh;
 	
-	private int teleOpGearsAttempted, teleOpGearsMade, teleOpRotorsStarted;
-	private double teleOpGearPercentage;
+	private int teleOpGearsAttempted, teleOpGearsMade, teleOpRotorsStarted, teleOpEstimatedTeamGearsMade;
+	private double teleOpGearPercentage, teleOpRotorsStartedPercentage;
 	private boolean canScoreGears;
 	
 	private int autoLowerShotsAttempted, autoLowerShotsMade;
@@ -24,11 +24,11 @@ public class Team
 	private double autoHigherShootingPercentage;
 	private boolean canAutoShootHigh;
 	
-	private int autoGearsAttempted, autoGearsMade, autoRotorsStarted;
-	private double autoGearPercentage;
+	private int autoGearsAttempted, autoGearsMade, autoRotorsStarted, autoEstimatedTeamGearsMade;
+	private double autoGearPercentage, autoRotorsStartedPercentage;
 	private boolean canAutoScoreGears;
 	
-	private int climbsAttempted, climbsSuccesful;
+	private int climbsAttempted, climbsSuccessful;
 	private double climbPercentage;
 	private boolean canClimb;
 	
@@ -55,7 +55,10 @@ public class Team
 		
 		teleOpGearsAttempted = 0;
 		teleOpGearsMade = 0;
+		teleOpRotorsStarted = 0;
+		teleOpEstimatedTeamGearsMade = 0;
 		teleOpGearPercentage = 0.0;
+		teleOpRotorsStartedPercentage = 0.0;
 		canScoreGears = false;
 		
 		autoLowerShotsAttempted = 0;
@@ -70,11 +73,14 @@ public class Team
 		
 		autoGearsAttempted = 0;
 		autoGearsMade = 0;
+		autoRotorsStarted = 0;
+		autoEstimatedTeamGearsMade = 0;
 		autoGearPercentage = 0.0;
+		autoRotorsStartedPercentage = 0.0;
 		canAutoScoreGears = false;
 		
 		climbsAttempted = 0;
-		climbsSuccesful = 0;
+		climbsSuccessful = 0;
 		climbPercentage = 0.0;
 		canClimb = false;
 		
@@ -109,7 +115,10 @@ public class Team
 		
 		teleOpGearsAttempted = 0;
 		teleOpGearsMade = 0;
+		teleOpRotorsStarted = 0;
+		teleOpEstimatedTeamGearsMade = 0;
 		teleOpGearPercentage = 0.0;
+		teleOpRotorsStartedPercentage = 0.0;
 		canScoreGears = false;
 		
 		autoLowerShotsAttempted = 0;
@@ -124,11 +133,14 @@ public class Team
 		
 		autoGearsAttempted = 0;
 		autoGearsMade = 0;
+		autoRotorsStarted = 0;
+		autoEstimatedTeamGearsMade = 0;
 		autoGearPercentage = 0.0;
+		autoRotorsStartedPercentage = 0.0;
 		canAutoScoreGears = false;
 		
 		climbsAttempted = 0;
-		climbsSuccesful = 0;
+		climbsSuccessful = 0;
 		climbPercentage = 0.0;
 		canClimb = false;
 		
@@ -150,65 +162,87 @@ public class Team
 	public Team( int teamNumber, int teleOpLowerShotsAttempted, int teleOpLowerShotsMade, double teleOpLowerShootingPercentage,
 			boolean canShootLow, int teleOpHigherShotsAttempted, int teleOpHigherShotsMade, 
 			double teleOpHigherShootingPercentage, boolean canShootHigh, int teleOpGearsAttempted,
-			int teleOpGearsMade, int teleOpRotorsStarted, double teleOpGearPercentage, boolean canScoreGears,
-			int autoLowerShotsAttempted, int autoLowerShotsMade, double autoLowerShootingPercentage,
+			int teleOpGearsMade, int teleOpRotorsStarted, double teleOpGearPercentage,
+			boolean canScoreGears, int autoLowerShotsAttempted, int autoLowerShotsMade, double autoLowerShootingPercentage,
 			boolean canAutoShootLow, int autoHigherShotsAttempted, int autoHigherShotsMade,
 			double autoHigherShootingPercentage, boolean canAutoShootHigh, int autoGearsAttempted,
-			int autoGearsMade, int autoRotorsStarted, double autoGearPercentage, boolean canAutoScoreGears,
-			int climbsAttempted, int climbsSuccesful, double climbPercentage, boolean canClimb,
+			int autoGearsMade, int autoRotorsStarted, double autoGearPercentage,
+			boolean canAutoScoreGears, int climbsAttempted, int climbsSuccessful, double climbPercentage, boolean canClimb,
 			double totalScore, double autoTotalScore, double teleOpTotalScore, double averageScore,
-			double autoAverageScore, double teleOpAverageScore, ArrayList<Integer> matchesPlayedIn,int matchesPlayed )
+			double autoAverageScore, double teleOpAverageScore, ArrayList<Integer> matchesPlayedIn, int matchesPlayed )
 	{
-		teamNum = 0000;
+		teamNum = teamNumber;
 		
-		teleOpLowerShotsAttempted = 0;
-		teleOpLowerShotsMade = 0;
-		teleOpLowerShootingPercentage = 0.0;
-		canShootLow = false;
+		this.teleOpLowerShotsAttempted = teleOpLowerShotsAttempted;
+		this.teleOpLowerShotsMade = teleOpLowerShotsMade;
+		this.teleOpLowerShootingPercentage = teleOpLowerShootingPercentage;
+		this.canShootLow = canShootLow;
 		
-		teleOpHigherShotsAttempted = 0;
-		teleOpHigherShotsMade = 0;
-		teleOpHigherShootingPercentage = 0.0;
-		canShootHigh = false;
+		this.teleOpHigherShotsAttempted = teleOpHigherShotsAttempted;
+		this.teleOpHigherShotsMade = teleOpHigherShotsMade;
+		this.teleOpHigherShootingPercentage = teleOpHigherShootingPercentage;
+		this.canShootHigh = canShootHigh;
 		
-		teleOpGearsAttempted = 0;
-		teleOpGearsMade = 0;
-		teleOpGearPercentage = 0.0;
-		canScoreGears = false;
+		this.teleOpGearsAttempted = teleOpGearsAttempted;
+		this.teleOpGearsMade = teleOpGearsMade;
+		this.teleOpRotorsStarted = teleOpRotorsStarted;
+		this.teleOpGearPercentage = teleOpGearPercentage;
+				
+		if( teleOpRotorsStarted == 4 )
+			teleOpRotorsStartedPercentage = teleOpGearsMade / ( 12 - (int) ( autoRotorsStarted * 1.5 ) );
+		else if( teleOpRotorsStarted == 3 )
+			teleOpRotorsStartedPercentage = teleOpGearsMade / ( 6 - (int) ( autoRotorsStarted * 1.5 ) );
+		else if( teleOpRotorsStarted == 2 )
+			teleOpRotorsStartedPercentage = teleOpGearsMade / ( 3 - (int) ( autoRotorsStarted * 1.5 ) );
+		else if( teleOpRotorsStarted == 1 )
+			teleOpRotorsStartedPercentage = teleOpGearsMade / ( 1 - (int) ( autoRotorsStarted * 1.5 ) );
+		else
+			teleOpRotorsStartedPercentage = 0;
 		
-		autoLowerShotsAttempted = 0;
-		autoLowerShotsMade = 0;
-		autoLowerShootingPercentage = 0.0;
-		canAutoShootLow = false;
+		this.canScoreGears = canScoreGears;
 		
-		autoHigherShotsAttempted = 0;
-		autoHigherShotsMade = 0;
-		autoHigherShootingPercentage = 0.0;
-		canAutoShootHigh = false;
+		this.autoLowerShotsAttempted = autoLowerShotsAttempted;
+		this.autoLowerShotsMade = autoLowerShotsMade;
+		this.autoLowerShootingPercentage = autoLowerShootingPercentage;
+		this.canAutoShootLow = canAutoShootLow;
 		
-		autoGearsAttempted = 0;
-		autoGearsMade = 0;
-		autoGearPercentage = 0.0;
-		canAutoScoreGears = false;
+		this.autoHigherShotsAttempted = autoHigherShotsAttempted;
+		this.autoHigherShotsMade = autoHigherShotsMade;
+		this.autoHigherShootingPercentage = autoHigherShootingPercentage;
+		this.canAutoShootHigh = canAutoShootHigh;
 		
-		climbsAttempted = 0;
-		climbsSuccesful = 0;
-		climbPercentage = 0.0;
-		canClimb = false;
+		this.autoGearsAttempted = autoGearsAttempted;
+		this.autoGearsMade = autoGearsMade;
+		this.autoRotorsStarted = autoRotorsStarted;
+		this.autoGearPercentage = autoGearPercentage;
+
+		if( autoRotorsStarted == 2 )
+			autoRotorsStartedPercentage = autoGearsMade / 3;
+		else if( autoRotorsStarted == 1 )
+			autoRotorsStartedPercentage = autoGearsMade / 1;
+		else
+			autoRotorsStartedPercentage = 0;
 		
-		totalScore = 0.0;
-		averageScore = 0.0;
+		this.canAutoScoreGears = canAutoScoreGears;
 		
-		autoTotalScore = 0.0;
-		autoAverageScore = 0.0;
+		this.climbsAttempted = climbsAttempted;
+		this.climbsSuccessful = climbsSuccessful;
+		this.climbPercentage = climbPercentage;
+		this.canClimb = canClimb;
 		
-		teleOpTotalScore = 0.0;
-		teleOpAverageScore = 0.0;
+		this.totalScore = totalScore;
+		this.averageScore = averageScore;
+		
+		this.autoTotalScore = autoTotalScore;
+		this.autoAverageScore = autoAverageScore;
+		
+		this.teleOpTotalScore = teleOpTotalScore;
+		this.teleOpAverageScore = teleOpAverageScore;
 		
 		
-		matchesPlayedIn = new ArrayList<Integer>();
+		this.matchesPlayedIn = matchesPlayedIn;
 		
-		//eventsAttended = new ArrayList<String>();
+		//this.eventsAttended = eventAttended;
 	}
 	
 	/**
@@ -346,19 +380,19 @@ public class Team
 	}
 
 	/**
-	 * @return the climbsSuccesful
+	 * @return the climbsSuccessful
 	 */
-	public int getClimbsSuccesful()
+	public int getClimbsSuccessful()
 	{
-		return climbsSuccesful;
+		return climbsSuccessful;
 	}
 
 	/**
-	 * @param climbsSuccesful the climbsSuccesful to set
+	 * @param climbsSuccessful the climbsSuccessful to set
 	 */
-	public void setClimbsSuccesful(int climbsSuccesful)
+	public void setClimbsSuccessful(int climbsSuccessful)
 	{
-		this.climbsSuccesful = climbsSuccesful;
+		this.climbsSuccessful = climbsSuccessful;
 	}
 
 	/**
@@ -367,7 +401,7 @@ public class Team
 	public double getClimbPercentage()
 	{
 		if( climbsAttempted != 0 )
-			climbPercentage = (double) ( climbsSuccesful / climbsAttempted );
+			climbPercentage = (double) ( climbsSuccessful / climbsAttempted );
 				
 		return climbPercentage;
 	}
@@ -803,7 +837,7 @@ public class Team
 	{
 		totalScore += (double) ( autoLowerShotsMade / 3 );
 		totalScore += (double) ( autoHigherShotsMade / 1 );
-		totalScore += (double) ( autoRotorsStarted * 60 );
+		totalScore += (double) ( autoRotorsStartedPercentage * 60 );
 		
 		return autoTotalScore;
 	}
@@ -898,8 +932,8 @@ public class Team
 	{
 		totalScore += (double) ( teleOpLowerShotsMade / 9 );
 		totalScore += (double) ( teleOpHigherShotsMade / 3 );
-		totalScore += (double) ( teleOpRotorsStarted * 40 );
-		totalScore += (double) ( climbsSuccesful * 50 );
+		totalScore += (double) ( teleOpRotorsStartedPercentage * 40 );
+		totalScore += (double) ( climbsSuccessful * 50 );
 		
 		return teleOpTotalScore;
 	}
@@ -931,53 +965,151 @@ public class Team
 		this.teleOpAverageScore = teleOpAverageScore;
 	}	
 
+	/**
+	 * @return the teleOpRotorsStartedPercentage
+	 */
+	public double getTeleOpRotorsStartedPercentage()
+	{
+		if( teleOpGearsMade != 0 )
+			teleOpRotorsStartedPercentage = teleOpGearsMade / teleOpEstimatedTeamGearsMade;
+			
+		return teleOpRotorsStartedPercentage;
+	}
+
+	/**
+	 * @param teleOpRotorsStartedPercentage the teleOpRotorsStartedPercentage to set
+	 */
+	public void setTeleOpRotorsStartedPercentage(double teleOpRotorsStartedPercentage)
+	{
+		this.teleOpRotorsStartedPercentage = teleOpRotorsStartedPercentage;
+	}
+
+	/**
+	 * @return the autoRotorsStartedPercentage
+	 */
+	public double getAutoRotorsStartedPercentage()
+	{
+		if( autoGearsMade != 0 )
+			autoRotorsStartedPercentage = autoGearsMade / autoEstimatedTeamGearsMade;
+		
+		return autoRotorsStartedPercentage;
+	}
+
+	/**
+	 * @param autoRotorsStartedPercentage the autoRotorsStartedPercentage to set
+	 */
+	public void setAutoRotorsStartedPercentage(double autoRotorsStartedPercentage)
+	{
+		this.autoRotorsStartedPercentage = autoRotorsStartedPercentage;
+	}
+
+	/**
+	 * @return the teleOpEstimatedTeamGearsMade
+	 */
+	public int getTeleOpEstimatedTeamGearsMade()
+	{
+		if( teleOpRotorsStarted == 4 )
+			teleOpRotorsStartedPercentage = teleOpGearsMade / ( 12 - (int) ( autoRotorsStarted * 1.5 ) );
+		else if( teleOpRotorsStarted == 3 )
+			teleOpRotorsStartedPercentage = teleOpGearsMade / ( 6 - (int) ( autoRotorsStarted * 1.5 ) );
+		else if( teleOpRotorsStarted == 2 )
+			teleOpRotorsStartedPercentage = teleOpGearsMade / ( 3 - (int) ( autoRotorsStarted * 1.5 ) );
+		else if( teleOpRotorsStarted == 1 )
+			teleOpRotorsStartedPercentage = teleOpGearsMade / ( 1 - (int) ( autoRotorsStarted * 1.5 ) );
+		else
+			teleOpRotorsStartedPercentage = 0;
+		
+		return teleOpEstimatedTeamGearsMade;
+	}
+
+	/**
+	 * @param teleOpEstimatedTeamGearsMade the teleOpEstimatedTeamGearsMade to set
+	 */
+	public void setTeleOpEstimatedTeamGearsMade(int teleOpEstimatedTeamGearsMade)
+	{
+		this.teleOpEstimatedTeamGearsMade = teleOpEstimatedTeamGearsMade;
+	}
+
+	/**
+	 * @return the autoEstimatedTeamGearsMade
+	 */
+	public int getAutoEstimatedTeamGearsMade()
+	{
+		if( autoRotorsStarted == 2 )
+			autoRotorsStartedPercentage = autoGearsMade / 3;
+		else if( autoRotorsStarted == 1 )
+			autoRotorsStartedPercentage = autoGearsMade / 1;
+		else
+			autoRotorsStartedPercentage = 0;
+		
+		return autoEstimatedTeamGearsMade;
+	}
+
+	/**
+	 * @param autoEstimatedTeamGearsMade the autoEstimatedTeamGearsMade to set
+	 */
+	public void setAutoEstimatedTeamGearsMade(int autoEstimatedTeamGearsMade)
+	{
+		this.autoEstimatedTeamGearsMade = autoEstimatedTeamGearsMade;
+	}
+
 	/* (non-Javadoc)
 	 * @see java.lang.Object#toString()
 	 */
 	@Override
 	public String toString() {
-		return "Team teamNum=" + teamNum + ", \n[teleOpLowerShotsAttempted=" + teleOpLowerShotsAttempted
+		return "Team " + teamNum + ": \n[teleOpLowerShotsAttempted=" + teleOpLowerShotsAttempted
 				+ ", teleOpLowerShotsMade=" + teleOpLowerShotsMade + ", teleOpLowerShootingPercentage="
 				+ teleOpLowerShootingPercentage + ", canShootLow=" + canShootLow + ", teleOpHigherShotsAttempted="
 				+ teleOpHigherShotsAttempted + ", teleOpHigherShotsMade=" + teleOpHigherShotsMade
-				+ ", teleOpHigherShootingPercentage=" + teleOpHigherShootingPercentage + ", canShootHigh=" + canShootHigh
-				+ ", teleOpGearsAttempted=" + teleOpGearsAttempted + ", teleOpGearsMade=" + teleOpGearsMade
-				+ ", teleOpRotorsStarted=" + teleOpRotorsStarted + ", teleOpGearPercentage=" + teleOpGearPercentage
-				+ ", canScoreGears=" + canScoreGears + ", autoLowerShotsAttempted=" + autoLowerShotsAttempted
-				+ ", autoLowerShotsMade=" + autoLowerShotsMade + ", autoLowerShootingPercentage="
-				+ autoLowerShootingPercentage + ", canAutoShootLow=" + canAutoShootLow + ", autoHigherShotsAttempted="
-				+ autoHigherShotsAttempted + ", autoHigherShotsMade=" + autoHigherShotsMade
-				+ ", autoHigherShootingPercentage=" + autoHigherShootingPercentage + ", canAutoShootHigh=" + canAutoShootHigh
-				+ ", autoGearsAttempted=" + autoGearsAttempted + ", autoGearsMade=" + autoGearsMade
-				+ ", autoRotorsStarted=" + autoRotorsStarted + ", autoGearPercentage=" + autoGearPercentage
+				+ ", teleOpHigherShootingPercentage=" + teleOpHigherShootingPercentage + ", canShootHigh="
+				+ canShootHigh + ", teleOpGearsAttempted=" + teleOpGearsAttempted + ", teleOpGearsMade="
+				+ teleOpGearsMade + ", teleOpRotorsStarted=" + teleOpRotorsStarted + ", teleOpEstimatedTeamGearsMade="
+				+ teleOpEstimatedTeamGearsMade + ", teleOpGearPercentage=" + teleOpGearPercentage
+				+ ", teleOpRotorsStartedPercentage=" + teleOpRotorsStartedPercentage + ", canScoreGears="
+				+ canScoreGears + ", autoLowerShotsAttempted=" + autoLowerShotsAttempted + ", autoLowerShotsMade="
+				+ autoLowerShotsMade + ", autoLowerShootingPercentage=" + autoLowerShootingPercentage
+				+ ", canAutoShootLow=" + canAutoShootLow + ", autoHigherShotsAttempted=" + autoHigherShotsAttempted
+				+ ", autoHigherShotsMade=" + autoHigherShotsMade + ", autoHigherShootingPercentage="
+				+ autoHigherShootingPercentage + ", canAutoShootHigh=" + canAutoShootHigh + ", autoGearsAttempted="
+				+ autoGearsAttempted + ", autoGearsMade=" + autoGearsMade + ", autoRotorsStarted=" + autoRotorsStarted
+				+ ", autoEstimatedTeamGearsMade=" + autoEstimatedTeamGearsMade + ", autoGearPercentage="
+				+ autoGearPercentage + ", autoRotorsStartedPercentage=" + autoRotorsStartedPercentage
 				+ ", canAutoScoreGears=" + canAutoScoreGears + ", climbsAttempted=" + climbsAttempted
-				+ ", climbsSuccesful=" + climbsSuccesful + ", climbPercentage=" + climbPercentage + ", canClimb="
-				+ canClimb + ", totalScore=" + totalScore + ", autoTotalScore=" + autoTotalScore + ", averageScore="
-				+ averageScore + ", autoAverageScore=" + autoAverageScore + ", matchesPlayedIn=" + matchesPlayedIn
+				+ ", climbsSuccessful=" + climbsSuccessful + ", climbPercentage=" + climbPercentage + ", canClimb="
+				+ canClimb + ", totalScore=" + totalScore + ", autoTotalScore=" + autoTotalScore + ", teleOpTotalScore="
+				+ teleOpTotalScore + ", averageScore=" + averageScore + ", autoAverageScore=" + autoAverageScore
+				+ ", teleOpAverageScore=" + teleOpAverageScore + ", matchesPlayedIn=" + matchesPlayedIn
 				+ ", matchesPlayed=" + matchesPlayed + ", getTeamNum()=" + getTeamNum()
 				+ ", getTeleOpHigherShotsAttempted()=" + getTeleOpHigherShotsAttempted()
-				+ ", getTeleOpHigherShotsMade()=" + getTeleOpHigherShotsMade() + ", getteleOpHigherShootingPercentage()="
-				+ getTeleOpHigherShootingPercentage() + ", getTeleOpGearsAttempted()=" + getTeleOpGearsAttempted()
-				+ ", getTeleOpGearsMade()=" + getTeleOpGearsMade() + ", getTeleOpGearPercentage()="
-				+ getTeleOpGearPercentage() + ", getClimbsAttempted()=" + getClimbsAttempted()
-				+ ", getClimbsSuccesful()=" + getClimbsSuccesful() + ", getClimbPercentage()=" + getClimbPercentage()
-				+ ", getMatchesPlayedIn()=" + getMatchesPlayedIn() + ", getteleOpLowerShotsAttempted()="
-				+ getteleOpLowerShotsAttempted() + ", getTeleOpLowerShotsMade()=" + getTeleOpLowerShotsMade()
-				+ ", getTeleOpLowerShootingPercentage()=" + getTeleOpLowerShootingPercentage() + ", isCanShootLow()="
-				+ isCanShootLow() + ", isCanShootHigh()=" + isCanShootHigh() + ", isCanScoreGears()="
-				+ isCanScoreGears() + ", isCanClimb()=" + isCanClimb() + ", getTotalScore()=" + getTotalScore()
-				+ ", getAverageScore()=" + getAverageScore() + ", getTeleOpLowerShotsAttempted()="
-				+ getTeleOpLowerShotsAttempted() + ", getTeleOpRotorsStarted()=" + getTeleOpRotorsStarted()
-				+ ", getAutoLowerShotsAttempted()=" + getAutoLowerShotsAttempted() + ", getAutoLowerShotsMade()="
-				+ getAutoLowerShotsMade() + ", getAutoLowerShootingPercentage()=" + getAutoLowerShootingPercentage()
-				+ ", isCanAutoShootLow()=" + isCanAutoShootLow() + ", getAutoHigherShotsAttempted()="
-				+ getAutoHigherShotsAttempted() + ", getAutoHigherShotsMade()=" + getAutoHigherShotsMade()
-				+ ", getautoHigherShootingPercentage()=" + getautoHigherShootingPercentage() + ", isCanAutoShootHigh()="
-				+ isCanAutoShootHigh() + ", getAutoGearsAttempted()=" + getAutoGearsAttempted()
-				+ ", getAutoGearsMade()=" + getAutoGearsMade() + ", getAutoRotorsStarted()=" + getAutoRotorsStarted()
-				+ ", getAutoGearPercentage()=" + getAutoGearPercentage() + ", iscanAutoScoreGears()="
-				+ iscanAutoScoreGears() + ", getAutoTotalScore()=" + getAutoTotalScore() + ", getAutoAverageScore()="
-				+ getAutoAverageScore() + ", getMatchesPlayed()=" + getMatchesPlayed()
-				+ ", getTeleOpHigherShootingPercentage()=" + getTeleOpHigherShootingPercentage();
+				+ ", getTeleOpHigherShotsMade()=" + getTeleOpHigherShotsMade()
+				+ ", getTeleOpHigherShootingPercentage()=" + getTeleOpHigherShootingPercentage()
+				+ ", getTeleOpGearsAttempted()=" + getTeleOpGearsAttempted() + ", getTeleOpGearsMade()="
+				+ getTeleOpGearsMade() + ", getTeleOpGearPercentage()=" + getTeleOpGearPercentage()
+				+ ", getClimbsAttempted()=" + getClimbsAttempted() + ", getClimbsSuccessful()=" + getClimbsSuccessful()
+				+ ", getClimbPercentage()=" + getClimbPercentage() + ", getMatchesPlayedIn()=" + getMatchesPlayedIn()
+				+ ", getteleOpLowerShotsAttempted()=" + getteleOpLowerShotsAttempted() + ", getTeleOpLowerShotsMade()="
+				+ getTeleOpLowerShotsMade() + ", getTeleOpLowerShootingPercentage()="
+				+ getTeleOpLowerShootingPercentage() + ", isCanShootLow()=" + isCanShootLow() + ", isCanShootHigh()="
+				+ isCanShootHigh() + ", isCanScoreGears()=" + isCanScoreGears() + ", isCanClimb()=" + isCanClimb()
+				+ ", getTotalScore()=" + getTotalScore() + ", getAverageScore()=" + getAverageScore()
+				+ ", getTeleOpLowerShotsAttempted()=" + getTeleOpLowerShotsAttempted() + ", getTeleOpRotorsStarted()="
+				+ getTeleOpRotorsStarted() + ", getAutoLowerShotsAttempted()=" + getAutoLowerShotsAttempted()
+				+ ", getAutoLowerShotsMade()=" + getAutoLowerShotsMade() + ", getAutoLowerShootingPercentage()="
+				+ getAutoLowerShootingPercentage() + ", isCanAutoShootLow()=" + isCanAutoShootLow()
+				+ ", getAutoHigherShotsAttempted()=" + getAutoHigherShotsAttempted() + ", getAutoHigherShotsMade()="
+				+ getAutoHigherShotsMade() + ", getautoHigherShootingPercentage()=" + getautoHigherShootingPercentage()
+				+ ", isCanAutoShootHigh()=" + isCanAutoShootHigh() + ", getAutoGearsAttempted()="
+				+ getAutoGearsAttempted() + ", getAutoGearsMade()=" + getAutoGearsMade() + ", getAutoRotorsStarted()="
+				+ getAutoRotorsStarted() + ", getAutoGearPercentage()=" + getAutoGearPercentage()
+				+ ", iscanAutoScoreGears()=" + iscanAutoScoreGears() + ", getAutoTotalScore()=" + getAutoTotalScore()
+				+ ", getAutoAverageScore()=" + getAutoAverageScore() + ", getMatchesPlayed()=" + getMatchesPlayed()
+				+ ", getAutoHigherShootingPercentage()=" + getAutoHigherShootingPercentage()
+				+ ", isCanAutoScoreGears()=" + isCanAutoScoreGears() + ", getTeleOpTotalScore()="
+				+ getTeleOpTotalScore() + ", getTeleOpAverageScore()=" + getTeleOpAverageScore()
+				+ ", getTeleOpRotorsStartedPercentage()=" + getTeleOpRotorsStartedPercentage()
+				+ ", getAutoRotorsStartedPercentage()=" + getAutoRotorsStartedPercentage()
+				+ ", getTeleOpEstimatedTeamGearsMade()=" + getTeleOpEstimatedTeamGearsMade()
+				+ ", getAutoEstimatedTeamGearsMade()=" + getAutoEstimatedTeamGearsMade() + "]";
 	}
 }
