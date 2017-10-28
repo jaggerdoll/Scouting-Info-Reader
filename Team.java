@@ -431,22 +431,6 @@ public class Team
 	}
 
 	/**
-	 * @return the teleOpLowerShotsAttempted
-	 */
-	public int getteleOpLowerShotsAttempted()
-	{
-		return teleOpLowerShotsAttempted;
-	}
-
-	/**
-	 * @param teleOpLowerShotsAttempted the teleOpLowerShotsAttempted to set
-	 */
-	public void setteleOpLowerShotsAttempted(int teleOpLowerShotsAttempted)
-	{
-		this.teleOpLowerShotsAttempted = teleOpLowerShotsAttempted;
-	}
-
-	/**
 	 * @return the teleOpLowerteleOpHigherShotsMade
 	 */
 	public int getTeleOpLowerShotsMade()
@@ -457,7 +441,7 @@ public class Team
 	/**
 	 * @param teleOpLowerteleOpHigherShotsMade the teleOpLowerteleOpHigherShotsMade to set
 	 */
-	public void setteleOpLowerShotsMade(int teleOpLowerShotsMade)
+	public void setTeleOpLowerShotsMade(int teleOpLowerShotsMade)
 	{
 		this.teleOpLowerShotsMade = teleOpLowerShotsMade;
 	}
@@ -715,7 +699,7 @@ public class Team
 	/**
 	 * @return the autoHigherShootingPercentage
 	 */
-	public double getautoHigherShootingPercentage()
+	public double getAutoHigherShootingPercentage()
 	{
 		if( autoHigherShotsAttempted != 0 )
 			autoHigherShootingPercentage = (double) ( autoHigherShotsMade / autoHigherShotsAttempted * 100 );
@@ -726,7 +710,7 @@ public class Team
 	/**
 	 * @param autoHigherShootingPercentage the autoHigherShootingPercentage to set
 	 */
-	public void setautoHigherShootingPercentage(double autoHigherShootingPercentage)
+	public void setAutoHigherShootingPercentage(double autoHigherShootingPercentage)
 	{
 		this.autoHigherShootingPercentage = autoHigherShootingPercentage;
 	}
@@ -883,30 +867,6 @@ public class Team
 	public void setMatchesPlayed(int matchesPlayed)
 	{
 		this.matchesPlayed = matchesPlayed;
-	}
-
-	/**
-	 * @param teleOpLowerShotsMade the teleOpLowerShotsMade to set
-	 */
-	public void setTeleOpLowerShotsMade(int teleOpLowerShotsMade)
-	{
-		this.teleOpLowerShotsMade = teleOpLowerShotsMade;
-	}
-
-	/**
-	 * @return the autoHigherShootingPercentage
-	 */
-	public double getAutoHigherShootingPercentage()
-	{
-		return autoHigherShootingPercentage;
-	}
-
-	/**
-	 * @param autoHigherShootingPercentage the autoHigherShootingPercentage to set
-	 */
-	public void setAutoHigherShootingPercentage(double autoHigherShootingPercentage)
-	{
-		this.autoHigherShootingPercentage = autoHigherShootingPercentage;
 	}
 
 	/**
@@ -1088,7 +1048,7 @@ public class Team
 				+ getTeleOpGearsMade() + ", getTeleOpGearPercentage()=" + getTeleOpGearPercentage()
 				+ ", getClimbsAttempted()=" + getClimbsAttempted() + ", getClimbsSuccessful()=" + getClimbsSuccessful()
 				+ ", getClimbPercentage()=" + getClimbPercentage() + ", getMatchesPlayedIn()=" + getMatchesPlayedIn()
-				+ ", getteleOpLowerShotsAttempted()=" + getteleOpLowerShotsAttempted() + ", getTeleOpLowerShotsMade()="
+				+ ", getTeleOpLowerShotsMade()="
 				+ getTeleOpLowerShotsMade() + ", getTeleOpLowerShootingPercentage()="
 				+ getTeleOpLowerShootingPercentage() + ", isCanShootLow()=" + isCanShootLow() + ", isCanShootHigh()="
 				+ isCanShootHigh() + ", isCanScoreGears()=" + isCanScoreGears() + ", isCanClimb()=" + isCanClimb()
@@ -1098,8 +1058,7 @@ public class Team
 				+ ", getAutoLowerShotsMade()=" + getAutoLowerShotsMade() + ", getAutoLowerShootingPercentage()="
 				+ getAutoLowerShootingPercentage() + ", isCanAutoShootLow()=" + isCanAutoShootLow()
 				+ ", getAutoHigherShotsAttempted()=" + getAutoHigherShotsAttempted() + ", getAutoHigherShotsMade()="
-				+ getAutoHigherShotsMade() + ", getautoHigherShootingPercentage()=" + getautoHigherShootingPercentage()
-				+ ", isCanAutoShootHigh()=" + isCanAutoShootHigh() + ", getAutoGearsAttempted()="
+				+ getAutoHigherShotsMade() + ", isCanAutoShootHigh()=" + isCanAutoShootHigh() + ", getAutoGearsAttempted()="
 				+ getAutoGearsAttempted() + ", getAutoGearsMade()=" + getAutoGearsMade() + ", getAutoRotorsStarted()="
 				+ getAutoRotorsStarted() + ", getAutoGearPercentage()=" + getAutoGearPercentage()
 				+ ", iscanAutoScoreGears()=" + iscanAutoScoreGears() + ", getAutoTotalScore()=" + getAutoTotalScore()
