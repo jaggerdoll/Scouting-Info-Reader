@@ -12,5 +12,29 @@ public class Event
 	{
 		
 	}
+	public Match[] getMatchList() {
+		return matchList;
+	}
+	public void setMatchList(Match[] matchList) {
+		this.matchList = matchList;
+	}
+	public Team[] getAllAttendingTeams() {
+		return allAttendingTeams;
+	}
+	public void setAllAttendingTeams(Team[] allAttendingTeams) {
+		this.allAttendingTeams = allAttendingTeams;
+	}
+	public Team[] getPredictedRankings() {
+		return predictedRankings;
+	}
+	public void setPredictedRankings(Team[] predictedRankings) {
+		this.predictedRankings = predictedRankings;
+	}
+	public Team[] getWinners() {
+		return winners;
+	}
+	public void setWinners(Team[] winners) {
+		this.winners = winners;
+	}
 	
 }
