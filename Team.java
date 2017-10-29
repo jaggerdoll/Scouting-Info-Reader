@@ -587,7 +587,7 @@ public class Team
 	 * @return the teleOpRotorsStarted
 	 */
 	public int getTeleOpRotorsStarted()
-	{
+	{		
 		return teleOpRotorsStarted;
 	}
 
@@ -934,6 +934,7 @@ public class Team
 	{
 		if( getTeleOpEstimatedTeamGearsMade() != 0 )
 			teleOpRotorsStartedPercentage = (double) ( getTeleOpGearsMade() / getTeleOpEstimatedTeamGearsMade() );
+		System.out.println(getTeleOpEstimatedTeamGearsMade());
 			
 		return teleOpRotorsStartedPercentage;
 	}
@@ -971,17 +972,16 @@ public class Team
 	public int getTeleOpEstimatedTeamGearsMade()
 	{
 		if( ( teleOpRotorsStarted / matchesPlayed ) % 4 == 0 )
-			teleOpEstimatedTeamGearsMade = teleOpGearsMade / ( 12 - (int) ( ( ( autoRotorsStarted /
-					getMatchesPlayed() ) * 1.5 ) * getMatchesPlayed() ) );
+			teleOpEstimatedTeamGearsMade = (int) (teleOpGearsMade / ( ( getMatchesPlayed() * 12 ) - autoEstimatedTeamGearsMade ));
 		else if( ( teleOpRotorsStarted / matchesPlayed ) % 3 == 0 )
-			teleOpEstimatedTeamGearsMade = teleOpGearsMade / ( ( 6 * getMatchesPlayed() ) - (int) ( ( ( autoRotorsStarted /
-					getMatchesPlayed() ) * 1.5 ) * getMatchesPlayed() ) );
+			teleOpEstimatedTeamGearsMade = teleOpGearsMade / ( ( 6 * getMatchesPlayed() ) -
+					(int) ( ( getAutoEstimatedTeamGearsMade() * getMatchesPlayed() ) ) );
 		else if( ( teleOpRotorsStarted / matchesPlayed ) % 2 == 0 )
-			teleOpEstimatedTeamGearsMade = teleOpGearsMade / ( ( 3 * getMatchesPlayed() ) - (int) ( ( ( autoRotorsStarted /
-					getMatchesPlayed() ) * 1.5 ) * getMatchesPlayed() ) );
-		else if( teleOpRotorsStarted > 0 && autoRotorsStarted == 0 )
-			teleOpEstimatedTeamGearsMade = teleOpGearsMade / ( ( 1 * getMatchesPlayed() ) - (int) ( ( ( autoRotorsStarted /
-					getMatchesPlayed() ) * 1.5 ) * getMatchesPlayed() ) );
+			teleOpEstimatedTeamGearsMade = teleOpGearsMade / ( ( 3 * getMatchesPlayed() ) -
+					(int) ( ( getAutoEstimatedTeamGearsMade() * getMatchesPlayed() ) ) );
+		else if( teleOpRotorsStarted > 0 )
+			teleOpEstimatedTeamGearsMade = teleOpGearsMade / ( ( 1 * getMatchesPlayed() ) -
+					(int) ( ( getAutoEstimatedTeamGearsMade() * getMatchesPlayed() ) ) );
 		else
 			teleOpEstimatedTeamGearsMade = 0;
 		
