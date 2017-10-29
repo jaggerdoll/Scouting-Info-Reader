@@ -190,13 +190,13 @@ public class Team
 		this.teleOpRotorsStarted = teleOpRotorsStarted;
 		this.teleOpGearPercentage = teleOpGearPercentage;
 				
-		if( teleOpRotorsStarted == 4 )
+		if( teleOpRotorsStarted % 4 == 0 )
 			teleOpRotorsStartedPercentage = teleOpGearsMade / ( 12 - (int) ( autoRotorsStarted * 1.5 ) );
-		else if( teleOpRotorsStarted == 3 )
+		else if( teleOpRotorsStarted % 3 == 0 )
 			teleOpRotorsStartedPercentage = teleOpGearsMade / ( 6 - (int) ( autoRotorsStarted * 1.5 ) );
-		else if( teleOpRotorsStarted == 2 )
+		else if( teleOpRotorsStarted % 2 == 0 )
 			teleOpRotorsStartedPercentage = teleOpGearsMade / ( 3 - (int) ( autoRotorsStarted * 1.5 ) );
-		else if( teleOpRotorsStarted == 1 )
+		else if( teleOpRotorsStarted > 0 )
 			teleOpRotorsStartedPercentage = teleOpGearsMade / ( 1 - (int) ( autoRotorsStarted * 1.5 ) );
 		else
 			teleOpRotorsStartedPercentage = 0;
@@ -934,7 +934,7 @@ public class Team
 	{
 		if( getTeleOpEstimatedTeamGearsMade() != 0 )
 			teleOpRotorsStartedPercentage = (double) ( getTeleOpGearsMade() / getTeleOpEstimatedTeamGearsMade() );
-		System.out.println(getTeleOpEstimatedTeamGearsMade());
+		//System.out.println(getTeleOpEstimatedTeamGearsMade());
 			
 		return teleOpRotorsStartedPercentage;
 	}
@@ -971,19 +971,23 @@ public class Team
 	 */
 	public int getTeleOpEstimatedTeamGearsMade()
 	{
-		if( ( teleOpRotorsStarted / matchesPlayed ) % 4 == 0 )
-			teleOpEstimatedTeamGearsMade = (int) (teleOpGearsMade / ( ( getMatchesPlayed() * 12 ) - autoEstimatedTeamGearsMade ));
-		else if( ( teleOpRotorsStarted / matchesPlayed ) % 3 == 0 )
-			teleOpEstimatedTeamGearsMade = teleOpGearsMade / ( ( 6 * getMatchesPlayed() ) -
-					(int) ( ( getAutoEstimatedTeamGearsMade() * getMatchesPlayed() ) ) );
-		else if( ( teleOpRotorsStarted / matchesPlayed ) % 2 == 0 )
-			teleOpEstimatedTeamGearsMade = teleOpGearsMade / ( ( 3 * getMatchesPlayed() ) -
-					(int) ( ( getAutoEstimatedTeamGearsMade() * getMatchesPlayed() ) ) );
+		/* must work out better logic, this isn't good
+		if( ( ( ( (double) teleOpRotorsStarted / matchesPlayed ) ) ) % 4 <= 1 )
+			teleOpEstimatedTeamGearsMade = (int) ( ( ( teleOpRotorsStarted * 12 ) - ( getAutoRotorsStarted() * 1.5 ) ) );
+		else if( ( ( (double) teleOpRotorsStarted / matchesPlayed ) ) % 3 <= 1 )
+			teleOpEstimatedTeamGearsMade = (int) ( ( ( teleOpRotorsStarted * 6 ) - ( getAutoRotorsStarted() * 1.5 ) ) );
+		else if( ( ( (double) teleOpRotorsStarted / matchesPlayed ) ) % 2 <= 1 )
+			teleOpEstimatedTeamGearsMade = (int) ( ( ( teleOpRotorsStarted * 3 ) - ( getAutoRotorsStarted() * 1.5 ) ) );
 		else if( teleOpRotorsStarted > 0 )
-			teleOpEstimatedTeamGearsMade = teleOpGearsMade / ( ( 1 * getMatchesPlayed() ) -
-					(int) ( ( getAutoEstimatedTeamGearsMade() * getMatchesPlayed() ) ) );
+			teleOpEstimatedTeamGearsMade = (int) ( ( ( teleOpRotorsStarted ) - ( getAutoRotorsStarted() * 1.5 ) ) );
 		else
 			teleOpEstimatedTeamGearsMade = 0;
+		
+		System.out.println(teleOpEstimatedTeamGearsMade);
+		System.out.println( (double) teleOpRotorsStarted / matchesPlayed);
+		//System.out.println(getAutoRotorsStarted());
+		 *
+		 */
 		
 		return teleOpEstimatedTeamGearsMade;
 	}
