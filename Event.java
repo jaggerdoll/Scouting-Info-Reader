@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Event
 {
-	private String eventName
+	private String eventName;
 	private ArrayList<Match> matchList;
 	private ArrayList<Team> allAttendingTeams;
 	private ArrayList<Team> predictedRankings;
