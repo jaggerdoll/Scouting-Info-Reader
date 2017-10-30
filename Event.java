@@ -32,6 +32,8 @@ public class Event
 	}
 	public ArrayList<Team> getPredictedRankings()
 	{
+		predictRankings();
+		
 		return predictedRankings;
 	}
 	public void setPredictedRankings(ArrayList<Team> predictedRankings)

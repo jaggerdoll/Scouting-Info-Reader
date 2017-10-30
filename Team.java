@@ -36,7 +36,7 @@ public class Team
 	
 	private double totalScore, autoTotalScore, teleOpTotalScore, averageScore, autoAverageScore, teleOpAverageScore;
 	
-	private ArrayList<Integer> matchesPlayedIn;
+	private ArrayList<Integer> matchesPlayedIn, predictedMatchesWon;
 	private int matchesPlayed;
 	
 	//private ArrayList<String> eventsAttended;
@@ -97,6 +97,7 @@ public class Team
 		
 		
 		matchesPlayedIn = new ArrayList<Integer>();
+		predictedMatchesWon = new ArrayList<Integer>();
 		
 		//eventsAttended = new ArrayList<String>();
 	}
@@ -157,6 +158,7 @@ public class Team
 		
 		
 		matchesPlayedIn = new ArrayList<Integer>();
+		predictedMatchesWon = new ArrayList<Integer>();
 		
 		//eventsAttended = new ArrayList<String>();
 	}
@@ -243,6 +245,7 @@ public class Team
 		
 		
 		this.matchesPlayedIn = matchesPlayedIn;
+		predictedMatchesWon = new ArrayList<Integer>();
 		
 		//this.eventsAttended = eventAttended;
 	}
@@ -1020,7 +1023,28 @@ public class Team
 	{
 		this.autoEstimatedTeamGearsMade = autoEstimatedTeamGearsMade;
 	}
+	
+	/**
+	 * @return the predictedMatchesWon
+	 */
+	public ArrayList<Integer> getPredictedMatchesWon()
+	{
+		return predictedMatchesWon;
+	}
 
+	/**
+	 * @param predictedMatchesWon the predictedMatchesWon to set
+	 */
+	public void setPredictedMatchesWon(ArrayList<Integer> predictedMatchesWon)
+	{
+		this.predictedMatchesWon = predictedMatchesWon;
+	}
+	
+	public void addPredictedMatchWon(int matchNum)
+	{
+		predictedMatchesWon.add(matchNum);
+	}
+	
 	/* (non-Javadoc)
 	 * @see java.lang.Object#toString()
 	 */
