@@ -5,17 +5,23 @@
  */
 package scoutinginforeadergui;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author 19jdoll
  */
-public class ScoutingInfoReaderGUI {
+public class ScoutingInfoReaderGUI
+{
 
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void main(String[] args)
+    {
+        JFrame frame = new JFrame("Scouting App Info Reader");
+        frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE);
+        frame.setContentPane(new HomePage(frame));
     }
     
 }

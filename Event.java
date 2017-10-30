@@ -2,6 +2,7 @@ import java.util.ArrayList;
 
 public class Event
 {
+	private String eventName
 	private ArrayList<Match> matchList;
 	private ArrayList<Team> allAttendingTeams;
 	private ArrayList<Team> predictedRankings;
@@ -9,11 +10,22 @@ public class Event
 	
 	public Event()
 	{
+		eventName = "";
 		allAttendingTeams = new ArrayList<Team>();
 		predictedRankings = new ArrayList<Team>();
 		matchList = new ArrayList<Match>();
 		winners = new Team[3];
 	}
+	
+	public String getEventName()
+	{
+		return eventName;
+	}
+	public void setEventName( String eventName)
+	{
+		this.eventName = eventName;
+	}
+	
 	public ArrayList<Match> getMatchList()
 	{
 		return matchList;
