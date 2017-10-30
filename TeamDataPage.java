@@ -21,8 +21,8 @@ public class TeamDataPage extends javax.swing.JPanel
     {
         initComponents();
         jList1.setModel(new javax.swing.AbstractListModel<String>() {
-            String[] strings = { team.getTeamNum(), team.getTotalScore(), team.getGamesPlayed(),
-                team.getAverageScore(), team.getAverageTeleOpScore(), team.getAverageAutoScore() };
+            String[] strings = { team.getTeamNum() + "", team.getTotalScore() + "", team.getMatchesPlayed() + "",
+                team.getAverageScore() + "", team.getTeleOpAverageScore() + "", team.getAutoAverageScore() + "" };
             public int getSize() { return strings.length; }
             public String getElementAt(int i) { return strings[i]; }
         });

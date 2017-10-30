@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package scoutinginforeadergui;
+
+
+import javax.swing.JFrame;
 
 /**
  *
@@ -11,12 +13,15 @@ package scoutinginforeadergui;
  */
 public class EventPage extends javax.swing.JPanel
 {
+	private String eventName;
 
     /**
      * Creates new form EventPage
      */
-    public EventPage( String eventName )
+    public EventPage( JFrame frame, String eventName )
     {
+    	this.eventName = eventName;
+    	
         initComponents();
         Event event = new Event();
         event.setEventName(eventName);
@@ -31,19 +36,31 @@ public class EventPage extends javax.swing.JPanel
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel1 = new javax.swing.JLabel();
+
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
+        jLabel1.setText(eventName);
+        
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 589, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(225, 225, 225)
+                .addComponent(jLabel1)
+                .addContainerGap(250, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 536, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel1)
+                .addContainerGap(467, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
 }

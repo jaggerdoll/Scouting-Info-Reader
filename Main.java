@@ -1,7 +1,12 @@
+import java.util.ArrayList;
+
+import javax.swing.JFrame;
+
 public class Main
 {
 	public static void main(String[] args)
 	{
+		ArrayList<Team> allTeams = new ArrayList<Team>();
 		Team MissDaisy = new Team();
 		MissDaisy.setTeamNum( 341 );
 		MissDaisy.setMatchesPlayed(16);
@@ -16,5 +21,13 @@ public class Main
 		MissDaisy.getTeleOpTotalScore();
 		//System.out.println( MissDaisy.getAutoAverageScore() );
 		//System.out.println( MissDaisy.getAverageScore() );
+		
+		allTeams.add(MissDaisy);
+		
+		JFrame frame = new JFrame("Scouting App Info Reader");
+        frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE);
+        frame.setContentPane(new HomePage(frame, allTeams));
+        frame.pack();
+        frame.setVisible(true);
 	}
 }
