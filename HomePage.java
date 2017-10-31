@@ -18,12 +18,15 @@ import javax.swing.JFrame;
 public class HomePage extends javax.swing.JPanel
 {
 	private ArrayList<Team> allTeams;
+	private HomePage homePage;
     /**
      * Creates new form HomePage
      */
     public HomePage(JFrame frame, ArrayList<Team> allTeams)
     {
         initComponents();
+        frame.add(this);
+        homePage = this;
         jTextPane1.setVisible(false);
         this.allTeams = allTeams;
         jButton1.addActionListener(new ActionListener() {
@@ -31,7 +34,7 @@ public class HomePage extends javax.swing.JPanel
             public void actionPerformed(ActionEvent ae) {
                 if(!((String)jComboBox1.getSelectedObjects()[0]).equals("Select an Event!"))
                 {
-                    frame.setContentPane(new EventPage(frame, (String) jComboBox1.getSelectedObjects()[0]));
+                    frame.setContentPane(new EventPage(frame, homePage, (String) jComboBox1.getSelectedObjects()[0]));
                     frame.pack();
                     frame.setVisible(true);
                 }               
@@ -40,7 +43,7 @@ public class HomePage extends javax.swing.JPanel
                 
         jButton2.addActionListener(new ActionListener() {
             @Override
-            public void actionPerformed(ActionEvent ae) {
+            public void actionPerformed(ActionEvent ae) throws NumberFormatException {
                 boolean found = false;
             	for( int i = 0; i < allTeams.size(); i++ )
             	{
@@ -50,6 +53,7 @@ public class HomePage extends javax.swing.JPanel
             			frame.setContentPane(new TeamDataPage( frame, allTeams.get(i) ) );
                         frame.pack();
                         frame.setVisible(true);
+                        jTextPane1.setVisible(false);
             		}
             	}
             	

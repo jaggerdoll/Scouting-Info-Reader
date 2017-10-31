@@ -826,7 +826,7 @@ public class Team
 	{
 		autoTotalScore = (double) ( getAutoLowerShotsMade() / 3 );
 		autoTotalScore += (double) ( getAutoHigherShotsMade() / 1 );
-		autoTotalScore += (double) ( getAutoRotorsStartedPercentage() / 100 * 60 );
+		autoTotalScore += (double) ( getAutoRotorsStartedPercentage() * 60 / 100 );
 		
 		return autoTotalScore;
 	}
