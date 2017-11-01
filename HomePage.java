@@ -33,6 +33,26 @@ public class HomePage extends javax.swing.JPanel
         homePage = this;
         jTextPane1.setVisible(false);
         this.allTeams = allTeams;
+        
+        jComboBox1.addKeyListener( new KeyListener()
+        {
+
+			@Override
+			public void keyPressed(KeyEvent arg0) {}
+
+			@Override
+			public void keyReleased(KeyEvent arg0)
+			{
+				ActionEvent ae = null;
+				if( arg0.getKeyCode() == KeyEvent.VK_ENTER )
+					jButton1.getActionListeners()[0].actionPerformed( ae );
+			}
+
+			@Override
+			public void keyTyped(KeyEvent arg0){}
+			
+        });
+        
         jButton1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent ae) {
