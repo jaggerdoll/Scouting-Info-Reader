@@ -20,8 +20,7 @@ public class Main
 		//MissDaisy.setTeleOpRotorsStarted(26);
 		//MissDaisy.getTeleOpTotalScore();
 		//System.out.println( MissDaisy.getAutoAverageScore() );
-		System.out.println( MissDaisy.getAverageScore() );
-		MissDaisy.setAverageScore(100);
+		//System.out.println( MissDaisy.getAverageScore() );
 		
 		allTeams.add(MissDaisy);
 		
