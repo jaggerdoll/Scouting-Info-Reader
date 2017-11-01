@@ -7,6 +7,8 @@
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
 import java.util.ArrayList;
 
 import javax.swing.JFrame;
@@ -40,6 +42,28 @@ public class HomePage extends javax.swing.JPanel
                 }               
             }
         });
+        
+        jTextField1.addMouseListener( new MouseListener() {
+
+			@Override
+			public void mouseClicked(MouseEvent arg0)
+			{
+				jTextField1.setText("");
+			}
+
+			@Override
+			public void mouseEntered(MouseEvent arg0) {}
+
+			@Override
+			public void mouseExited(MouseEvent arg0) {}
+
+			@Override
+			public void mousePressed(MouseEvent arg0) {}
+
+			@Override
+			public void mouseReleased(MouseEvent arg0) {} 
+			
+        });
                 
         jButton2.addActionListener(new ActionListener() {
             @Override
@@ -50,7 +74,7 @@ public class HomePage extends javax.swing.JPanel
             		if( allTeams.get(i).getTeamNum() == (Integer.parseInt( jTextField1.getText() ) ) )
             		{
             			found = true;
-            			frame.setContentPane(new TeamDataPage( frame, allTeams.get(i) ) );
+            			frame.setContentPane(new TeamDataPage( frame, homePage, allTeams.get(i) ) );
                         frame.pack();
                         frame.setVisible(true);
                         jTextPane1.setVisible(false);
