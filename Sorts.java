@@ -255,4 +255,13 @@ public static void sortByTeleOpTotalScoreDown ( ArrayList<Team> teams )
          	teams.set( max, temp );
       	}
    	}
+	
+	public static String[] getSorts() //must be updated constantly/manually
+	{
+		String[] str = new String[] { "Team Num Down", "Team Num Up", "Average Score Up", "Average Score Down", "Auto Average Down", "Auto Average Up",
+				"Tele Op Average Up", "Tele Op Average Down", "Auto Total Up", "Auto Total Down",
+				"Tele Op Total Down", "Tele Op Total Up"};
+		
+		return str;
+	}
 }
