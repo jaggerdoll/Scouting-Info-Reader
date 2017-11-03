@@ -36,6 +36,7 @@ public class TeamDataPage extends javax.swing.JPanel
 			public void actionPerformed(ActionEvent arg0)
 			{
 				frame.setContentPane(homePage);
+				frame.pack();
 			}
         	
         });

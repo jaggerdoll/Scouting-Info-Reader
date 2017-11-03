@@ -60,6 +60,10 @@ public class Event
 	{
 		this.winners = winners;
 	}
+	public void addAttendingTeam( Team team )
+	{
+		allAttendingTeams.add(team);
+	}
 	public void predictRankings()
 	{
 		

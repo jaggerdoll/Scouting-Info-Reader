@@ -58,7 +58,7 @@ public class HomePage extends javax.swing.JPanel
             public void actionPerformed(ActionEvent ae) {
                 if(!((String)jComboBox1.getSelectedObjects()[0]).equals("Select an Event!"))
                 {
-                    frame.setContentPane(new EventPage(frame, homePage, (String) jComboBox1.getSelectedObjects()[0]));
+                    frame.setContentPane(new EventPage(frame, homePage, (String) jComboBox1.getSelectedItem()));
                     frame.pack();
                     frame.setVisible(true);
                 }               
