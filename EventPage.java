@@ -66,6 +66,7 @@ public class EventPage extends javax.swing.JPanel
                 "Team Number", "Games Played", "Total Score", "Average Score", "Average Auto Score", "Auto Tele-Op Score"
             }
         ));
+       
     }
 
     /**

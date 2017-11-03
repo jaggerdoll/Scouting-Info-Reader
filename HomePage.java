@@ -36,11 +36,13 @@ public class HomePage extends javax.swing.JPanel
         jTextPane1.setVisible(false);
         this.allTeams = allTeams;
         this.allEvents = allEvents;
-        eventNames = new String[allEvents.size()];
+        eventNames = new String[allEvents.size() + 1];
         
-        for( int i = 0; i < allEvents.size(); i++ )
+        eventNames[0] = "Select an Event!";
+        
+        for( int i = 1; i < eventNames.length; i++ )
         {
-        	eventNames[i] = allEvents.get(i).getEventName();
+        	eventNames[i] = allEvents.get(i - 1).getEventName();
         }
         
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(eventNames));
