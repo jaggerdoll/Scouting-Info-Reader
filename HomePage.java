@@ -23,16 +23,28 @@ public class HomePage extends javax.swing.JPanel
 {
 	private ArrayList<Team> allTeams;
 	private HomePage homePage;
+	private ArrayList<Event> allEvents;
+	private String[] eventNames;
     /**
      * Creates new form HomePage
      */
-    public HomePage(JFrame frame, ArrayList<Team> allTeams)
+    public HomePage(JFrame frame, ArrayList<Team> allTeams, ArrayList<Event> allEvents)
     {
         initComponents();
         frame.add(this);
         homePage = this;
         jTextPane1.setVisible(false);
         this.allTeams = allTeams;
+        this.allEvents = allEvents;
+        eventNames = new String[allEvents.size()];
+        
+        for( int i = 0; i < allEvents.size(); i++ )
+        {
+        	eventNames[i] = allEvents.get(i).getEventName();
+        }
+        
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(eventNames));
+        
         
         jComboBox1.addKeyListener( new KeyListener()
         {
@@ -126,6 +138,16 @@ public class HomePage extends javax.swing.JPanel
             		jTextPane1.setVisible(true);
             }
         });
+    }
+    
+    public Event getEvent(String eventName)
+    {
+    	for( int i = 0; i < allEvents.size(); i++ )
+    	{
+    		if( allEvents.get(i).getEventName().equals(eventName) )
+    			return allEvents.get(i);
+    	}
+    	return new Event();
     }
 
     /**

@@ -25,11 +25,11 @@ public class EventPage extends javax.swing.JPanel
      */
     public EventPage( JFrame frame, HomePage homePage, String eventName )
     {
-        initComponents();
-        
+        initComponents();        
         this.eventName = eventName;
-        Event event = new Event();
-        event.setEventName(eventName);
+        Event event = homePage.getEvent(eventName);
+        jLabel1.setText(eventName);
+        
         jButton1.addActionListener(new ActionListener() {
 
 			@Override

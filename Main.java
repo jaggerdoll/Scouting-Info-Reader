@@ -7,6 +7,7 @@ public class Main
 	public static void main(String[] args)
 	{
 		ArrayList<Team> allTeams = new ArrayList<Team>();
+		ArrayList<Event> allEvents = new ArrayList<Event>();
 		Team MissDaisy = new Team();
 		MissDaisy.setTeamNum( 341 );
 		MissDaisy.setMatchesPlayed(16);
@@ -24,9 +25,13 @@ public class Main
 		
 		allTeams.add(MissDaisy);
 		
+		Event event = new Event();
+		event.setEventName("Duel on the Deleware");
+		allEvents.add(event);
+		
 		JFrame frame = new JFrame("Scouting App Info Reader");
         frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE);
-        frame.setContentPane(new HomePage(frame, allTeams));
+        frame.setContentPane(new HomePage(frame, allTeams, allEvents));
         frame.pack();
         frame.setVisible(true);
 	}
