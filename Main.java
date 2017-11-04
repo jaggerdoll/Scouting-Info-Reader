@@ -26,7 +26,7 @@ public class Main
 		allTeams.add(MissDaisy);
 		
 		Event event = new Event();
-		event.setEventName("Duel on the Deleware");
+		event.setEventName("Duel on the Delaware");
 		allEvents.add(event);
 		
 		JFrame frame = new JFrame("Scouting App Info Reader");
