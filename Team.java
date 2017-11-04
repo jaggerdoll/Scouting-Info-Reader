@@ -1125,7 +1125,7 @@ public class Team
 		this.teleOpHigherShootingPercentage /= matchesPlayed;
 		if( teleOpHigherShotsAttempted > 0 )
 			this.teleOpHigherShootingPercentage = (double) ( (teleOpHigherShotsMade /
-				teleOpHigherShotsAttempted) + teleOpHigherShootingPercentage ) / 2.0 ;
+				teleOpHigherShotsAttempted * 100) + teleOpHigherShootingPercentage ) / 2.0 ;
     }
 	
 	/* (non-Javadoc)
