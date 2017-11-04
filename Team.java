@@ -324,8 +324,10 @@ public class Team
 	 */
 	public double getTeleOpHigherShootingPercentage()
 	{
+		/*
 		if( teleOpHigherShotsAttempted != 0 )
 			teleOpHigherShootingPercentage = (double) ( teleOpHigherShotsMade / teleOpHigherShotsAttempted * 100 );
+		*/
 		
 		return teleOpHigherShootingPercentage;
 	}
@@ -375,8 +377,10 @@ public class Team
 	 */
 	public double getTeleOpGearPercentage()
 	{
+		/*
 		if( teleOpGearsAttempted != 0 )
 			teleOpGearPercentage = (double) ( teleOpGearsMade / teleOpGearsAttempted * 100);
+		*/
 		
 		return teleOpGearPercentage;
 	}
@@ -426,9 +430,10 @@ public class Team
 	 */
 	public double getClimbPercentage()
 	{
+		/*
 		if( climbsAttempted != 0 )
 			climbPercentage = (double) ( climbsSuccessful / climbsAttempted );
-				
+			*/	
 		return climbPercentage;
 	}
 
@@ -477,8 +482,10 @@ public class Team
 	 */
 	public double getTeleOpLowerShootingPercentage()
 	{
+		/*
 		if( teleOpLowerShotsAttempted != 0 )
 			teleOpLowerShootingPercentage = (double) ( teleOpLowerShotsMade / teleOpLowerShotsAttempted );
+		*/
 		
 		return teleOpLowerShootingPercentage;
 	}
@@ -560,7 +567,7 @@ public class Team
 	 */
 	public double getTotalScore()
 	{
-		totalScore = (double) ( getTeleOpTotalScore() + getAutoTotalScore() );
+		//totalScore = (double) ( getTeleOpTotalScore() + getAutoTotalScore() );
 		
 		return totalScore;
 	}
@@ -578,7 +585,7 @@ public class Team
 	 */
 	public double getAverageScore()
 	{
-		averageScore = (double) ( getTotalScore() / getMatchesPlayed() );
+		//averageScore = (double) ( getTotalScore() / getMatchesPlayed() );
 		
 		return averageScore;
 	}
@@ -660,8 +667,10 @@ public class Team
 	 */
 	public double getAutoLowerShootingPercentage()
 	{
+		/*
 		if( autoLowerShotsAttempted != 0 )
 			autoLowerShootingPercentage = (double) ( autoLowerShotsMade / autoLowerShotsAttempted * 100 );
+		*/
 		
 		return autoLowerShootingPercentage;
 	}
@@ -727,8 +736,10 @@ public class Team
 	 */
 	public double getAutoHigherShootingPercentage()
 	{
+		/*
 		if( autoHigherShotsAttempted != 0 )
 			autoHigherShootingPercentage = (double) ( autoHigherShotsMade / autoHigherShotsAttempted * 100 );
+		*/
 		
 		return autoHigherShootingPercentage;
 	}
@@ -810,8 +821,10 @@ public class Team
 	 */
 	public double getAutoGearPercentage()
 	{
+		/*
 		if( autoGearsAttempted != 0 )
 			autoGearPercentage = (double) ( autoGearsMade / autoGearsAttempted * 100 );
+		*/
 		
 		return autoGearPercentage;
 	}
@@ -845,9 +858,11 @@ public class Team
 	 */
 	public double getAutoTotalScore()
 	{
+		/*
 		autoTotalScore = (double) ( getAutoLowerShotsMade() / 3 );
 		autoTotalScore += (double) ( getAutoHigherShotsMade() / 1 );
 		autoTotalScore += (double) ( getAutoRotorsStartedPercentage() * 60 / 100 );
+		*/
 		
 		return autoTotalScore;
 	}
@@ -865,9 +880,10 @@ public class Team
 	 */
 	public double getAutoAverageScore()
 	{
+		/*
 		if( matchesPlayed != 0 )
 			autoAverageScore = (double) ( getAutoTotalScore() / getMatchesPlayed() );
-			
+			*/
 		return autoAverageScore;
 	}
 
@@ -916,10 +932,12 @@ public class Team
 	 */
 	public double getTeleOpTotalScore()
 	{
+		/*
 		teleOpTotalScore = (double) ( getTeleOpLowerShotsMade() / 9 );
 		teleOpTotalScore += (double) ( getTeleOpHigherShotsMade() / 3 );
 		teleOpTotalScore += (double) ( getTeleOpRotorsStartedPercentage() * 40 );
 		teleOpTotalScore += (double) ( getClimbsSuccessful() * 50 );
+		*/
 		
 		return teleOpTotalScore;
 	}
@@ -937,8 +955,10 @@ public class Team
 	 */
 	public double getTeleOpAverageScore()
 	{
+		/*
 		if( matchesPlayed != 0 )
 			teleOpAverageScore = (double) ( getTeleOpTotalScore() / getMatchesPlayed() );
+			*/
 			
 		return teleOpAverageScore;
 	}
@@ -956,8 +976,10 @@ public class Team
 	 */
 	public double getTeleOpRotorsStartedPercentage()
 	{
+		/*
 		if( getTeleOpEstimatedTeamGearsMade() != 0 )
 			teleOpRotorsStartedPercentage = (double) ( getTeleOpGearsMade() / getTeleOpEstimatedTeamGearsMade() );
+		*/
 		//System.out.println(getTeleOpEstimatedTeamGearsMade());
 			
 		return teleOpRotorsStartedPercentage;
@@ -976,8 +998,10 @@ public class Team
 	 */
 	public double getAutoRotorsStartedPercentage()
 	{
+		/*
 		if( autoGearsMade != 0 )
 			autoRotorsStartedPercentage = (double) ( getAutoGearsMade() / getAutoEstimatedTeamGearsMade() * 100 );
+		*/
 		
 		return autoRotorsStartedPercentage;
 	}
@@ -1029,10 +1053,12 @@ public class Team
 	 */
 	public double getAutoEstimatedTeamGearsMade()
 	{
+		/*
 		if( autoRotorsStarted != 0)
 			autoEstimatedTeamGearsMade = autoRotorsStarted * 1.5;
 		else
 			autoEstimatedTeamGearsMade = 0;
+		*/
 		
 		return autoEstimatedTeamGearsMade;
 	}
@@ -1082,10 +1108,24 @@ public class Team
 				{
 					this.autoGearsMade += Integer.parseInt(bits[12]);
 					this.teleOpGearsMade += Integer.parseInt(bits[27]);
+					
+					if( Integer.parseInt(bits[23]) > 0 )
+						this.teleOpHigherShootingPercentage += Integer.parseInt(bits[23]);
+						
+					if( Integer.parseInt(bits[22]) > 0 )
+						this.teleOpHigherShotsAttempted += Integer.parseInt(bits[22]);
+						
+					if( Integer.parseInt(bits[21]) > 0 )
+						this.teleOpHigherShotsMade += Integer.parseInt(bits[21]);
 					matchesPlayed++;
 				}
 			}
 		}
+		
+		this.teleOpHigherShootingPercentage /= matchesPlayed;
+		if( teleOpHigherShotsAttempted > 0 )
+			this.teleOpHigherShootingPercentage = (double) ( (teleOpHigherShotsMade /
+				teleOpHigherShotsAttempted) + teleOpHigherShootingPercentage ) / 2.0 ;
     }
 	
 	/* (non-Javadoc)
