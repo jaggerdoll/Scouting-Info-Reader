@@ -1109,6 +1109,15 @@ public class Team
 					this.autoGearsMade += Integer.parseInt(bits[12]);
 					this.teleOpGearsMade += Integer.parseInt(bits[27]);
 					
+					if( Integer.parseInt(bits[8]) > 0 )
+						this.autoHigherShootingPercentage += Integer.parseInt(bits[8]);
+						
+					if( Integer.parseInt(bits[7]) > 0 )
+						this.autoHigherShotsAttempted += Integer.parseInt(bits[7]);
+						
+					if( Integer.parseInt(bits[21]) > 0 )
+						this.autoHigherShotsMade += Integer.parseInt(bits[6]);
+					
 					if( Integer.parseInt(bits[23]) > 0 )
 						this.teleOpHigherShootingPercentage += Integer.parseInt(bits[23]);
 						
@@ -1122,10 +1131,15 @@ public class Team
 			}
 		}
 		
+		this.autoHigherShootingPercentage /= matchesPlayed;
+		if( autoHigherShotsAttempted > 0 )
+			this.autoHigherShootingPercentage = (double) ( (autoHigherShotsMade /
+				autoHigherShotsAttempted * 100) + ( autoHigherShootingPercentage ) ) / 2.0 ;
+		
 		this.teleOpHigherShootingPercentage /= matchesPlayed;
 		if( teleOpHigherShotsAttempted > 0 )
 			this.teleOpHigherShootingPercentage = (double) ( (teleOpHigherShotsMade /
-				teleOpHigherShotsAttempted * 100) + teleOpHigherShootingPercentage ) / 2.0 ;
+				teleOpHigherShotsAttempted * 100) + ( teleOpHigherShootingPercentage ) ) / 2.0;
     }
 	
 	/* (non-Javadoc)
