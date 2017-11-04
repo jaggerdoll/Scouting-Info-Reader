@@ -123,7 +123,8 @@ public class HomePage extends javax.swing.JPanel
         jButton2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent ae) throws NumberFormatException {
-                boolean found = false;
+                /*
+            	boolean found = false;
             	for( int i = 0; i < allTeams.size(); i++ )
             	{
             		if( allTeams.get(i).getTeamNum() == (Integer.parseInt( jTextField1.getText() ) ) )
@@ -135,8 +136,20 @@ public class HomePage extends javax.swing.JPanel
                         jTextPane1.setVisible(false);
             		}
             	}
+            	*/
             	
-            	if( !found )
+            	Team temp = new Team(Integer.parseInt( jTextField1.getText() ) );
+            	
+            	if( temp.getMatchesPlayed() > 0 )
+            	{
+            		frame.setContentPane(new TeamDataPage( frame, homePage, temp ) );
+                    frame.pack();
+                    frame.setVisible(true);
+                    jTextPane1.setVisible(false);
+            	}
+            		
+            	
+            	else
             		jTextPane1.setVisible(true);
             }
         });

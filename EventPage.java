@@ -8,10 +8,13 @@
 import java.awt.Container;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.FileNotFoundException;
+import java.sql.SQLException;
 
 import javax.swing.ComboBoxModel;
 import javax.swing.DefaultComboBoxModel;
 import javax.swing.JFrame;
+import javax.swing.JTable;
 
 /**
  *
@@ -47,6 +50,7 @@ public class EventPage extends javax.swing.JPanel
         event.addAttendingTeam(new Team(331));
         event.addAttendingTeam(new Team(342));
         
+        
         tableModel = new Object[event.getAllAttendingTeams().size()][6];
         
         for( int i = 0; i < event.getAllAttendingTeams().size(); i++ )
@@ -66,6 +70,15 @@ public class EventPage extends javax.swing.JPanel
                 "Team Number", "Games Played", "Total Score", "Average Score", "Average Auto Score", "Auto Tele-Op Score"
             }
         ));
+        /*
+        
+			try {
+				jTable1 = event.importDatabase();
+			} catch (FileNotFoundException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			*/
        
     }
 

@@ -1,0 +1,1221 @@
+match_id,event_id,scout_name,team_num,match_num,auton_midline,auton_scored_high,auton_shot_high,auton_high_percent,auton_scored_low,auton_shot_low,auton_low_percent,auton_gears,auton_rotors,driver_skill,human_skill,defense_skill,shooter_range,bot_type,fuel_loading_method,high_balls_scored,high_balls_shot,high_balls_percent,low_balls_scored,low_balls_shot,low_balls_percent,gears_loading_method,gears_placed,gears_attempted,teleop_rotors,climb,comments
+1,1,Mei Rose,103,1,yes,0,0,0,0,0,0,1,1,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,3,yes,fast
+2,1,Mei Rose,341,2,yes,0,0,0,0,0,0,1,1,4,4,4,UNKNOWN,Stand-Alone,Floor,0,0,0,0,0,0,Human,3,3,2,no,halfway climb
+3,1,Mei Rose,1218,3,yes,0,0,0,0,0,0,0,1,3,3,4,UNKNOWN,Gear,Autoloader,0,0,20,0,0,0,Floor,2,2,2,no,
+4,1,Mei Rose,225,4,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,Human,0,4,0,0,0,0,Human,2,3,0,no,
+5,1,Ava Peri,423,4,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,1,yes,decent with gears
+6,1,Connor,2539,4,no,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,2,yes,
+7,1,David Evans,2095,4,yes,0,0,0,0,0,0,0,0,2,3,3,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,0,no,"defender, swerve"
+8,1,Trey,5404,3,yes,0,0,0,0,0,0,1,1,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,2,no,
+9,1,David Evans,321,3,yes,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,2,3,0,no,fast strong
+10,1,Ava,486,3,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Floor,2,3,0,yes,trouble with gears at first but got better
+11,1,Connor,3974,3,yes,0,0,0,0,0,0,0,0,3,2,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Floor,3,3,3,yes,
+12,1,Justin,1811,3,yes,0,0,0,0,0,0,0,0,5,5,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,fast very
+13,1,Connor,4342,2,yes,0,0,0,0,0,0,0,1,2,2,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,2,0,yes,
+14,1,Justin,484,2,yes,0,0,0,0,0,0,1,1,4,5,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,1,yes,
+15,1,Ava,5420,2,yes,0,0,0,0,0,0,0,0,2,2,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,2,0,no,didnt accomplish much
+16,1,Trey,2495,1,no,0,0,0,0,0,0,0,0,2,3,3,UNKNOWN,Stand-Alone,Human,0,0,0,0,0,0,Human,0,0,0,no,disregard type and fuel load
+17,1,Connor,4454,1,no,2,10,2,0,0,0,0,0,3,3,3,UNKNOWN,Shooter,UNKNOWN,0,0,0,0,0,0,Human,0,0,2,yes,brought 2 gears to 708 instead of scoring them
+18,1,David Evans,5181,1,yes,0,0,0,0,0,0,0,0,2,3,3,UNKNOWN,UNKNOWN,Autoloader,0,0,0,0,0,0,UNKNOWN,2,2,1,no,trouble getting gear on peg
+19,1,Ava,708,1,yes,0,0,0,0,0,0,0,0,4,3,3,UNKNOWN,Stand-Alone,UNKNOWN,0,0,80,0,0,0,Floor,4,4,0,yes,"25 pts in penalties, good shooter"
+20,1,Justin,304,1,yes,0,0,0,0,0,0,0,0,3,5,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,3,3,2,no,struggled getting gears from human didnt finish climb in time
+21,1,David Evans,1168,1,yes,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,1,no,stuck while climbing
+22,1,Trey,2234,4,yes,0,0,0,0,0,0,0,0,2,3,1,UNKNOWN,Shooter,Floor,0,4,0,0,0,0,Human,0,1,2,no,
+23,1,Justin,204,4,yes,0,5,0,0,0,0,0,0,1,5,3,UNKNOWN,Stand-Alone,Floor,0,0,0,0,0,0,UNKNOWN,0,0,3,no,slow climber didnt do much
+24,1,Alex,5420,11,yes,0,0,0,0,0,0,3,2,4,4,4,UNKNOWN,UNKNOWN,Autoloader,0,0,0,0,0,0,UNKNOWN,2,2,3,yes,
+25,1,Sanjna,433,11,no,0,0,0,0,0,0,0,0,2,3,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,0,yes,"no auto, sometimes interfered with ally"
+26,1,Marc,2495,11,no,0,0,0,0,0,0,0,0,1,3,1,UNKNOWN,Gear,Human,0,0,0,0,0,0,UNKNOWN,0,0,0,no,didnt really do anything
+27,1,Cole,203,11,yes,0,0,0,0,0,0,1,0,3,3,3,UNKNOWN,Gear,Autoloader,0,0,0,0,0,0,Human,0,1,2,no,blocked 341 from scoring didnt climb high enough
+28,1,Jagger,1811,11,no,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,UNKNOWN,Human,0,0,0,0,0,0,UNKNOWN,3,3,2,yes,collided with teammate very long gear cycle
+29,1,David Evans,4373,10,yes,0,0,0,0,0,0,0,0,3,3,4,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,Human,1,1,0,yes,"5 pts penalty trouble getting on peg, got Y card"
+30,1,Connor,304,10,no,0,0,0,0,0,0,0,0,2,3,2,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,UNKNOWN,1,2,2,no,tipped
+31,1,Mei Rose,2539,10,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,"tipped opposing bot 5 pts penalty, auto failed to place gear"
+32,1,Trey,225,10,no,0,2,0,0,0,0,0,0,4,3,2,UNKNOWN,UNKNOWN,Autoloader,0,0,0,0,0,0,UNKNOWN,0,0,3,no,
+33,1,Ava,5490,10,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,40,Human,0,1,0,no,tried to climb but not successful
+34,1,Justin,3974,10,no,0,0,0,0,0,0,0,0,5,5,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,4,4,2,yes,good floor gear loader
+35,1,Connor,204,9,yes,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,Human,0,0,2,no,played defense
+36,1,Mei Rose,2191,9,yes,0,0,0,0,0,0,0,0,3,3,4,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,UNKNOWN,1,1,3,yes,"Red card, lot of trouble working with gears"
+37,1,David Evans,1811,8,no,0,0,0,0,0,0,0,0,4,4,2,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,4,4,0,no,fast
+38,1,Trey,2590,9,yes,0,0,0,0,0,0,0,0,3,3,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,0,no,lost communication
+39,1,Ava,5407,9,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,2,2,0,no,
+40,1,Justin,103,9,yes,0,0,0,0,0,0,1,1,2,5,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,0,0,2,no,"gear jammed, was defended"
+41,1,David Evans,708,8,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,UNKNOWN,UNKNOWN,10,20,50,0,0,0,UNKNOWN,1,3,0,yes,trouble getting gear
+42,1,Mei Rose,4342,8,yes,0,0,0,0,0,0,0,0,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,2,yes,
+43,1,Justin,4454,8,yes,5,7,85,0,0,0,0,0,3,3,3,UNKNOWN,Stand-Alone,UNKNOWN,0,0,0,0,0,0,Human,2,2,2,yes,slow gear cycle
+44,1,Trey,423,8,yes,0,0,0,0,0,0,0,0,3,3,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,1,1,2,yes,
+45,1,Ava,2095,8,yes,0,0,0,0,0,0,0,0,2,3,3,UNKNOWN,Shooter,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,0,no,tried low goal shots ended up driving around doing nothing
+46,1,Connor,433,8,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,2,yes,
+47,1,Trey,6226,7,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,1,2,no,
+48,1,Ava,1495,7,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Stand-Alone,UNKNOWN,4,8,50,0,0,0,UNKNOWN,2,2,0,no,
+49,1,Connor,486,7,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,UNKNOWN,2,3,3,yes,
+50,1,Mei Rose,321,7,no,0,0,0,0,0,0,0,0,2,4,4,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,Human,1,1,1,yes,
+51,1,David Evans,1168,7,yes,0,0,0,0,0,0,0,0,2,4,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,3,0,yes,trouble with human loading
+52,1,Justin,5181,0,no,0,0,0,0,0,0,0,0,3,5,3,UNKNOWN,Gear,Floor,0,0,0,0,0,0,UNKNOWN,2,3,3,no,didnt climb high enough
+53,1,Mei Rose,484,6,yes,0,0,0,0,0,0,1,1,2,3,4,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,UNKNOWN,2,2,3,yes,
+54,1,Connor,2234,6,yes,0,0,0,0,0,0,0,0,2,3,2,UNKNOWN,UNKNOWN,UNKNOWN,15,40,37,0,0,0,UNKNOWN,0,0,1,no,
+55,1,Ava,1218,6,no,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,3,15,20,0,0,0,UNKNOWN,0,2,0,no,
+56,1,Trey,203,6,yes,0,0,0,0,0,0,0,0,3,3,1,UNKNOWN,Gear,UNKNOWN,0,5,0,0,0,0,UNKNOWN,1,1,3,yes,
+57,1,David Evans,5404,6,no,0,0,0,0,0,0,0,0,4,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,2,2,1,no,stuck under gear for part of match
+58,1,Justin,4373,6,yes,0,0,0,0,0,0,0,0,2,5,2,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,1,2,1,no,gear intake unreliable
+59,1,Mei Rose,1495,5,yes,0,0,0,0,0,0,0,0,3,2,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,2,yes,
+60,1,Trey,5407,5,yes,0,5,0,0,0,0,0,1,3,3,1,UNKNOWN,Gear,Floor,0,0,0,0,0,0,UNKNOWN,2,2,2,yes,
+61,1,David Evans,6226,5,yes,0,0,0,0,0,0,0,0,2,4,3,UNKNOWN,Gear,Autoloader,0,0,0,0,0,0,UNKNOWN,0,0,0,yes,fast climber messed up 1495 auto
+62,1,Connor,5490,5,yes,0,0,0,0,0,0,0,0,2,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,0,1,0,yes,
+63,1,Justin,433,5,yes,0,0,0,0,0,0,0,0,3,5,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,2,2,no,
+64,1,Ava,2191,5,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Stand-Alone,Autoloader,1,15,6,0,0,0,UNKNOWN,1,1,0,no,attempted shooting
+65,1,Caleb,4373,13,yes,0,0,0,0,0,0,0,0,3,4,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,1,1,1,yes,
+66,1,Alex,2191,13,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,UNKNOWN,Floor,0,0,0,0,0,0,Human,2,3,2,yes,basic
+67,1,Jagger,1495,13,yes,0,0,0,0,0,0,0,0,3,4,2,UNKNOWN,UNKNOWN,UNKNOWN,0,4,0,0,0,0,Human,3,3,2,yes,slow
+68,1,Sanjna,2590,13,no,2,10,20,0,0,0,1,0,3,3,1,UNKNOWN,UNKNOWN,Floor,0,0,40,0,0,0,UNKNOWN,3,3,0,yes,trouble getting gear on peg
+69,1,Cole,4373,13,yes,0,0,0,0,0,0,0,0,2,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,0,yes,"hard time getting gear at human loader, no shooter"
+70,1,Snjna,204,12,no,0,3,0,0,0,0,0,0,3,2,4,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,0,yes,defender only
+71,1,Marc,4342,12,no,0,0,0,0,0,0,1,1,4,4,2,UNKNOWN,Gear,Floor,0,0,0,0,0,0,UNKNOWN,2,2,1,yes,
+72,1,Cole,5181,12,yes,0,0,0,0,0,0,0,0,3,3,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,3,3,3,yes,consistent with gears
+73,1,Jagger,486,12,no,0,0,0,0,0,0,0,1,4,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Floor,2,2,3,no,almost climbed
+74,1,Alex,103,12,yes,0,0,0,0,0,0,2,3,4,4,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,4,3,yes,
+75,1,Alex,5490,16,yes,0,0,0,0,0,0,2,2,2,3,2,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,2,2,2,no,hanger fell off
+76,1,Jagger,4454,26,no,0,0,0,0,0,0,0,0,2,3,4,UNKNOWN,UNKNOWN,Floor,0,0,0,0,0,0,UNKNOWN,0,0,2,no,
+77,1,Cole,6226,16,yes,0,0,0,0,0,0,0,1,2,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,UNKNOWN,2,2,2,yes,no shooter very fast climber
+78,1,Marc,2234,16,yes,0,0,0,0,0,0,0,0,2,3,2,UNKNOWN,UNKNOWN,Autoloader,0,0,0,0,0,0,UNKNOWN,1,1,1,no,struggled to pick up balls hanger fell off
+79,1,Sanjna,2495,15,no,0,0,0,0,0,0,0,0,1,1,1,UNKNOWN,Stand-Alone,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,0,no,no auton intake looks loose roamed
+80,1,Conor,341,16,yes,0,0,0,0,0,0,0,0,5,5,5,UNKNOWN,Gear,Floor,0,0,0,0,0,0,UNKNOWN,1,2,2,yes,
+81,1,Cole,2095,15,yes,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,Shooter,Floor,0,0,0,0,0,15,UNKNOWN,0,0,2,no,didnt use gears at all
+82,1,Connor,1168,15,yes,0,0,0,0,0,0,0,0,2,3,2,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,0,0,2,no,"50 pts penalty, contact w/ human loading station"
+83,1,Jagger,708,15,no,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,UNKNOWN,Floor,0,0,65,0,0,0,Floor,2,2,3,no,"a lot of balls, slight ball collection inefficiencies"
+84,1,Marc,5404,15,no,0,0,0,0,0,0,0,0,4,4,3,UNKNOWN,Gear,Autoloader,0,0,0,0,0,0,Human,0,1,0,no,Gear Manipulator Issues
+85,1,Alex,2539,15,yes,0,0,0,0,0,0,0,0,3,4,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,UNKNOWN,2,2,2,yes,
+86,1,Alex,423,14,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,1,1,1,yes,
+87,1,Sanjna,484,15,no,0,0,0,0,0,0,1,0,3,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,UNKNOWN,2,2,1,yes,
+88,1,Caleb,1218,14,yes,0,0,0,0,0,0,1,1,3,3,4,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,0,yes,slow
+89,1,Marc,5420,14,no,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,Human,0,0,0,0,0,0,Human,2,2,0,no,easily defended
+90,1,Cole,304,14,yes,0,0,0,0,0,0,1,1,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,2,no,"unstable, hard to get gears"
+91,1,Jagger,203,14,no,0,0,0,0,0,0,1,1,4,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,2,2,0,no,"rope broke, slow lining up gears"
+92,1,Sanjna,5407,14,no,0,0,2,0,0,0,0,0,3,3,1,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,2,2,0,yes,
+93,1,Marc,321,13,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,1,no,
+94,1,Jason Kim,1495,18,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Shooter,UNKNOWN,1,5,0,0,0,0,UNKNOWN,0,0,1,yes,
+95,1,Alex,1811,18,no,0,0,0,0,0,0,0,0,3,5,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,no,
+96,1,Cole,2495,18,yes,0,0,0,0,0,0,0,0,2,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,1,1,2,yes,no shooter slow climber
+97,1,Jagger,341,18,no,0,10,0,0,0,0,1,1,4,4,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,40,0,0,0,Human,2,2,0,yes,
+98,1,Marc,2095,18,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,0,no,Stuck
+99,1,Sanjna,304,18,no,0,0,0,0,0,0,0,0,2,1,3,UNKNOWN,Stand-Alone,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,0,yes,not much except climb
+100,1,caleb zhang,5181,19,no,0,0,0,0,0,0,0,0,4,4,5,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,2,yes,
+101,1,Alex,2191,17,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,1,1,1,yes,climber iffy
+102,1,Connor,204,17,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Defender,Floor,0,9,0,0,0,0,UNKNOWN,0,0,2,no,
+103,1,sanjna,486,16,no,0,0,0,0,0,0,0,0,4,4,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,3,3,2,no,
+104,1,Jagger,1168,17,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,1,no,shut down during teleop
+105,1,Justin,2539,21,yes,0,0,0,0,0,0,0,0,2,5,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,2,no,struggled to intake
+106,1,mark,1218,17,yes,0,0,0,0,0,0,0,0,3,4,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,0,yes,more defensive
+107,1,mark,1218,17,yes,0,0,0,0,0,0,0,0,3,4,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,0,yes,more defensive
+108,1,mark,1218,17,yes,0,0,0,0,0,0,0,0,3,4,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,0,yes,more defensive
+109,1,mark,1218,17,yes,0,0,0,0,0,0,0,0,3,4,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,0,yes,more defensive
+110,1,mark,1218,17,yes,0,0,0,0,0,0,0,0,3,4,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,0,yes,more defensive
+111,1,mark,1218,17,yes,0,0,0,0,0,0,0,0,3,4,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,0,yes,more defensive
+112,1,David,103,21,yes,0,8,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,2,2,0,yes,fast
+113,1,Trey,321,21,no,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,Autoloader,0,0,0,0,0,0,Human,1,1,3,yes,
+114,1,cole stevens,5404,17,yes,0,0,0,0,0,0,0,0,3,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,2,yes,"might have malfunctioned, they didnt get a gear after the first one and waited for the whole time to hang"
+115,1,sanjna,2590,19,no,0,0,0,0,0,0,1,0,4,4,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,3,4,2,yes,
+116,1,Ava,2234,21,yes,0,0,0,0,0,0,0,0,2,3,3,UNKNOWN,Shooter,UNKNOWN,9,13,69,0,0,0,UNKNOWN,0,0,0,no,
+117,1,Connor,433,21,no,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,2,3,2,yes,
+118,1,Alex,225,20,yes,2,10,20,0,0,0,0,0,3,3,3,UNKNOWN,UNKNOWN,Floor,2,10,20,0,0,0,UNKNOWN,0,0,2,yes,3 attempts to successfully climb
+119,1,Cole,6226,20,yes,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,0,0,2,yes,no shooter did not but gear on peg
+120,1,Sanjna,203,20,no,0,0,0,0,0,0,0,0,3,3,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,1,2,1,no,"attemped climb, failed"
+121,1,Alex,5407,19,yes,0,0,0,0,0,0,0,0,3,4,4,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Floor,2,2,3,yes,good gear scoring
+122,1,Cole,4342,19,yes,0,0,0,0,0,0,1,1,4,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,2,2,3,no,"good auto, middle area"
+123,1,,423,19,no,0,0,0,0,0,0,0,0,2,5,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,0,0,0,no,rocky drive base
+124,1,Trey,5490,25,yes,0,0,0,0,0,0,0,0,2,2,1,UNKNOWN,Defender,UNKNOWN,0,0,0,10,10,100,UNKNOWN,0,0,2,no,
+125,1,Trey,5407,23,no,2,10,20,0,0,0,0,0,4,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,yes,
+126,1,Mei Rose,2590,24,yes,0,0,0,0,0,0,0,0,5,4,4,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,UNKNOWN,3,3,2,yes,"lost coms but came back, fast climb"
+127,1,Justin,4373,24,yes,0,0,0,0,0,0,0,0,3,5,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,2,yes,slow cycle
+128,1,Ava,2495,24,yes,0,0,0,0,0,0,0,0,2,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,1,1,0,no,potential issue with bot
+129,1,David Evans,204,24,yes,0,5,0,0,0,0,0,0,3,4,4,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,UNKNOWN,1,1,0,yes,good defense slow climb
+130,1,Connor,423,24,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,UNKNOWN,1,1,2,yes,
+131,1,Connor,1168,23,yes,0,0,0,0,0,0,0,0,2,3,2,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,0,1,2,no,
+132,1,Justin,486,23,yes,0,0,0,0,0,0,0,0,3,5,4,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,1,1,2,yes,strong pusher struggled with gear
+133,1,Ava,2539,23,yes,0,0,0,0,0,0,0,0,4,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,2,3,0,yes,decent gear bot
+134,1,Kenny,3974,19,yes,0,3,0,0,0,0,1,1,1,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,1,1,2,yes,fast climb
+135,1,Caleb,4373,20,yes,0,0,0,0,0,0,0,0,4,4,1,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,UNKNOWN,1,2,1,yes,
+136,1,Mei Rose,5404,23,yes,0,0,0,0,0,0,0,0,5,4,2,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,1,2,3,yes,red card
+137,1,David,433,23,yes,0,0,0,0,0,0,0,0,3,4,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,5,5,2,yes,fast but wobbly
+138,1,David,4454,22,yes,0,0,0,0,0,0,0,0,3,4,4,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,0,yes,good defense but tall
+139,1,Mei Rose,3974,22,yes,0,0,0,0,0,0,0,0,5,4,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Floor,3,3,3,yes,versatile
+140,1,connor,484,22,yes,1,10,10,0,0,0,0,0,4,3,3,UNKNOWN,Shooter,UNKNOWN,0,0,0,0,0,0,UNKNOWN,2,2,2,yes,
+141,1,Connor,2234,26,yes,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,Shooter,UNKNOWN,22,40,0,0,0,0,UNKNOWN,0,0,1,no,
+142,1,trey,1218,22,yes,0,0,0,0,0,0,0,0,3,2,3,UNKNOWN,Shooter,UNKNOWN,0,0,0,0,0,0,UNKNOWN,1,1,2,yes,
+143,1,Trey,225,25,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Shooter,UNKNOWN,0,15,0,0,0,0,UNKNOWN,2,2,3,yes,
+144,1,David,4342,25,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,3,3,1,no,trouble with gears
+145,1,Connor,2191,25,no,0,0,0,0,0,0,0,1,2,3,2,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,UNKNOWN,1,1,2,no,
+146,1,justin,708,22,yes,2,3,0,0,0,0,0,0,5,5,4,UNKNOWN,UNKNOWN,UNKNOWN,8,20,40,0,0,0,Human,0,0,2,yes,
+147,1,Justin,2095,25,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Defender,Floor,0,0,0,0,0,0,UNKNOWN,0,0,2,no,attempted defense
+148,1,ava peri,1495,22,no,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,0,no,"robot died, did not movev the whole match"
+149,1,Mei Rose,203,25,yes,0,0,0,0,0,0,1,1,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,2,2,3,no,good cycle
+150,1,Ava,103,25,yes,0,0,0,0,0,0,0,0,4,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,UNKNOWN,2,2,0,yes,fast
+151,1,Justin,2539,30,yes,0,0,0,0,0,0,0,0,5,5,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,3,3,3,yes,
+152,1,Trey,341,24,yes,0,10,0,0,0,0,0,0,4,4,3,UNKNOWN,Shooter,UNKNOWN,2,2,100,0,0,0,Human,0,0,2,yes,
+153,1,justin,225,28,yes,2,20,10,0,0,0,0,0,4,5,3,UNKNOWN,Stand-Alone,UNKNOWN,0,0,0,0,0,0,Human,2,2,2,no,heavily defended
+154,1,Connor,203,29,yes,0,0,0,0,0,0,0,0,4,3,3,UNKNOWN,UNKNOWN,Floor,0,0,0,0,0,0,Human,3,3,3,no,
+155,1,David,204,29,yes,0,3,0,0,0,0,0,0,3,3,4,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,UNKNOWN,1,1,0,yes,slow climb good defense
+156,1,Ava,2590,29,yes,0,10,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,3,3,0,yes,
+157,1,Mei Rose,2191,29,yes,0,0,0,0,0,0,0,1,3,3,4,UNKNOWN,UNKNOWN,Human,0,0,0,0,0,0,UNKNOWN,0,0,2,no,decent
+158,1,Justin,2495,29,yes,0,0,0,0,0,0,0,0,1,5,3,UNKNOWN,Stand-Alone,UNKNOWN,0,0,0,0,0,0,Human,0,0,2,yes,didnt move much
+159,1,Connor,5181,30,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,1,1,3,yes,
+160,1,David,708,30,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Shooter,Floor,10,39,33,0,0,0,Floor,3,3,1,yes,good gears good shooter
+161,1,Ava,1218,30,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,UNKNOWN,2,3,0,yes,fast climb
+162,1,Connor,321,28,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,2,no,
+163,1,Trey,1495,28,yes,0,0,0,0,0,0,0,0,3,3,1,UNKNOWN,Shooter,UNKNOWN,4,10,0,0,0,0,UNKNOWN,0,0,2,yes,
+164,1,Ava,423,28,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,Human,0,0,0,0,0,0,Human,1,1,0,yes,
+165,1,Trey,486,27,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,Human,0,0,0,0,0,0,Human,1,2,3,yes,
+166,1,2978,433,33,yes,0,0,0,0,0,0,1,3,3,3,3,Far Launchpad,Gear,Human,0,0,0,0,0,0,Human,2,2,3,yes,
+167,1,Mei Rose,6226,27,yes,0,0,0,0,0,0,1,1,2,4,4,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,UNKNOWN,1,1,3,yes,
+168,1,Connor,484,27,yes,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,UNKNOWN,Floor,0,0,0,0,0,0,Human,1,1,3,no,
+169,1,Sanjna,225,33,no,0,0,0,0,0,0,0,0,5,1,1,UNKNOWN,Shooter,Floor,0,0,70,0,0,0,UNKNOWN,1,1,0,yes,"Really good high ball shooter focuses on shooting, not gears -> unlike other teams"
+170,1,Ava,341,27,yes,0,0,0,0,0,0,0,0,5,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,4,0,yes,
+171,1,Justin,5407,27,yes,1,8,0,0,0,0,0,0,2,5,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Floor,1,1,3,yes,
+172,1,Cole,5490,32,yes,0,0,0,0,0,0,0,1,3,3,1,Far Launchpad,Gear,Autoloader,0,0,0,0,0,0,Human,1,1,3,no,had balls and maybe dumped them into low goal but scored no pressure points
+173,1,Justin,1811,26,yes,0,0,0,0,0,0,0,0,3,5,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,2,no,fast cycles
+174,1,David,304,27,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,1,2,0,no,
+175,1,David,5420,26,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,1,yes,slow
+176,1,Mei Rose,5181,26,yes,0,0,0,0,0,0,0,1,5,4,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,4,4,3,yes,good gear mechanism
+177,1,Ava,321,26,yes,0,0,0,0,0,0,1,0,3,3,3,UNKNOWN,Gear,Autoloader,0,0,0,0,0,0,Human,1,1,0,no,trouble hanging
+178,1,Trey,1218,22,yes,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,Shooter,UNKNOWN,0,0,0,0,0,0,UNKNOWN,1,1,2,yes,
+179,1,jagger,484,32,no,0,0,0,0,0,0,0,0,2,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,2,no,Bad everything too long placing hears wasted most of match
+180,1,Caleb,341,33,yes,0,0,0,0,0,0,0,0,5,5,5,UNKNOWN,Shooter,UNKNOWN,0,0,0,0,0,0,UNKNOWN,4,4,1,yes,
+181,1,alex,2234,32,yes,0,0,0,0,0,0,1,2,3,3,3,Key,Shooter,Autoloader,0,7,0,0,0,0,UNKNOWN,0,0,2,no,"Shooter bot, but is not good at that."
+182,1,Jagger,5181,33,no,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,1,1,3,yes,lost coms until T-37
+183,1,Sanjana,4342,32,no,0,0,0,0,0,0,0,0,3,4,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,2,yes,
+184,1,Marc,3974,33,no,0,0,0,0,0,0,1,0,3,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,0,no,lost coms
+185,1,Cole,1218,33,yes,0,0,0,0,0,0,0,1,3,4,4,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,UNKNOWN,3,3,3,no,slow no shooter
+186,1,Marc,304,32,no,0,0,0,0,0,0,1,0,4,5,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,10,0,0,0,UNKNOWN,1,1,0,yes,
+187,1,Cole,5420,31,yes,0,0,0,0,0,0,0,0,3,3,4,Close Launchpad,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,2,yes,No shooter slow hanger
+188,1,Caleb,1811,32,yes,0,0,0,0,0,0,0,0,3,4,2,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,1,1,0,yes,
+189,1,Sanjana,6226,31,no,0,0,0,0,0,0,0,0,3,3,1,Key,Gear,Human,0,0,0,0,0,0,Human,1,1,0,yes,
+190,1,Trey,433,30,yes,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,yes,
+191,1,Alex,3974,31,yes,0,0,0,0,0,0,1,3,2,5,2,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,yes,
+192,1,Mei Rose,4373,30,yes,0,0,0,0,0,0,0,0,4,3,2,Close Launchpad,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,3,yes,gets pushed over
+193,1,Jagger,103,31,no,0,0,0,0,0,0,1,1,5,5,4,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,decent
+194,1,Caleb,2095,31,yes,0,0,0,0,0,0,0,0,3,4,4,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,Human,0,1,0,yes,
+195,1,Marc Zamera,5404,31,no,0,0,0,0,0,0,1,1,3,4,2,Key,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,0,yes,weird movement could be more efficient in driving
+196,1,alex,4373,35,yes,0,0,0,0,0,0,1,1,4,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,2,yes,Good at gears but thats it
+197,1,Jagger,103,37,no,0,0,0,0,0,0,1,1,5,5,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,no,good
+198,1,Caleb,2234,35,yes,0,0,0,0,0,0,0,0,2,2,3,UNKNOWN,UNKNOWN,Human,0,0,0,0,0,0,Human,0,1,0,no,
+199,1,Cole,1811,37,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,Human,3,3,2,yes,
+200,1,Jagger,2095,35,yes,0,0,0,0,0,0,1,1,2,3,3,UNKNOWN,Defender,Floor,0,0,0,0,0,70,UNKNOWN,0,0,2,no,"Bleh, Poor preformance tried for 2 ins to get about 5 balls in low goal."
+201,1,Marc,321,35,no,0,0,0,0,0,0,1,0,4,5,3,UNKNOWN,Shooter,Autoloader,0,0,0,0,0,0,Human,0,1,0,yes,Decent
+202,1,Caleb,1168,37,no,0,0,0,0,0,0,0,0,2,2,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,1,1,0,no,
+203,1,Sanjna,204,37,no,0,0,0,0,0,0,0,0,4,1,4,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,0,no,unsuccessful climber good defense
+204,1,Sanjna,204,37,no,0,0,0,0,0,0,0,0,4,1,4,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,0,no,unsuccessful climber good defense
+205,1,Cole,6226,35,yes,0,0,0,0,0,0,0,0,2,3,3,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,Human,0,2,1,yes,No Shooter Very fast climbed
+206,1,REDACTED,484,37,yes,0,0,0,0,0,0,1,1,4,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,2,2,2,yes,great at gears
+207,1,Marc,4454,37,no,0,0,0,0,0,0,1,0,3,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,0,yes,didnt do much
+208,1,Alex,2539,38,no,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,2,3,yes,Not an efficient gear system
+209,1,Davis,486,36,no,0,0,0,0,0,0,1,1,2,3,3,UNKNOWN,UNKNOWN,UNKNOWN,4,6,66,0,0,0,UNKNOWN,3,3,0,yes,balls stuck in gear mechanism
+210,1,Marc,4342,34,no,0,0,0,0,0,0,1,0,4,5,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,1,yes,Pushed around by other team a lot
+211,1,Cole,708,36,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,50,0,0,0,UNKNOWN,2,2,3,yes,"5 drove into opponent airsip in auton, spent most match shooting"
+212,1,Caleb,5407,36,no,0,0,0,0,0,0,1,0,3,4,2,UNKNOWN,Gear,UNKNOWN,0,5,0,0,0,0,Human,2,2,1,yes,
+213,1,Alex,423,36,yes,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,yes,climber missed 1st time
+214,1,Jagger,2495,34,no,0,0,0,0,0,0,0,1,1,3,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,1,1,3,yes,Spent way too long placing gear looked like a headless chicken TERRIBLE
+215,1,Sajna,203,36,no,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,2,2,2,yes,
+216,1,Marc,5490,36,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,1,2,0,no,twitchy drive base
+217,1,Caleb,2590,34,yes,0,0,0,0,0,0,0,0,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,1,yes,
+218,1,Sanjna,2191,35,no,0,0,0,0,0,0,0,0,3,3,1,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,1,2,0,yes,
+219,1,Cole,1495,34,no,0,0,0,0,0,0,0,1,3,4,1,UNKNOWN,Gear,Autoloader,0,0,0,0,0,0,Human,2,2,3,yes,Very unstable easily pushed confusing shooter possibly only for auton
+220,1,Sanjna,5420,34,no,0,0,0,0,0,0,0,0,3,3,1,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,2,2,2,yes,
+221,1,Trey,2234,41,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Shooter,UNKNOWN,0,2,0,0,0,0,Human,1,1,2,no,
+222,1,David,103,41,no,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Stand-Alone,Autoloader,0,0,0,0,0,0,UNKNOWN,2,2,1,yes,good swerve
+223,1,Justin,5407,41,yes,0,0,0,0,0,0,0,0,4,5,2,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Floor,2,3,2,yes,
+224,1,Connor,1168,41,yes,0,0,0,0,0,0,0,0,2,3,2,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,0,0,2,no,25 pts pen contact with HP
+225,1,Ava,341,41,yes,2,15,0,0,0,0,1,0,4,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,3,0,yes,
+226,1,Mei,4373,41,yes,0,0,0,0,0,0,0,0,3,3,4,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,2,no,
+227,1,Caleb,225,38,no,0,0,0,0,0,0,0,0,4,4,1,UNKNOWN,UNKNOWN,Floor,0,0,0,0,0,0,UNKNOWN,0,0,0,yes,many balls
+228,1,Cole,5404,38,yes,0,0,0,0,0,0,1,1,3,3,4,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,2,3,3,yes,
+229,1,Alex,4342,38,yes,0,0,0,0,0,0,1,1,5,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,3,3,yes,
+230,1,Jagger,433,38,no,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,1,2,0,yes,seizures
+231,1,REDACTED,304,38,no,0,0,0,0,0,0,0,0,3,5,4,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,1,1,0,no,
+232,1,Sanjna,1495,38,no,0,0,0,0,0,0,1,0,2,3,1,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,2,2,2,yes,hard time against defense
+233,1,Jagger,3974,39,no,0,0,0,0,0,0,0,0,4,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Floor,4,4,3,yes,
+234,1,Caleb,203,39,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,3,3,1,yes,
+235,1,Cole,4454,39,yes,1,2,0,0,0,0,0,0,3,3,4,UNKNOWN,Shooter,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,2,no,lost coms
+236,1,Sanjit,2495,39,no,0,0,0,0,0,0,0,0,2,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,1,2,0,yes,
+237,1,Sanjna,486,39,no,0,0,0,0,0,0,0,0,2,3,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,1,1,0,yes,
+238,1,Alex,484,39,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,1,1,3,yes,good intake
+239,1,Sanjna,304,40,no,0,0,0,0,0,0,1,0,3,4,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,1,2,0,no,
+240,1,Sanjit,5181,40,no,0,0,0,0,0,0,1,0,5,4,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,3,3,0,yes,
+241,1,Cole,5404,40,yes,0,0,0,0,0,0,0,0,4,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,0,yes,
+242,1,Jagger,2191,40,no,0,0,0,0,0,0,0,0,2,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,0,0,3,yes,slow cycles
+243,1,Caleb,2590,40,yes,0,0,0,0,0,0,0,0,3,4,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,3,3,1,yes,
+244,1,Alex,708,40,yes,0,0,0,0,0,0,0,1,3,4,3,UNKNOWN,Gear,UNKNOWN,20,30,66,0,0,0,UNKNOWN,1,1,3,yes,
+245,1,Alyssa,6226,51,yes,0,0,0,0,0,0,0,0,2,3,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,0,3,0,yes,dropped all gears
+246,1,Caleb,1811,55,no,0,0,0,0,0,0,0,0,0,3,1,UNKNOWN,3,UNKNOWN,0,0,0,0,0,0,Human,3,3,0,no,
+247,1,Cole,103,55,yes,1,10,0,0,0,0,1,1,0,4,4,4,Autoloader,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,no,Swerve Drive
+248,1,Alex,3974,51,yes,0,0,0,0,0,0,1,1,4,4,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,4,4,3,yes,fast slow with putting gear on
+249,1,Sanjna,2095,51,yes,0,0,0,0,0,0,0,0,2,1,1,UNKNOWN,Stand-Alone,Human,0,0,0,0,0,0,UNKNOWN,0,0,0,no,did little
+250,1,Alex,2590,56,yes,0,0,0,0,0,0,0,1,2,3,2,UNKNOWN,Defender,Autoloader,0,0,0,0,0,0,Human,0,0,2,no,
+251,1,Mei Rose,5181,50,yes,0,0,0,0,0,0,1,1,5,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,yes,Game was a tie
+252,1,Caleb,486,51,no,0,0,0,0,0,0,1,0,4,4,2,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Floor,3,3,1,yes,
+253,1,Adit,423,55,yes,0,0,0,0,0,0,0,1,2,3,2,UNKNOWN,Gear,Human,0,0,0,0,0,0,Human,1,2,2,yes,
+254,1,Cole,2495,51,yes,0,0,0,0,0,0,0,1,3,3,4,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,0,1,2,yes,no shooter
+255,1,Ava Peri,2539,50,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,0,yes,Dropped gear 5 times before finally getting it from human loading station
+256,1,Adit,204,51,yes,0,0,0,0,0,0,0,0,2,3,2,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,0,0,2,yes,hoarded fuel
+257,1,Alyssa,1495,55,yes,0,0,0,0,0,0,1,0,4,4,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,2,2,0,yes,
+258,1,Justin,5404,50,yes,0,0,0,0,0,0,1,0,4,5,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,3,3,3,yes,
+259,1,REDACTED,341,52,yes,0,0,0,0,0,0,0,0,5,5,5,UNKNOWN,Shooter,Floor,3,5,0,0,0,0,Human,4,4,0,yes,
+260,1,Justin,225,49,no,17,25,68,0,0,0,0,0,5,5,3,UNKNOWN,Stand-Alone,Autoloader,60,80,75,0,0,0,UNKNOWN,0,0,2,no,Got ranking point
+261,1,Sanjna,1218,52,no,0,0,0,0,0,0,0,0,3,4,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,3,yes,
+262,1,Sanjna,304,55,no,0,0,0,0,0,0,0,0,1,1,1,UNKNOWN,Stand-Alone,Floor,0,0,0,0,0,0,UNKNOWN,0,0,0,no,Looked like it was just hovering the whole match
+263,1,Alyssa,321,52,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,Autoloader,0,0,0,0,0,0,Human,0,0,2,no,
+264,1,Caleb,103,52,yes,0,0,0,0,0,0,0,0,3,4,2,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,2,2,0,yes,
+265,1,David Evans,1495,50,yes,0,0,0,0,0,0,1,1,3,4,3,UNKNOWN,Stand-Alone,Autoloader,1,5,0,0,0,0,Human,1,1,0,yes,Puts gears very slow
+266,1,Adit,4342,52,yes,0,0,0,0,0,0,1,1,2,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,3,yes,slow
+267,1,Connor,4373,50,no,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,yes,
+268,1,Alyssa,5490,54,yes,0,0,0,0,0,0,1,0,3,4,3,UNKNOWN,UNKNOWN,Autoloader,0,0,0,0,0,0,Human,2,2,1,yes,Did not load fuel
+269,1,Cole,708,52,yes,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,3,3,3,yes,
+270,1,Trey hippensteal,2234,49,yes,0,0,0,0,0,0,0,1,3,3,2,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,0,0,2,no,
+271,1,Cole,1168,54,yes,0,0,0,0,0,0,0,1,2,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,0,1,3,no,
+272,1,David,2539,42,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,0,0,1,yes,"trouble with gears, auton failed"
+273,1,Mei Rose,1811,49,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,2,yes,
+274,1,David,204,48,yes,0,0,0,0,0,0,0,0,4,3,5,UNKNOWN,Defender,Human,0,0,0,0,0,0,UNKNOWN,0,0,0,yes,very good defender
+275,1,Adit,5404,54,yes,0,0,0,0,0,0,1,1,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,2,yes,
+276,1,Connor,4454,49,yes,0,0,0,0,0,0,0,0,3,3,4,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,Human,0,0,2,yes,
+277,1,Mei Rose,4373,47,yes,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,2,no,didnt move after auto
+278,1,REDACTED,103,47,yes,0,0,0,0,0,0,1,1,4,4,4,UNKNOWN,UNKNOWN,Floor,0,0,0,0,0,0,Human,3,3,3,yes,
+279,1,Caleb,3974,54,no,0,0,0,0,0,0,1,0,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,1,yes,
+280,1,Ava Peri,5407,49,yes,0,0,0,0,0,0,1,0,3,3,3,UNKNOWN,Gear,Floor,0,8,0,0,0,0,Floor,2,3,0,yes,
+281,1,David,1811,46,yes,0,0,0,0,0,0,0,0,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,4,4,2,yes,fast
+282,1,Alex,2495,54,yes,0,0,0,0,0,0,0,1,2,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,2,no,not good
+283,1,David,2590,49,yes,0,0,0,0,0,0,0,0,4,4,3,UNKNOWN,Stand-Alone,UNKNOWN,0,0,0,0,0,0,Human,4,4,1,yes,
+284,1,Ava,5407,47,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,2,2,0,yes,stuck in gear loading station
+285,1,Trey Hippensteal,2539,44,yes,0,0,0,0,0,0,1,1,3,3,2,UNKNOWN,Shooter,Human,0,0,0,0,0,0,Human,1,1,3,yes,
+286,1,Cole,484,53,yes,0,0,0,0,0,0,1,1,4,3,3,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,2,3,3,yes,
+287,1,Trey,1495,47,no,0,0,0,0,0,0,0,0,2,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,3,no,
+288,1,Mei Rose,6226,49,no,0,0,0,0,0,0,0,1,3,3,4,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,3,yes,
+289,1,David,2095,46,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Shooter,UNKNOWN,0,0,0,0,0,0,UNKNOWN,1,1,0,yes,slow not good at defense
+290,1,Adit,5420,53,yes,0,0,0,0,0,0,0,1,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,2,2,3,yes,
+291,1,No one,5404,44,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,
+292,1,Trey,203,46,no,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,0,0,2,no,
+293,1,Justin,4342,44,yes,0,0,0,0,0,0,1,0,4,5,4,UNKNOWN,Stand-Alone,Floor,8,15,0,0,0,0,Human,0,0,3,yes,
+294,1,Ava,1218,46,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Shooter,UNKNOWN,6,20,30,0,0,0,Floor,0,2,0,yes,difficulty getting gears
+295,1,Alex,304,53,yes,0,0,0,0,0,0,0,1,2,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,3,yes,Couldn't climb to top; pilot was pulling up gears on the edge of the peg
+296,1,Mei Rose,4454,46,no,0,0,0,0,0,0,0,1,2,3,2,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,3,no,climb failed
+297,1,David Evans,3974,44,yes,0,0,0,0,0,0,0,1,4,4,4,UNKNOWN,UNKNOWN,Floor,0,0,0,0,0,0,Human,2,2,1,yes,Only Gear
+298,1,Connor,2590,46,yes,0,0,0,0,0,0,0,0,4,4,3,UNKNOWN,UNKNOWN,UNKNOWN,4,11,36,0,0,0,UNKNOWN,5,5,3,no,
+299,1,Ava Peri,341,44,yes,0,0,0,0,0,0,1,0,4,3,3,UNKNOWN,Gear,Floor,0,10,0,0,0,0,Human,2,2,0,yes,
+300,1,Connor,484,45,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,2,3,3,no,
+301,1,Mie Rose,486,45,yes,0,0,0,0,0,0,0,1,3,4,4,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Floor,0,0,3,yes,
+302,1,Justin,321,43,yes,0,0,0,0,0,0,0,0,3,5,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,no,
+303,1,Alyssa,2191,53,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Shooter,Autoloader,3,17,0,0,0,0,Human,0,0,1,no,Dropped gear; gear got stuck in loader
+304,1,Trey,423,45,yes,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,0,0,2,no,
+305,1,Trey Hip,204,43,no,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,Shooter,Human,0,0,0,0,0,0,UNKNOWN,0,0,2,yes,
+306,1,Caleb,433,53,no,0,0,0,0,0,0,1,0,4,4,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,1,yes,
+307,1,David,5181,45,yes,0,0,0,0,0,0,0,0,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,1,yes,trouble getting gears on peg
+308,1,Ava,2234,45,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Defender,Autoloader,2,5,40,0,0,0,UNKNOWN,0,0,0,no,did donuts
+309,1,Ava,2234,45,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Defender,Autoloader,2,5,40,0,0,0,UNKNOWN,0,0,0,no,did donuts
+310,1,David,304,43,yes,0,0,0,0,0,0,0,0,3,4,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,UNKNOWN,3,3,1,yes,
+311,1,Sanjna,423,53,no,0,0,0,0,0,0,0,0,2,3,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,3,yes,
+312,1,Mei Rose,5420,43,yes,0,0,0,0,0,0,0,0,4,4,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,2,yes,Blocked Alliance partner
+313,1,Trey,708,48,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Floor,0,0,3,no,
+314,1,Justin,5420,46,yes,0,0,0,0,0,0,0,0,2,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,2,1,no,
+315,1,Connor,433,43,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,
+316,1,Sanjna,4342,54,no,0,0,0,0,0,0,1,0,3,3,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,3,yes,Side gear auton; slow; may not be able to oppose strong defense
+317,1,Justin,2191,45,yes,0,0,0,0,0,0,0,0,3,5,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,2,2,3,no,
+318,1,Ava Peri,2095,43,yes,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,0,no,Just drove in circles in the same spot
+319,1,Justin,225,46,yes,18,30,0,0,0,0,0,0,5,5,3,UNKNOWN,Shooter,UNKNOWN,30,40,75,0,0,0,UNKNOWN,0,0,2,no,
+320,1,Ava,5490,42,yes,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,UNKNOWN,1,1,0,no,Kept going up and down when climbing; didn't successfully climb
+321,1,Justin,1495,47,yes,0,0,0,0,0,0,0,0,3,5,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,yes,fast climb
+322,1,Mei Rose,1218,42,no,0,0,0,0,0,0,0,0,2,2,2,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,Human,0,0,2,yes,had some kind of problem
+323,1,Ava,321,48,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,3,0,yes,had trouble climbing
+324,1,Connor,423,42,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,2,yes,
+325,1,Trey Hippensteal,6226,42,yes,0,0,0,0,0,0,1,1,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,3,yes,
+326,1,Connor,5490,48,yes,0,0,0,0,0,0,0,0,2,2,2,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,0,1,1,no,
+327,1,Justin,1811,42,yes,0,0,0,0,0,0,0,0,5,5,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,3,3,2,yes,
+328,1,Mei Rose,1168,48,yes,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,0,0,1,no,tried defense
+329,1,Trey,203,50,yes,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,Stand-Alone,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,2,yes,
+330,1,Cole,2191,58,yes,0,0,0,0,0,0,0,0,3,3,3,,Defender,Floor,6,20,0,0,0,0,Human,1,2,2,yes,
+331,1,Sanjna,2539,58,yes,0,0,0,0,0,0,0,0,3,2,1,UNKNOWN,Shooter,Floor,1,6,0,0,0,0,UNKNOWN,0,0,2,yes,High Goal is Meh
+332,1,Alex,5420,58,yes,0,0,0,0,0,0,0,0,3,4,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,yes,
+333,1,Caleb Zhang,4454,58,yes,0,0,0,0,0,0,0,0,3,4,4,UNKNOWN,Defender,Human,0,0,0,0,0,0,UNKNOWN,0,0,0,yes,
+334,1,Adit,4373,58,yes,0,0,0,0,0,0,0,1,3,4,3,UNKNOWN,Gear,Human,0,0,0,0,0,0,Human,1,1,3,no,
+335,1,Alyssa,486,58,yes,0,0,0,0,0,0,1,1,4,3,4,UNKNOWN,UNKNOWN,Autoloader,0,0,0,0,0,0,Human,3,3,3,yes,
+336,1,Adit,225,57,yes,17,17,0,0,0,0,0,0,4,4,3,UNKNOWN,Shooter,Autoloader,0,0,80,0,0,0,Human,0,0,2,yes,
+337,1,Sanj,5490,57,no,0,0,0,0,0,0,0,0,3,3,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,3,no,
+338,1,Cole,341,57,yes,1,5,0,0,0,0,0,1,4,5,4,UNKNOWN,Shooter,Autoloader,0,0,0,0,0,0,Human,2,2,3,no,
+339,1,REDACTED,5181,57,no,0,0,0,0,0,0,1,0,4,5,3,UNKNOWN,UNKNOWN,Human,0,0,0,0,0,0,Human,3,3,1,yes,
+340,1,Alyssa,433,57,yes,0,0,0,0,0,0,0,0,4,3,3,UNKNOWN,UNKNOWN,Human,0,0,0,0,0,0,Human,1,2,0,yes,
+341,1,Alex,1168,57,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,2,no,didnt do much
+342,1,Cole,204,56,yes,1,4,0,0,0,0,0,1,3,3,3,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,Human,0,0,2,no,slow
+343,1,Adit,708,56,yes,0,0,0,0,0,0,0,0,4,4,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,4,4,3,yes,
+344,1,Alex,2590,56,no,0,2,0,0,0,0,1,1,4,4,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,2,2,3,no,good picking up gears
+345,1,Caleb,203,52,no,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,Autoloader,2,7,28,0,0,0,Human,2,2,1,no,
+346,1,Alyssa,6226,56,yes,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,UNKNOWN,Autoloader,0,0,0,0,0,0,Human,0,3,0,yes,
+347,1,Sanjna,2234,56,yes,0,0,0,0,0,0,0,0,1,1,1,UNKNOWN,Stand-Alone,UNKNOWN,6,10,60,0,0,0,UNKNOWN,0,0,0,no,
+348,1,Ava,2095,61,yes,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,Defender,Autoloader,0,0,0,0,0,0,UNKNOWN,0,0,0,yes,helped stuck robot
+349,1,Mei Rose,5420,61,yes,0,0,0,0,0,0,0,1,3,4,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,4,no,decent
+350,1,Connor,5407,61,no,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,UNKNOWN,2,2,2,yes,
+351,1,David,341,61,yes,0,5,0,0,0,0,0,0,3,3,3,UNKNOWN,Shooter,UNKNOWN,0,15,0,0,0,0,UNKNOWN,5,5,2,yes,
+352,1,Justin,5420,61,yes,0,0,0,0,0,0,0,0,4,5,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,4,no,
+353,1,Adit,4454,60,no,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,Shooter,Floor,0,0,0,0,0,0,UNKNOWN,0,0,2,no,lost coms
+354,1,Alex,4342,60,yes,0,0,0,0,0,0,1,1,4,3,3,UNKNOWN,Gear,UNKNOWN,0,3,0,0,0,0,Human,3,4,3,yes,
+355,1,Sanjna,1168,60,no,0,0,0,0,0,0,0,0,2,2,1,UNKNOWN,Stand-Alone,UNKNOWN,0,0,0,0,0,0,Human,0,0,2,no,
+356,1,Alyssa,484,59,no,1,8,0,0,0,0,0,0,3,4,4,UNKNOWN,Shooter,Floor,0,0,0,0,0,0,UNKNOWN,0,0,2,no,
+357,1,Cole,203,60,yes,0,0,0,0,0,0,1,1,4,2,3,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,Human,1,2,2,yes,
+358,1,Alyssa,4373,60,no,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,0,no,got stuck in gear loading area
+359,1,Adit,1218,59,yes,0,0,0,0,0,0,0,0,4,4,2,UNKNOWN,Gear,Autoloader,0,0,0,0,0,0,Floor,1,2,3,yes,
+360,1,Cole,321,59,yes,0,0,0,0,0,0,0,1,3,3,4,UNKNOWN,Defender,Autoloader,0,0,0,0,0,0,UNKNOWN,0,1,2,no,died near red airship
+361,1,Caleb,304,59,no,0,0,0,0,0,0,1,0,2,4,2,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,2,2,1,yes,
+362,1,Sanjna,5407,59,no,0,0,0,0,0,0,1,0,1,1,1,UNKNOWN,Stand-Alone,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,0,no,broke during teleop
+363,1,Alex,204,59,yes,0,0,0,3,5,60,0,0,2,3,2,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,3,yes,
+364,1,Caleb,304,59,no,0,0,0,0,0,0,1,0,2,4,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,1,yes,
+365,1,Trey,484,64,yes,0,0,0,0,0,0,0,0,3,3,1,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,1,1,3,yes,
+366,1,Trey,5404,61,yes,0,0,0,0,0,0,1,0,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,4,yes,
+367,1,Trey,3974,62,yes,0,0,0,0,0,0,1,0,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,2,2,0,yes,
+368,1,Trey,6226,63,yes,0,0,0,0,0,0,1,0,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,3,yes,
+369,1,Ava,225,64,yes,14,25,56,0,0,0,0,0,4,3,3,UNKNOWN,Stand-Alone,Autoloader,30,50,60,0,0,0,Human,1,1,0,no,
+370,1,Connor,2191,64,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,2,2,3,yes,
+371,2,Maxwell,3974,1,yes,0,0,0,0,0,0,1,1,4,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,5,5,4,yes,
+372,2,Ava,2600,1,yes,0,0,0,0,0,0,0,1,4,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,no,Almost climbed but got stuck
+373,2,Adit,3637,1,yes,0,0,0,0,0,0,1,1,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,3,3,4,yes,
+374,2,Nicole,1676,1,yes,0,0,0,0,0,0,1,1,3,4,2,UNKNOWN,Gear,Autoloader,0,0,0,0,0,0,Human,3,3,4,yes,
+375,2,Cole,103,1,yes,0,0,0,0,0,0,0,1,4,4,4,UNKNOWN,Gear,Autoloader,0,0,0,0,0,0,Human,3,3,4,yes,
+376,2,Joe,4285,1,yes,0,0,0,0,0,0,0,1,3,4,2,UNKNOWN,Stand-Alone,UNKNOWN,0,0,0,0,0,0,Human,4,4,4,yes,
+377,2,Adit,102,2,yes,0,0,0,0,0,0,0,1,2,3,2,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,1,1,3,yes,difficulty human loading. losts comms halfway into the match.
+378,2,Cole,1495,2,yes,0,5,0,0,0,0,0,1,3,3,2,UNKNOWN,Stand-Alone,Autoloader,0,0,0,0,0,0,Human,1,1,3,yes,
+379,2,Nicole,203,2,yes,0,0,0,0,0,0,1,1,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,3,3,3,yes,
+380,2,Ava,1712,2,yes,0,0,0,0,0,0,0,1,3,1,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,4,5,3,yes,
+381,2,Joe,1403,2,no,0,0,0,0,0,0,1,1,4,3,4,UNKNOWN,Stand-Alone,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,
+382,2,Adit,219,3,yes,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,Stand-Alone,Floor,0,0,65,0,0,0,Human,1,1,3,yes,
+383,2,Nicole,1370,3,no,3,8,0,0,0,0,0,0,1,3,1,UNKNOWN,Gear,Human,0,0,0,0,0,0,Human,1,1,3,yes,
+384,2,Joe,486,3,yes,0,0,0,0,0,0,1,1,4,4,4,UNKNOWN,Stand-Alone,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,
+385,2,Ava,1923,3,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,tried to score a gear in auto
+386,2,Cole,4637,3,yes,0,0,0,0,0,0,0,0,2,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,2,2,3,yes,
+387,2,Maxwell,5181,3,yes,0,0,0,0,0,0,0,0,4,4,4,UNKNOWN,Gear,Human,0,0,0,0,0,0,Human,3,3,3,no,
+388,2,Ava,5407,4,yes,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,3,3,4,yes,
+389,2,Nicole,2729,4,yes,0,0,0,0,0,0,1,1,4,4,3,UNKNOWN,Gear,UNKNOWN,0,2,0,0,0,0,Human,3,3,4,yes,
+390,2,Joe,3142,4,yes,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,Stand-Alone,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,no,
+391,2,Maxwell,75,4,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,3,3,4,yes,
+392,2,Adit,303,4,yes,7,8,0,0,0,0,1,1,4,4,3,UNKNOWN,Stand-Alone,Floor,0,0,0,0,0,0,Human,4,4,4,yes,
+393,2,Cole,1640,4,yes,0,0,0,0,0,0,0,1,4,3,4,UNKNOWN,Gear,Autoloader,0,0,0,0,0,0,Human,4,4,4,yes,
+394,2,Adit,2590,5,yes,0,4,0,0,0,0,0,1,3,3,3,UNKNOWN,Stand-Alone,Human,0,0,0,0,0,0,Floor,2,3,4,no,
+395,2,Cole,3314,5,yes,6,9,0,0,0,0,0,1,4,4,3,UNKNOWN,Stand-Alone,Autoloader,0,0,0,0,0,0,Human,4,4,4,yes,
+396,2,Nicole,193,5,yes,0,0,0,0,0,0,1,1,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,4,4,4,yes,
+397,2,Joe,2607,5,yes,0,0,0,0,0,0,1,1,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,4,yes,
+398,2,Ava,1257,5,yes,0,0,0,0,0,0,1,1,4,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,4,4,yes,
+399,2,Maxwell,433,5,yes,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,Gear,Autoloader,0,0,0,0,0,0,Human,3,3,4,yes,
+400,2,Nicole,708,6,yes,0,0,0,0,0,0,1,1,4,1,3,UNKNOWN,Gear,Human,0,0,0,0,0,0,Floor,4,4,3,yes,
+401,2,Cole,365,6,yes,3,10,0,0,0,0,1,1,4,3,3,UNKNOWN,Stand-Alone,Autoloader,0,0,0,0,0,0,Human,2,2,3,yes,
+402,2,Maxwell,2458,6,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,Autoloader,0,0,0,0,0,0,Floor,2,2,3,yes,
+403,2,Adit,3929,6,yes,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,yes,
+404,2,Ava,341,6,yes,0,4,0,0,0,0,0,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,3,3,no,
+405,2,Ava,11,7,yes,0,0,0,0,0,0,0,1,2,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,0,1,3,yes,
+406,2,Joe Tate,1807,7,yes,0,0,0,0,0,0,0,0,3,3,4,Far Launchpad,Defender,Floor,0,0,0,0,0,0,Floor,3,3,3,yes,Floor pickup was obbly could loge the gear
+407,2,Adit,4342,7,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Stand-Alone,Floor,0,0,0,0,0,0,Human,1,2,3,yes,
+408,2,Nicole,555,7,yes,0,0,0,0,0,0,0,1,2,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,yes,
+409,2,Cole,1218,7,yes,0,0,0,0,0,0,0,0,3,3,4,Far Launchpad,Defender,Floor,0,0,0,0,0,0,Floor,3,3,3,yes,Floor pickup was wobbly could lodge gear
+410,2,Maxwell,834,7,yes,0,0,0,0,0,0,0,1,2,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,yes,
+411,2,Joe Tate,1279,7,yes,0,0,0,0,0,0,1,0,4,4,3,UNKNOWN,Gear,UNKNOWN,2,2,0,0,0,0,UNKNOWN,2,2,3,yes,
+412,2,Maxwell,56,8,yes,0,0,0,0,0,0,0,1,2,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,yes,
+413,2,Cole,5401,8,yes,7,10,0,0,0,0,0,1,4,4,3,UNKNOWN,Stand-Alone,Autoloader,0,0,0,0,0,0,Human,3,3,3,yes,
+414,2,Adit,222,8,yes,0,0,0,0,0,0,1,1,4,4,3,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,Floor,2,2,3,yes,Floor pickup on one side handles gear intake on other
+415,2,Joe,816,8,yes,0,0,0,0,0,0,1,1,4,4,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,
+416,2,Ava,225,8,yes,16,25,0,0,0,0,0,0,5,5,5,UNKNOWN,Gear,Floor,52,65,0,0,0,0,Human,3,3,3,yes,Very good
+417,2,Nicole,4750,8,yes,0,0,0,0,0,0,0,0,1,1,1,UNKNOWN,Gear,UNKNOWN,0,3,0,0,0,0,Human,1,3,3,yes,Dropped 5 gears at HP station
+418,2,Maxwell,4575,9,no,0,0,0,0,0,0,0,1,3,3,3,Key,Gear,Autoloader,2,4,0,0,0,0,Human,2,3,3,yes,
+419,2,Ava,316,9,yes,0,0,0,0,0,0,0,0,4,4,4,UNKNOWN,Gear,Human,0,16,0,0,0,0,Floor,4,4,3,yes,Efficient gear placement
+420,2,Joe,2539,9,yes,0,0,0,0,0,0,0,1,4,3,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,2,yes,
+421,2,Nicole,5420,9,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,Human,0,0,0,0,0,0,Human,2,2,3,yes,Died a couple seconds into it until about 50 secs
+422,2,Cole,223,9,yes,0,0,0,0,0,0,1,1,3,3,4,UNKNOWN,Gear,Floor,0,3,0,0,0,0,Human,1,2,3,yes,
+423,2,Adit,272,9,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,2,3,3,yes,Tried spilling fuel to impede other robots
+424,2,Maxwell,1391,10,yes,3,10,0,0,0,0,0,0,3,3,3,UNKNOWN,Shooter,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,0,no,ROBOT NO MOVE
+425,2,Adit,25,10,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,0,0,3,no,
+426,2,Maxwell,6226,10,no,0,0,0,0,0,0,0,0,2,2,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,2,2,yes,
+427,2,Nicole,5895,10,yes,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,2,3,yes,
+428,2,Ava,747,10,yes,0,10,0,0,0,0,0,1,3,3,3,UNKNOWN,Shooter,Floor,20,30,0,0,0,0,UNKNOWN,1,1,3,yes,
+429,2,Cole,293,10,yes,0,0,0,0,0,0,1,1,3,3,4,UNKNOWN,Defender,Autoloader,0,0,0,0,0,0,Human,3,3,2,yes,Seemed pretty good
+430,2,Nicole,303,11,yes,3,10,0,0,0,0,0,1,3,4,2,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,3,4,4,yes,
+431,2,Cole,365,11,yes,3,0,0,0,0,0,1,1,4,4,3,UNKNOWN,Shooter,Floor,2,5,0,0,0,0,Human,4,4,4,yes,Penalty for reaching out airship; shooter inconsistent shot at end of match
+432,2,Anon,1403,11,yes,0,0,0,0,0,0,0,0,4,4,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,3,3,4,yes,
+433,2,,0,0,yes,0,0,0,0,0,0,0,0,4,4,3,UNKNOWN,Stand-Alone,Floor,0,0,0,0,0,0,Human,0,0,0,yes,
+434,2,Adit,5181,11,yes,0,0,0,0,0,0,1,1,4,4,3,UNKNOWN,Stand-Alone,Floor,0,0,0,0,0,0,Human,2,2,4,yes,
+435,2,,0,0,yes,0,0,0,0,0,0,0,0,4,4,3,UNKNOWN,Stand-Alone,Floor,0,0,0,0,0,0,Human,0,0,0,yes,
+436,2,,0,0,yes,0,0,0,0,0,0,0,0,4,4,3,UNKNOWN,Stand-Alone,Floor,0,0,0,0,0,0,Human,0,0,0,yes,
+437,2,Zara,2590,11,no,0,0,0,0,0,0,1,0,4,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,2,2,3,no,
+438,2,Ava,3974,11,yes,0,0,0,0,0,0,0,1,5,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,4,4,4,yes,
+439,2,Ava,1495,12,yes,0,0,0,0,0,0,0,0,4,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,Consistent
+440,2,Zara,555,12,yes,0,0,0,0,0,0,0,1,3,3,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,3,3,yes,
+441,2,Nicole,2600,12,yes,0,0,0,0,0,0,0,0,4,3,5,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,
+442,2,Joe,1640,12,yes,0,6,0,0,0,0,1,1,4,4,3,UNKNOWN,Stand-Alone,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,no,
+443,2,Adit,2458,12,yes,0,0,0,0,0,0,0,0,2,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,2,2,3,yes,Use an arm for floor gear pickup kick the gear around to the airship
+444,2,Cole,5407,12,yes,3,10,0,0,0,0,0,1,4,3,2,UNKNOWN,Stand-Alone,UNKNOWN,0,0,0,0,0,0,Floor,4,4,3,yes,
+445,2,Ava,222,13,yes,0,0,0,0,0,0,1,1,4,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,4,yes,
+446,2,Cole,4342,13,yes,0,0,0,0,0,0,0,1,3,4,4,UNKNOWN,Defender,Floor,0,0,0,0,0,0,Human,4,4,4,yes,Oddly shaped
+447,2,Nicole,1923,13,no,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,yes,
+448,2,Max,708,13,no,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,2,3,4,yes,Clunky
+449,2,Joe,2607,13,yes,0,0,0,0,0,0,1,0,4,4,4,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,yes,
+450,2,Adit,3929,13,yes,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,4,4,yes,
+451,2,Ava,5401,14,yes,6,6,0,0,0,0,0,0,3,3,3,UNKNOWN,Shooter,Human,20,58,0,0,0,0,Human,4,4,3,yes,
+452,2,Maxwell,1370,14,no,0,0,0,0,0,0,0,0,2,2,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,2,3,yes,
+453,2,Joe,2729,14,no,0,0,0,0,0,0,0,0,2,4,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,no,
+454,2,Adit,1218,14,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Floor,3,3,3,yes,Moves gears by kicking around (can't really read it)
+455,2,Nicole,193,14,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,3,5,3,yes,
+456,2,Joe,316,15,yes,0,0,0,0,0,0,0,0,4,4,4,UNKNOWN,Shooter,Autoloader,0,0,0,0,0,0,Human,3,3,3,yes,
+457,2,Leah,25,15,yes,0,0,0,0,0,0,1,1,4,4,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,3,no,
+458,2,Maxwell,11,15,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,2,2,3,yes,
+459,2,Ava,102,15,yes,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,no,
+460,2,Adit,4285,15,yes,0,0,0,0,0,0,0,1,2,3,3,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,1,1,3,yes,
+461,2,Cole,5895,15,no,0,10,0,0,0,0,0,0,3,3,4,UNKNOWN,Stand-Alone,Autoloader,3,5,0,0,0,0,Human,2,2,3,no,
+462,2,Eunji,203,16,yes,0,0,0,0,0,0,1,1,4,5,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,4,yes,
+463,2,Maxwell,341,16,no,5,10,0,0,0,0,0,0,2,3,3,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,1,1,3,yes,
+464,2,Adit,293,16,yes,0,0,0,0,0,0,0,1,4,3,2,UNKNOWN,Shooter,Floor,0,0,0,0,0,0,Human,3,3,4,yes,Efficient gear intake and consistent scoring
+465,2,Cole,5420,16,yes,0,0,0,0,0,0,0,0,3,2,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,
+466,2,Leah,834,16,yes,0,0,0,0,0,0,0,1,4,3,3,UNKNOWN,Gear,Autoloader,0,0,0,0,0,0,Human,3,4,4,yes,
+467,2,Zara,225,17,no,7,10,0,0,0,0,0,0,4,3,4,Key,Stand-Alone,Floor,10,10,0,0,0,0,Human,3,3,3,yes,
+468,2,,0,0,yes,0,0,0,0,0,0,1,1,4,3,4,UNKNOWN,Defender,Floor,0,0,0,0,0,0,Human,0,5,2,yes,
+469,2,Cole,4637,18,yes,0,0,0,0,0,0,0,0,2,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,1,1,2,yes,
+470,2,Ava,2539,17,yes,0,0,0,0,0,0,0,0,2,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,0,0,3,no,Unable to get years from human tried to hang but got stuck
+471,2,Eunji,6226,18,yes,0,0,0,0,0,0,0,0,4,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,2,yes,
+472,2,Kobe,816,17,no,0,0,0,0,0,0,1,1,2,2,2,UNKNOWN,Gear,Human,0,0,0,0,0,0,Human,1,1,2,yes,No shooter
+473,2,Maxwell,223,17,no,0,0,0,0,0,0,0,0,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,3,yes,Fast
+474,2,Leah,747,18,no,0,0,0,0,0,0,0,0,4,3,4,Key,Shooter,UNKNOWN,12,20,0,0,0,0,Human,0,1,2,yes,
+475,2,Cole,1676,17,yes,0,0,0,0,0,0,1,1,3,3,4,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,yes,
+476,2,Kobe,1712,18,no,0,0,0,0,0,0,1,1,3,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,3,yes,
+477,2,Maxwell,1279,18,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,3,no,
+478,2,Zara,4750,18,yes,0,0,0,0,0,0,0,1,3,2,2,UNKNOWN,Gear,Human,3,5,0,0,0,0,Human,0,0,3,no,
+479,2,Maxwell,56,19,yes,0,0,0,0,0,0,0,0,3,3,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,1,yes,
+480,2,Leah,3637,19,yes,0,0,0,0,0,0,0,1,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,0,1,3,no,
+481,2,Zara,4575,19,yes,0,0,0,0,0,0,1,1,4,3,3,UNKNOWN,Gear,Autoloader,0,0,0,0,0,0,Human,1,1,3,yes,
+482,2,Christian,433,19,yes,0,0,0,0,0,0,1,1,3,5,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,3,3,3,yes,Decent gear bot; can also human load
+483,2,Kobe,3142,19,yes,0,0,0,0,0,0,2,1,3,3,1,UNKNOWN,Gear,Human,0,0,0,0,0,0,Human,4,4,3,yes,
+484,2,Adit,3314,19,no,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,Gear,Autoloader,0,0,0,0,0,0,Human,1,1,3,yes,
+485,2,Eunji,1257,20,yes,0,0,0,0,0,0,0,0,5,5,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,5,5,4,yes,
+486,2,Christian,75,20,no,0,0,0,0,0,0,0,1,5,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,6,7,4,yes,
+487,2,Adit,103,20,yes,0,0,0,0,0,0,0,0,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,yes,(Can't read)
+488,2,Maxwell,272,20,no,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,no,
+489,2,Leah,1807,20,yes,0,0,0,0,0,0,0,0,4,4,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,6,6,4,no,
+490,2,Kobe,219,20,no,4,10,0,0,0,0,1,1,4,4,3,UNKNOWN,Stand-Alone,Autoloader,6,10,0,0,0,0,Human,2,2,4,yes,
+491,2,Kobe,5407,21,yes,2,10,0,0,0,0,1,1,4,3,2,UNKNOWN,Stand-Alone,Autoloader,0,0,0,0,0,0,Floor,5,5,4,yes,
+492,2,Adit,1370,21,no,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,Shooter,Autoloader,0,0,0,0,0,0,Human,1,1,3,yes,Inefficient gear intake
+493,2,Christian,2600,21,yes,0,0,0,0,0,0,0,1,3,3,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,yes,
+494,2,Eunji,2607,21,yes,0,0,0,0,0,0,1,0,4,3,3,UNKNOWN,Stand-Alone,Floor,0,0,0,0,0,0,UNKNOWN,2,2,3,no,
+495,2,Maxwell,203,21,no,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,yes,
+496,2,Leah,2590,21,yes,0,0,0,0,0,0,1,1,4,4,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,3,yes,Can also floor load
+497,2,Kobe,2458,22,no,0,0,0,0,0,0,0,0,4,4,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,6,6,3,yes,
+498,2,Eunji,1403,22,yes,0,0,0,0,0,0,0,1,4,3,4,UNKNOWN,Stand-Alone,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,
+499,2,Christian,4342,22,no,0,0,0,0,0,0,1,0,4,3,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,3,3,yes,Almost had right automatic and then failed
+500,2,Leah,4285,22,yes,0,0,0,0,0,0,1,1,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,4,3,yes,
+501,2,Adit,5401,22,yes,5,10,0,0,0,0,0,1,4,3,3,Key,Stand-Alone,Human,0,0,0,0,0,0,Human,3,3,3,yes,
+502,2,Maxwell,365,23,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Stand-Alone,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,yes,
+503,2,Christian,4637,23,yes,0,0,0,0,0,0,0,1,4,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,
+504,2,Leah,5181,23,yes,0,0,0,0,0,0,1,0,4,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,
+505,2,Kobe,816,23,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,3,no,
+506,2,Adit,316,23,yes,0,0,0,0,0,0,0,1,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,yes,Can also floor load; good gear mechanism
+507,2,Josh,1218,23,no,0,0,0,0,0,0,0,1,4,4,3,Key,Gear,Floor,1,50,0,0,0,0,Floor,2,2,3,yes,
+508,2,Kobe,433,24,no,0,0,0,0,0,0,0,0,3,5,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,6,6,3,no,
+509,2,Josh,1676,24,no,0,0,0,0,0,0,1,1,4,4,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,4,3,yes,Quick loading and scoringp
+510,2,Leah,225,24,yes,17,22,0,0,0,0,0,1,4,4,3,Key,Stand-Alone,Floor,100,110,0,0,0,0,Human,3,3,3,yes,
+511,2,Anon,6226,24,no,0,0,0,0,0,0,1,0,2,3,1,UNKNOWN,Stand-Alone,Autoloader,0,0,0,0,0,0,Human,1,2,3,yes,Robot turned off when I taking from autoloader.  Only did defense and got pushed around
+512,2,Maxwell,11,24,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,3,yes,
+513,2,Christian,1279,25,yes,0,0,0,0,0,0,1,0,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,Fast and good
+514,2,Kobe,1923,25,yes,0,0,0,0,0,0,0,0,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,6,6,3,yes,
+515,2,Adit,303,25,no,5,6,0,0,0,0,1,1,4,4,4,Key,Stand-Alone,Floor,0,0,0,0,0,0,Human,2,3,4,no,
+516,2,Grace,1391,25,yes,0,0,20,0,0,0,0,0,3,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,0,no,Dead in corner after auton for entire remainder of match
+517,2,Leah,103,25,yes,0,0,0,0,0,0,1,1,4,5,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,4,yes,
+518,2,Maxwell,5420,25,no,0,0,0,0,0,0,1,1,4,3,3,UNKNOWN,Gear,Human,0,0,0,0,0,0,UNKNOWN,3,3,4,yes,
+519,2,Leah,75,26,yes,0,0,0,0,0,0,1,1,4,4,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,yes,Can also floor load gears
+520,2,,0,0,yes,0,0,0,0,0,0,1,1,4,4,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,yes,Can also floor load gears
+521,2,Maxwell,4750,26,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,yes,
+522,2,,0,0,no,0,0,0,0,0,0,0,0,3,4,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,0,0,0,yes,
+523,2,Zara,3974,26,no,0,0,0,0,0,0,1,1,3,4,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,yes,Fast omidrive
+524,2,Kobe,102,26,yes,0,0,0,0,0,0,0,0,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,5,5,4,yes,
+525,2,Adit,193,26,yes,0,0,0,0,0,0,0,1,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,5,5,4,yes,
+526,2,Grace,1640,26,yes,3,10,0,0,0,0,0,0,4,4,3,Key,Gear,Floor,0,0,0,0,0,0,Floor,2,2,4,yes,
+527,2,Leah,25,27,yes,0,0,0,0,0,0,1,1,3,4,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,
+528,2,Adit,222,27,yes,0,0,0,0,0,0,0,1,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,0,0,3,yes,Can also floor load gears
+529,2,Maxwell,1495,27,yes,0,0,0,0,0,0,0,0,2,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,no,
+530,2,Zara,1257,27,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,Human,0,0,0,0,0,0,Human,1,1,3,no,
+531,2,Grace,4575,27,yes,1,10,0,0,0,0,0,0,3,3,1,Key,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,
+532,2,Kobe,1807,27,yes,0,0,0,0,0,0,0,0,3,4,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,
+533,2,Adit,293,28,yes,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,no,
+534,2,Grace,834,28,yes,0,0,0,0,0,0,0,0,4,3,3,UNKNOWN,Stand-Alone,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,
+535,2,Leah,223,28,yes,0,0,0,0,0,0,0,0,4,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,
+536,2,Max,3314,28,yes,0,0,0,0,0,0,0,0,4,3,4,UNKNOWN,Gear,Human,0,0,0,0,0,0,Human,1,1,3,no,
+537,2,Maxwell,1712,28,yes,0,0,0,0,0,0,0,0,2,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,3,yes,
+538,2,Kobe,3929,28,yes,0,0,0,0,0,0,0,0,3,4,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,3,yes,
+539,2,Adit,555,29,yes,0,0,0,0,0,0,0,0,4,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,They beat us :(
+540,2,Leah,5895,29,yes,0,0,0,0,0,0,0,1,4,4,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,3,yes,
+541,2,Maxwell,341,29,yes,2,10,0,0,0,0,0,1,2,3,3,Close Launchpad,Stand-Alone,Floor,0,0,0,0,0,0,Human,2,2,3,yes,
+542,2,Max,219,29,yes,0,0,15,0,0,0,0,0,4,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,3,yes,
+543,2,Kobe,3637,29,yes,0,0,0,0,0,0,0,1,2,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,3,yes,
+544,2,Grace,56,29,yes,0,0,0,0,0,0,1,1,4,3,3,UNKNOWN,Gear,Autoloader,0,0,0,0,0,0,Human,4,4,3,yes,
+545,2,Leah,3142,30,yes,0,0,0,0,0,0,0,0,4,4,2,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,4,4,3,yes,
+546,2,Kobe,486,30,yes,0,0,0,0,0,0,1,1,5,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,3,4,3,yes,
+547,2,Adit,2729,30,yes,0,5,0,0,0,0,0,0,3,3,2,Key,Shooter,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,
+548,2,Grace,708,30,no,3,10,0,0,0,0,0,1,3,3,2,Key,Stand-Alone,Floor,0,0,0,0,0,0,Floor,3,3,3,yes,
+549,2,Max,272,30,yes,0,0,0,0,0,0,0,0,4,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,5,1,yes,Can also floor load for gears; good robot
+550,2,Maxwell,747,30,no,0,0,0,0,0,0,0,1,3,3,3,Key,Stand-Alone,Human,60,0,0,0,0,0,Human,2,2,3,yes,
+551,2,Kobe,2458,31,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,
+552,2,Ava,2600,31,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,
+553,2,Grace,1923,31,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,3,3,yes,Didn't move for 15 seconds after auto
+554,2,Adit,1218,31,yes,0,0,0,0,0,0,0,0,3,4,3,UNKNOWN,Stand-Alone,Floor,0,0,0,0,0,0,Floor,2,2,3,yes,
+555,2,Brianna,75,31,yes,0,0,0,0,0,0,1,1,3,3,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,2,yes,Human player throws gears onto floor for pickup
+556,2,Leah,6226,31,yes,0,0,0,0,0,0,0,0,4,3,4,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,Human,0,1,3,yes,
+557,2,Grace,5181,32,no,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,0,no,No moves
+558,2,Leah,1279,32,yes,0,0,0,0,0,0,0,1,4,3,3,UNKNOWN,Gear,Autoloader,0,0,0,0,0,0,Human,4,4,4,yes,
+559,2,Brianna,25,32,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,UNKNOWN,Human,0,0,0,0,0,0,Human,2,2,1,yes,Lost coms half way thru
+560,2,Adit,303,32,yes,0,0,0,0,0,0,1,1,4,4,3,Key,Stand-Alone,Floor,0,0,0,0,0,0,Human,4,4,4,yes,
+561,2,Kobe,225,32,yes,21,21,0,0,0,0,0,0,4,4,3,Far Launchpad,Shooter,Autoloader,24,30,0,0,0,0,Human,4,4,3,no,Shooter is god-tier
+562,2,Ava,2607,32,yes,0,0,0,0,0,0,0,1,4,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,4,4,4,yes,
+563,2,Ava,433,33,yes,0,0,0,0,0,0,0,0,4,3,3,UNKNOWN,Gear,Human,0,0,0,0,0,0,Human,4,4,3,yes,
+564,2,Leah,1640,33,yes,0,0,0,0,0,0,0,0,4,3,4,UNKNOWN,Shooter,UNKNOWN,0,0,0,0,0,0,Human,1,1,3,yes,
+565,2,Cole,365,33,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,0,0,3,no,
+566,2,Grace,4285,33,yes,0,0,0,0,0,0,0,0,2,3,1,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,1,1,3,yes,
+567,2,Kobe,5420,33,yes,0,0,0,0,0,0,0,0,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,
+568,2,Brianna,1807,33,yes,0,0,0,0,0,0,0,0,2,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,yes,
+569,2,Ava,3637,34,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,UNKNOWN,Floor,0,0,0,0,0,0,UNKNOWN,2,3,3,yes,Struggled to put gears up
+570,2,Kobe,341,34,yes,4,10,0,0,0,0,0,1,5,5,4,Close Launchpad,Stand-Alone,Floor,0,0,0,0,0,0,Human,4,4,4,yes,
+571,2,Cole,1712,34,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,No shooter
+572,2,Grace,2539,34,yes,0,0,0,0,0,0,0,1,3,3,2,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,4,4,4,yes,
+573,2,Brianna,1257,34,yes,0,0,0,0,0,0,1,1,4,5,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,3,2,yes,5 points in penalties; defended first half then attempted to score gears
+574,2,Connor,293,35,yes,0,0,0,0,0,0,1,1,3,3,3,,Gear,Floor,0,0,0,0,0,0,Human,3,3,3,no,"got enough gears for 4 rotors, just didn't have enough time to turn the fourth"
+575,2,Jack,3929,35,yes,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,UNKNOWN,Human,0,0,0,0,0,0,Human,3,3,2,yes,fast climb
+576,2,Cole,555,35,yes,0,0,0,0,0,0,0,0,4,3,4,UNKNOWN,Gear,Autoloader,0,0,0,0,0,0,Human,11,0,3,yes,no shooter - got gear stuck below gear manipulator and had to play defence
+577,2,Adit,1370,35,no,4,10,0,0,0,0,0,0,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,2,2,0,yes,slow robot - took a long time to get gear on to peg
+578,2,David,4750,35,yes,0,0,0,0,0,0,0,0,4,3,2,UNKNOWN,Stand-Alone,Floor,0,0,0,0,0,0,Human,4,4,1,yes,"fast swerve drive, slow gear load (needs help from pilot)"
+579,2,Trey,4575,35,yes,0,0,0,0,0,0,0,0,3,3,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,2,2,3,no,
+580,2,Trey,103,36,yes,0,0,0,0,0,0,1,0,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,4,yes,
+581,2,Adit,316,36,yes,0,0,0,0,0,0,0,1,3,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,3,4,4,yes,average speed
+582,2,David,3314,36,yes,6,10,0,0,0,0,0,0,3,4,3,airship and field,Shooter,UNKNOWN,0,0,0,0,0,0,Human,3,3,1,yes,"not very fast, good shooter, solid robot"
+583,2,Jack,2729,36,yes,0,0,0,0,0,0,1,1,4,4,3,UNKNOWN,Gear,Human,0,0,0,0,0,0,Human,4,4,4,yes,
+584,2,Connor,747,36,yes,6,10,0,0,0,0,0,1,3,3,3,Key,Stand-Alone,Floor,10,23,0,0,0,0,Human,3,3,4,yes,
+585,2,Trey,219,37,yes,0,0,0,0,0,0,1,2,3,3,1,UNKNOWN,Shooter,Floor,0,0,0,0,0,0,Human,0,0,4,yes,
+586,2,Cole,816,36,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,yes,"no shooter, seemed reliable"
+587,2,Cole,102,37,yes,0,0,0,0,0,0,1,1,4,3,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,no,No shooter Omni wheels?
+588,2,David,708,37,yes,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,Stand-Alone,Floor,0,0,0,0,0,0,Floor,3,3,3,yes,Ground pickup/ slow drive
+589,2,Adit,223,37,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,4,4,4,yes,fast robot and fast gear cycles - driver kept ramming into things
+590,2,Jack S.,1676,37,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,Human,0,0,0,0,0,0,Human,4,4,4,yes,
+591,2,Connor,5401,37,yes,0,0,0,0,0,0,0,1,4,4,3,Key,Stand-Alone,UNKNOWN,16,90,0,0,0,0,Human,3,3,4,yes,
+592,2,Adit,1403,38,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,3,3,4,yes,Gears intake is weird
+593,2,David,1391,38,yes,0,0,0,0,0,0,1,1,4,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,4,4,1,yes,"ground picking, good swerve, no shooter, good climber"
+594,2,Cole,5895,38,yes,9,20,0,0,0,0,0,1,3,3,4,UNKNOWN,Shooter,Autoloader,0,0,0,0,0,0,Human,3,3,4,yes,
+595,2,Trey,486,38,no,0,0,0,0,0,0,1,0,3,3,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,2,2,3,no,
+596,2,Jack S,3974,38,no,0,0,0,0,0,0,0,0,2,3,4,UNKNOWN,Gear,Human,0,0,0,0,0,0,Human,3,3,4,yes,Defending last pick
+597,2,Connor,2590,38,yes,0,0,0,0,0,0,1,1,4,3,3,field,Gear,Floor,0,0,0,0,0,0,Floor,5,5,4,yes,fast climb
+598,2,Trey,11,39,yes,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,Shooter,Floor,0,0,0,0,0,0,Human,3,3,4,yes,
+599,2,Adit,272,39,no,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,4,5,3,yes,Good floor intake for gears swerve drive and fast
+600,2,Connor,56,39,yes,0,0,0,0,0,0,0,0,2,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,4,yes,
+601,2,Jack,834,39,no,0,0,0,0,0,0,0,0,4,3,3,Key,Shooter,Human,0,0,0,0,0,0,Human,3,3,4,yes,
+602,2,David evans,1495,39,yes,0,0,0,0,0,0,0,0,3,3,1,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,4,4,1,yes,Failed at middle for auton slow drive
+603,2,Cole,5407,39,yes,4,10,0,0,0,0,0,0,3,3,3,Key,Gear,UNKNOWN,0,0,0,0,0,0,Floor,3,3,3,yes,cannot load balls besides before the match
+604,2,Trey,4342,40,yes,0,0,0,0,0,0,1,1,3,3,1,UNKNOWN,Shooter,Floor,0,0,0,0,0,0,Human,0,0,4,yes,
+605,2,Cole,4637,40,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,3,3,4,yes,no shooter
+606,2,Anon,203,39,yes,0,0,0,0,0,0,1,1,2,2,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,yes,
+607,2,Adit,222,40,no,0,0,0,0,0,0,0,1,3,4,3,UNKNOWN,Shooter,Floor,0,0,0,0,0,0,Human,4,4,4,no,average top speed - good gear cycles
+608,2,David,193,40,yes,0,0,0,0,0,0,1,1,4,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,5,5,4,yes,Fast drive slow ground pickup need pilot to take gear out
+609,2,Connor,3142,40,yes,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,4,no,
+610,2,Trey,555,41,yes,0,0,0,0,0,0,1,1,3,3,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,3,3,yes,
+611,2,Adit,316,41,yes,0,0,0,0,0,0,1,0,3,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,0,1,4,yes,switched to defence halfway through - had trouble with gear intake halfway through - average gear cycle speed
+612,2,Connor,6226,41,yes,0,0,0,0,0,0,0,0,2,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,3,3,yes,
+613,2,Jack,5420,41,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,Human,0,0,0,0,0,0,Human,3,3,3,yes,Slowish
+614,2,Cole,1807,41,yes,0,0,0,0,0,0,0,1,4,4,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,5,5,4,no,
+615,2,David,2729,41,yes,0,0,0,0,0,0,0,0,4,3,2,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,6,6,2,yes,"fast drive, giant hopper (but they don't use it)"
+616,2,Trey,708,42,yes,0,0,0,0,0,0,1,1,3,3,3,Key,Shooter,Floor,0,0,0,0,0,0,Floor,2,3,3,yes,
+617,2,Cole,816,42,yes,0,0,0,0,0,0,1,1,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,yes,No shooter died in collision but came back to life
+618,2,Connor,293,42,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,6,0,0,0,0,Human,4,4,3,yes,
+619,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+620,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+621,2,Adit,4750,42,yes,0,0,0,0,0,0,0,1,2,3,3,UNKNOWN,Gear,Floor,0,5,0,0,0,0,Human,1,2,3,yes,Had trouble in taking a gear
+622,2,David,1279,43,yes,0,0,0,0,0,0,0,0,4,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,1,yes,Almost middle auton no shooter fast drive trouble loading gears
+623,2,Trey,3929,43,yes,0,0,0,0,0,0,0,1,3,2,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,yes,
+624,2,Jack s,2600,43,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,yes,Flimsy
+625,2,Adit,433,43,yes,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,Average gear cycles gear intake is somewhat consistent
+626,2,Connor,102,43,yes,0,0,0,0,0,0,0,0,3,3,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,4,yes,
+627,2,Cole,2590,44,yes,0,0,0,0,0,0,0,0,4,3,3,UNKNOWN,UNKNOWN,Floor,0,0,0,0,0,0,Floor,4,4,4,yes,
+628,2,David,75,44,yes,0,0,0,0,0,0,0,0,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,5,5,3,yes,Failed auton ground pickup fast
+629,2,Trey,486,44,yes,0,0,0,0,0,0,1,1,3,3,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,2,2,3,yes,
+630,2,Connor,365,44,yes,6,10,0,0,0,0,1,1,3,3,3,UNKNOWN,Stand-Alone,UNKNOWN,0,0,50,0,0,0,Human,3,4,3,yes,
+631,2,Jack,4285,44,yes,0,0,0,0,0,0,1,1,2,3,3,UNKNOWN,Gear,Human,0,0,0,0,0,0,Human,2,2,3,yes,
+632,2,Trey,203,45,yes,0,0,0,0,0,0,1,2,3,3,1,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,2,2,4,yes,
+633,2,David,747,45,yes,1,10,0,0,0,0,0,0,3,3,3,Key,Shooter,Floor,54,100,50,0,0,0,UNKNOWN,0,0,0,yes,swerve drive - good shooter
+634,2,Anon,1495,45,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,4,yes,
+635,2,Cole,219,45,yes,3,10,0,0,0,0,1,1,2,3,3,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,1,1,3,yes,
+636,2,Jack,5895,45,yes,9,9,100,0,0,0,0,0,3,3,3,feild,UNKNOWN,UNKNOWN,6,6,0,0,0,0,UNKNOWN,0,0,0,yes,
+637,2,Adit,4342,45,yes,0,0,0,0,0,0,1,1,3,3,2,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,2,2,3,yes,
+638,2,Connor,223,45,no,2,10,0,0,0,0,0,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,3,yes,
+639,2,David,11,45,yes,0,0,0,0,0,0,0,0,4,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,0,yes,good climb - something about failing in the middle i couldn't read it
+640,2,Trey,5181,46,yes,0,0,0,0,0,0,0,0,3,3,1,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,1,2,3,no,
+641,2,Jack,1712,46,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,Human,0,0,0,0,0,0,Human,4,4,3,yes,Super smooth loading
+642,2,Adit,103,46,yes,0,9,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,yes,great swerve drive - took some time to score - fast gear intake
+643,2,Cole,2458,47,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Floor,2,2,3,yes,
+644,2,Connor,222,47,yes,0,0,0,0,0,0,0,0,4,4,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,5,5,4,yes,
+645,2,Adit,5407,47,yes,0,0,0,0,0,0,1,1,3,4,2,Key,Shooter,UNKNOWN,2,9,0,0,0,0,Floor,4,4,0,yes,"average gear cycles - picked up and droped gears at airship, then scored them"
+646,2,Jack,4575,47,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,yes,Eh
+647,2,Trey,272,47,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,0,0,3,yes,
+648,2,Trey,1218,48,yes,0,0,0,0,0,0,0,1,3,3,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,0,0,3,yes,
+649,2,Jack,1923,48,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,Human,0,0,0,0,0,0,Human,3,3,4,yes,OK
+650,2,Connor,1257,48,yes,0,0,0,0,0,0,0,1,4,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,3,yes,
+651,2,Cole,56,48,yes,0,0,0,0,0,0,1,1,3,3,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,4,4,yes,No shooter utilized
+652,2,Trey,4637,44,yes,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,2,2,3,yes,
+653,2,Cole,25,49,yes,0,0,0,0,0,0,1,1,2,3,3,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,2,3,3,yes,Slow
+654,2,Adit,3637,49,yes,0,0,0,0,0,0,1,1,3,3,2,UNKNOWN,Gear,Human,0,0,0,0,0,0,Human,3,3,0,no,average speed - HP is not the best - HP missed two gears at station
+655,2,Jack,5401,49,yes,0,0,0,0,0,0,1,1,4,3,3,UNKNOWN,UNKNOWN,Human,3,5,0,0,0,0,Human,4,4,4,yes,
+656,2,David,1640,49,no,4,10,0,0,0,0,0,0,4,3,2,feild,Shooter,UNKNOWN,0,0,0,0,0,0,Human,5,5,1,yes,average speed
+657,2,Connor,3314,49,no,7,10,0,0,0,0,0,1,2,3,3,Key,Stand-Alone,UNKNOWN,11,15,0,0,0,0,Human,2,4,3,yes,
+658,2,Adit,834,50,no,0,0,0,0,0,0,0,0,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,FAST! - Fast gear cycles!
+659,2,David,341,50,yes,7,15,0,0,0,0,0,0,5,5,5,UNKNOWN,UNKNOWN,Autoloader,20,40,0,0,0,0,UNKNOWN,3,4,1,yes,10/10
+660,2,Cole,1403,50,no,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,3,3,3,yes,
+661,2,Connor,1676,50,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,3,yes,
+662,2,Trey,3142,50,yes,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,yes,
+663,2,Trey,6226,51,yes,0,0,0,0,0,0,1,1,2,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,0,0,3,yes,
+664,2,David,1495,51,yes,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,1,yes,slow drive
+665,2,Jack,816,51,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,2,2,3,yes,
+666,2,,0,0,no,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,0,0,0,no,
+667,2,Connor,193,51,yes,0,0,0,0,0,0,1,1,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,4,4,3,yes,
+668,2,Adit,219,51,yes,4,10,0,0,0,0,1,1,3,3,2,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,2,2,0,yes,Gear intake at HP station is 50% consistent -  3 secs to line up for hang
+669,2,Cole,486,51,yes,0,0,0,0,0,0,1,1,3,3,4,UNKNOWN,Gear,UNKNOWN,2,6,0,0,0,0,Floor,2,2,3,yes,"gear intake seems wobbly, could lose a gear"
+670,2,Cole,555,52,yes,0,0,0,0,0,0,1,1,3,2,3,UNKNOWN,Gear,Human,0,0,0,0,0,0,Human,2,2,4,yes,No shooter
+671,2,David,1391,52,yes,0,0,0,0,0,0,0,0,4,3,2,UNKNOWN,Gear,Human,0,0,0,0,0,0,Human,4,4,1,yes,"fast robot, had trouble putting gear on peg"
+672,2,Connor,1712,52,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,3,yes,
+673,2,Jack,4285,52,no,0,0,0,0,0,0,0,0,2,3,3,UNKNOWN,Gear,Human,0,0,0,0,0,0,Human,3,3,3,yes,
+674,2,,0,0,yes,0,0,0,0,0,0,0,0,3,3,1,UNKNOWN,Shooter,Floor,0,0,66,0,0,0,UNKNOWN,0,0,3,yes,
+675,2,Adit,4575,52,no,0,10,0,0,0,0,0,0,3,3,2,Key,Gear,Human,0,0,0,0,0,0,Human,2,2,4,yes,Average speed took 15 seconds to climb up with rope
+676,2,Trey,225,52,yes,0,0,0,0,0,0,0,0,3,3,1,UNKNOWN,Shooter,Floor,0,0,66,0,0,0,UNKNOWN,0,0,3,yes,
+677,2,Trey,103,53,yes,0,0,0,0,0,0,1,1,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,no,
+678,2,Adit,2458,53,yes,0,0,0,0,0,0,1,1,2,3,2,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Floor,1,1,0,yes,
+679,2,Connor,102,53,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,yes,
+680,2,Cole,2590,53,yes,18,30,0,0,0,0,0,1,4,4,3,field,UNKNOWN,Floor,0,0,0,0,0,0,Floor,5,5,0,yes,
+681,2,Jack,316,53,yes,0,0,0,0,0,0,1,1,2,3,3,UNKNOWN,Gear,Human,0,0,0,0,0,0,Human,0,0,0,yes,
+682,2,David,4750,54,yes,0,0,0,0,0,0,1,0,4,3,2,UNKNOWN,Gear,UNKNOWN,0,5,0,0,0,0,Human,4,4,0,yes,couldn't load gear bc of defence
+683,2,Cole,2539,54,yes,0,0,0,0,0,0,0,0,2,3,4,UNKNOWN,Defender,Autoloader,0,0,0,0,0,0,Human,3,3,3,no,
+684,2,Connor,203,54,yes,0,0,0,0,0,0,1,1,3,3,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,yes,
+685,2,Adit,1218,54,yes,0,0,0,0,0,0,0,0,2,3,2,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Floor,2,4,3,yes,slow drive - gear scoring was inconsistant
+686,2,Jack,25,54,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,5,5,4,yes,Very good gear bot
+687,2,David,75,54,yes,0,0,0,0,0,0,0,0,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,5,5,2,yes,"Gear stuck under boy, tried side auton"
+688,2,Trey,3929,54,yes,0,0,0,0,0,0,0,0,3,3,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,0,0,4,yes,
+689,2,Cole,4637,55,yes,0,0,0,0,0,0,0,0,3,1,3,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,Floor,2,2,0,no,Unreliable floor pickup
+690,2,Connor,2600,55,yes,0,0,0,0,0,0,0,0,4,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,4,yes,
+691,2,Brianna,1257,55,yes,0,0,0,0,0,0,1,0,3,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,3,3,0,yes,
+692,2,Jack,5420,55,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,OK
+693,2,DAvid,3142,58,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,1,yes,
+694,2,Trey,5401,58,yes,0,0,0,0,0,0,1,0,3,3,1,UNKNOWN,UNKNOWN,Human,0,0,0,0,0,0,Human,2,2,0,yes,
+695,2,Brianna,5181,56,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,2,yes,
+696,2,Trey,1923,56,yes,0,0,0,0,0,0,1,1,2,2,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,0,0,4,no,Lost coms
+697,2,Cole,5407,56,yes,0,0,0,0,0,0,0,1,4,3,2,Key,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,no,
+698,2,Connor,341,56,yes,1,10,0,0,0,0,1,1,5,5,4,UNKNOWN,Stand-Alone,Floor,0,0,0,0,0,0,Human,5,5,4,yes,
+699,2,David,433,56,yes,0,0,0,0,0,0,1,1,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,1,yes,
+700,2,Joe,1403,57,yes,0,0,0,0,0,0,1,1,4,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,UNKNOWN,3,3,4,yes,
+701,2,Connor,1640,57,yes,9,20,0,0,0,0,0,1,3,3,3,UNKNOWN,Stand-Alone,UNKNOWN,3,20,0,0,0,0,Human,4,4,0,yes,
+702,2,David,293,57,yes,0,0,0,0,0,0,1,1,4,3,2,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,2,2,0,no,climber broke - got stuck while intaking
+703,2,Adit,3637,57,yes,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,2,3,3,yes,
+704,2,Cole,1279,57,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,0,no,hard time getting gears
+705,2,Joe,56,58,no,0,0,0,0,0,0,1,1,2,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,yes,
+706,2,Cole,708,58,yes,0,0,0,0,0,0,1,1,4,3,2,UNKNOWN,UNKNOWN,UNKNOWN,0,0,70,0,0,0,Floor,4,4,4,yes,4 kpa
+707,2,jack,747,58,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,yes,
+708,2,Adit,11,58,yes,0,0,0,0,0,0,0,1,4,3,4,UNKNOWN,UNKNOWN,Floor,0,0,0,0,0,0,Human,4,4,0,yes,"note: adit didn't write how many gears, but i can assume based off of the sheet he gave me it was 4/4"
+709,2,connor,222,58,yes,0,0,80,0,0,0,0,1,3,3,3,UNKNOWN,Stand-Alone,UNKNOWN,20,30,0,0,0,0,Human,4,4,4,yes,
+710,2,David,1370,58,yes,0,0,0,0,0,0,0,0,4,3,1,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,3,3,0,yes,slow and wobely
+711,2,Connor,3314,59,no,5,10,0,0,0,0,1,1,2,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,0,no,gear manipulator may have broken
+712,2,cole,1807,59,no,0,0,0,0,0,0,0,1,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,0,yes,no shooter
+713,2,jack,4342,59,yes,0,0,0,0,0,0,1,1,2,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,0,0,0,no,
+714,2,David,223,59,yes,0,0,0,0,0,0,1,1,4,3,3,UNKNOWN,Stand-Alone,UNKNOWN,0,0,0,0,0,0,Human,4,4,0,yes,dat swerve tho - fast with gears
+715,2,adit,303,59,yes,7,7,0,0,0,0,1,1,3,4,3,Key,Shooter,Floor,0,0,0,0,0,0,Human,2,2,4,no,good gear cycles
+716,2,jack,3974,60,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,Human,0,0,0,0,0,0,Human,3,3,0,no,meh robot
+717,2,David,2729,60,yes,0,0,0,0,0,0,0,0,5,4,3,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,4,5,1,yes,fast
+718,2,Cole,2607,60,yes,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,0,no,
+719,2,Connor,365,60,yes,8,10,0,0,0,0,1,1,4,3,4,UNKNOWN,Stand-Alone,UNKNOWN,0,0,0,0,0,0,Human,5,5,4,yes,
+720,2,Adit,834,60,yes,0,0,0,0,0,0,1,1,3,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,4,yes,good bot
+721,2,trey,5181,61,yes,0,0,0,0,0,0,1,1,3,3,1,UNKNOWN,Defender,Floor,0,0,0,0,0,0,Human,2,2,4,yes,
+722,2,adit,5420,61,no,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,3,2,yes,
+723,2,Leah,1923,61,yes,0,0,0,0,0,0,1,1,4,3,2,UNKNOWN,Shooter,UNKNOWN,0,0,0,0,0,0,Human,4,4,4,yes,7
+724,2,Cole,1495,61,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,Autoloader,0,0,0,0,0,0,Human,1,3,0,no,didn't shoot
+725,2,David Evans,3142,61,yes,0,0,0,0,0,0,0,0,2,3,1,UNKNOWN,Shooter,UNKNOWN,0,0,0,0,0,0,Human,0,1,0,no,Driver can't get gear on peg. No go
+726,2,David,1712,62,yes,0,0,0,0,0,0,0,0,3,2,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,0,yes,
+727,2,Cole,219,62,no,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Shooter,Floor,0,0,0,0,0,0,Human,2,3,0,yes,No shooter
+728,2,Trey,2590,62,yes,11,25,0,0,0,0,0,0,3,3,1,UNKNOWN,Shooter,UNKNOWN,0,0,0,0,0,0,Human,2,3,4,yes,
+729,2,Leah,3929,62,yes,0,0,0,0,0,0,0,0,4,3,3,UNKNOWN,Shooter,Human,0,0,0,0,0,0,Human,5,5,0,yes,
+730,2,Adit,1640,62,yes,1,10,0,0,0,0,0,0,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,3,yes,had some trouble
+731,2,Jack,5407,62,no,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,0,yes,Avoid mostly
+732,2,Jack,1391,63,yes,0,0,0,0,0,0,0,0,2,2,2,UNKNOWN,Shooter,UNKNOWN,0,0,0,0,0,0,Human,1,2,3,yes,Slow
+733,2,Trey,3637,63,yes,0,0,0,0,0,0,1,1,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,4,yes,
+734,2,David,708,63,no,0,0,0,0,0,0,1,1,4,4,1,Key,Shooter,Floor,0,0,0,0,0,0,Human,4,4,3,yes,
+735,2,Adit,1218,63,no,2,10,0,0,0,0,0,0,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,2,3,3,yes,gear is sketch
+736,2,leah,433,63,yes,0,0,0,0,0,0,0,1,4,4,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,3,0,yes,
+737,2,cole,203,63,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,0,no,
+738,2,trey,1676,64,yes,0,0,0,0,0,0,1,1,3,3,2,UNKNOWN,Shooter,UNKNOWN,0,0,0,0,0,0,Human,1,1,3,yes,
+739,2,Leah,272,64,yes,0,0,0,0,0,0,1,1,4,3,2,UNKNOWN,Shooter,UNKNOWN,0,0,0,0,0,0,Floor,4,4,3,yes,7
+740,2,adit,3314,64,yes,9,10,0,0,0,0,0,0,4,3,3,UNKNOWN,Gear,Floor,0,0,70,0,0,0,Human,1,1,0,no,one of the best shooters
+741,2,Jack,303,64,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Shooter,UNKNOWN,0,0,0,0,0,0,UNKNOWN,3,3,3,yes,3
+742,2,David,6226,64,yes,0,0,0,0,0,0,0,0,4,3,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,0,no,"attempted to climb, but didn't have enough time"
+743,2,Cole,222,64,yes,0,0,0,0,0,0,0,1,4,3,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,3,3,3,no,no shooter?
+744,2,David,4342,65,no,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,0,yes,broke down and didn't do anything for a lot of the match
+745,2,Leah,486,65,no,0,0,0,0,0,0,0,0,4,3,2,UNKNOWN,Shooter,UNKNOWN,0,0,0,0,0,0,UNKNOWN,4,4,4,yes,
+746,2,adit,103,65,yes,0,9,0,0,0,0,1,1,5,5,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,4,4,3,no,everything is really good (note: I'm paraphrasing bit that was pretty much what he said)
+747,2,Trey,1257,65,yes,0,0,0,0,0,0,1,0,4,3,2,UNKNOWN,Gear,UNKNOWN,0,0,75,0,0,0,Human,0,0,4,yes,
+748,2,Jack,293,65,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Shooter,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,yes,
+749,2,Cole,834,65,yes,0,0,0,0,0,0,0,1,4,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,0,no,not very fast cycles
+750,2,brianna,102,66,yes,0,0,0,0,0,0,1,1,2,4,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,0,yes,gets pushed easily
+751,2,Cole,2539,66,no,0,0,0,0,0,0,0,0,3,3,3,Key,Shooter,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,yes,
+752,2,Adit,11,66,yes,0,0,0,0,0,0,0,0,4,4,2,UNKNOWN,Shooter,UNKNOWN,0,0,0,0,0,0,Human,5,5,4,yes,
+753,2,Connor,365,66,yes,5,10,0,0,0,0,1,1,4,3,3,UNKNOWN,Stand-Alone,UNKNOWN,12,28,0,0,0,0,Human,3,3,4,yes,
+754,2,David,2600,66,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,UNKNOWN,4,4,1,no,
+755,2,Trey,5895,66,yes,8,10,0,0,0,0,1,1,4,3,2,UNKNOWN,Shooter,Human,15,25,0,0,0,0,Human,2,2,4,yes,
+756,2,Seany boy,341,67,yes,8,20,0,0,0,0,0,0,5,5,5,UNKNOWN,Shooter,UNKNOWN,5,31,0,0,0,0,Human,4,4,0,yes,
+757,2,David,4285,67,yes,0,0,0,0,0,0,0,0,4,3,2,UNKNOWN,UNKNOWN,Human,0,0,0,0,0,0,Human,4,4,1,no,
+758,2,Brianna,2729,67,yes,0,0,0,0,0,0,1,1,3,5,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,0,yes,
+759,2,connor,4637,67,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,3,4,yes,
+760,2,Adit,4575,67,yes,0,0,0,0,0,0,0,0,4,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,5,5,0,no,good gear cycles
+761,2,Max,816,68,yes,0,0,0,0,0,0,1,1,2,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,
+762,2,Brianna,223,68,yes,0,0,0,0,0,0,0,0,3,3,3,Key,Shooter,Floor,0,0,40,0,0,0,Human,2,3,0,yes,
+763,2,Adit,2458,68,yes,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,2,4,3,yes,
+764,2,Trey,1279,67,yes,0,0,0,0,0,0,1,2,3,3,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,0,yes,
+765,2,David,56,68,yes,0,0,0,0,0,0,0,0,4,3,2,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,4,4,0,yes,trouble loading
+766,2,Connor,1370,68,yes,0,0,0,0,0,0,0,1,2,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,
+767,2,Trey,2607,69,yes,0,0,0,0,0,0,0,0,4,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,5,5,4,yes,
+768,2,grace,555,69,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,0,yes,
+769,2,Connor,75,69,yes,0,0,0,0,0,0,0,0,4,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Floor,5,5,4,yes,
+770,2,Brianna,1403,69,no,0,0,0,0,0,0,0,0,3,3,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,3,1,yes,"Yellow card, throwing gear"
+771,2,seany boy,316,69,no,0,0,0,0,0,0,0,0,3,4,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,3,3,3,yes,
+772,2,Kevin,5401,69,yes,0,0,0,0,0,0,0,0,3,3,3,Key,Shooter,UNKNOWN,33,60,0,0,0,0,Human,2,3,0,yes,
+773,2,Grace,25,70,yes,0,0,0,0,0,0,1,1,3,5,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,4,yes,
+774,2,Kevin,3974,70,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,4,4,4,no,
+775,2,Sean,1807,70,yes,0,0,0,0,0,0,0,1,3,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,yes,
+776,2,Connor,225,70,yes,21,33,0,0,0,0,0,0,4,3,3,UNKNOWN,Stand-Alone,Floor,57,90,0,0,0,0,Human,3,3,3,yes,
+777,2,Trey H.,193,70,yes,0,0,0,0,0,0,1,1,3,3,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,2,2,4,yes,
+778,2,Brianna R.,747,70,yes,0,0,0,0,0,0,0,0,4,4,3,Key,Stand-Alone,Floor,0,0,75,0,0,0,Human,3,3,0,no,Great shooter
+779,2,Grace,1712,71,yes,0,0,0,0,0,0,1,1,5,5,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,no,
+780,2,Brianna R.,5181,71,yes,0,0,0,0,0,0,0,0,2,3,3,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,2,2,1,yes,Had issues catching hanger; moved around aimlessly for a while (?)
+781,2,Sean,486,71,no,0,0,0,0,0,0,0,1,3,3,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,3,3,4,no,
+782,2,Trey,2600,71,yes,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,3,no,
+783,2,Kevin,272,71,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,5,5,4,yes,
+784,2,Leah,1640,71,yes,0,0,10,0,0,0,0,0,4,3,3,UNKNOWN,Stand-Alone,Autoloader,0,0,0,0,0,0,Human,2,4,3,yes,
+785,2,Trey,834,72,yes,0,0,0,0,0,0,1,1,4,3,2,UNKNOWN,Gear,Human,0,0,0,0,0,0,UNKNOWN,4,4,4,yes,
+786,2,Brianna,222,72,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,4,4,4,yes,
+787,2,Leah,2539,72,yes,2,3,0,0,0,0,0,1,4,4,2,UNKNOWN,Stand-Alone,UNKNOWN,0,0,0,0,0,0,Human,3,5,4,yes,
+788,2,Kevin,2590,72,yes,15,25,0,0,0,0,0,1,4,3,3,UNKNOWN,Stand-Alone,Floor,0,0,0,0,0,0,Floor,2,3,3,yes,
+789,2,Grace,219,72,yes,0,0,0,0,0,0,1,1,4,5,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,
+790,2,Shawn,2729,72,yes,0,0,0,0,0,0,0,0,4,4,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,3,yes,
+791,2,Trey,4575,73,yes,0,0,0,0,0,0,0,0,4,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,no,
+792,2,Brianna,3142,73,yes,0,0,0,0,0,0,0,0,3,2,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,3,3,yes,Has difficulty placing gear; sub-par human player; had difficulty catching onto climber
+793,2,Trey,4575,73,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,yes,
+794,2,Kevin S.,3929,73,yes,0,0,0,0,0,0,1,0,3,3,2,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,3,4,3,yes,
+795,2,Sean,103,73,yes,0,0,0,0,0,0,1,1,5,5,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,5,5,4,no,
+796,2,Grace,5895,73,yes,0,0,0,0,0,0,0,0,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,0,yes,
+797,2,Kevin,1923,74,yes,0,0,0,0,0,0,1,1,3,3,2,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,3,4,4,yes,
+798,2,Leah,4285,74,yes,0,0,0,0,0,0,1,1,3,3,2,UNKNOWN,Stand-Alone,UNKNOWN,0,0,0,0,0,0,Human,4,4,3,yes,Could fall over
+799,2,Sean,5401,74,yes,8,10,0,0,0,0,0,1,4,3,4,UNKNOWN,Stand-Alone,Autoloader,25,32,0,0,0,0,Human,3,4,4,yes,
+800,2,Grace,203,74,yes,0,0,0,0,0,0,1,1,5,4,1,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,3,3,4,yes,
+801,2,Brianna,11,74,yes,0,0,0,0,0,0,0,0,4,3,3,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,2,4,3,no,
+802,2,Trey,293,74,yes,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,Stand-Alone,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,yes,
+803,2,Leah,3637,75,yes,0,0,0,0,0,0,1,1,4,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,3,3,4,yes,
+804,2,Trey,708,75,yes,8,10,80,0,0,0,1,2,3,3,3,Key,Stand-Alone,Floor,13,27,0,0,0,0,Floor,3,3,4,yes,
+805,2,Sean,316,75,yes,0,0,0,0,0,0,0,0,5,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,3,3,2,yes,
+806,2,Kevin,5407,75,yes,0,0,0,0,0,0,0,0,2,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,3,3,2,yes,
+807,2,Brianna,193,75,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Floor,4,4,4,no,Fast cycles
+808,2,Grace,6226,75,yes,0,0,0,0,0,0,0,0,3,4,4,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,Human,0,2,2,yes,"Drove around randomly for first half of match, got a gear, dropped it in transportation"
+809,2,Grace,747,76,no,0,0,0,0,0,0,0,0,5,3,3,UNKNOWN,Stand-Alone,UNKNOWN,0,0,80,0,0,0,Floor,5,5,3,yes,
+810,2,Trey,75,76,yes,0,0,0,0,0,0,1,1,3,3,3,Close Launchpad,Stand-Alone,Floor,13,30,0,0,0,0,UNKNOWN,2,2,3,yes,
+811,2,Leah,4637,76,yes,0,0,0,0,0,0,0,1,4,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,3,3,3,yes,
+812,2,Sean,1403,76,yes,0,0,0,0,0,0,0,0,4,4,3,UNKNOWN,Gear,Human,0,0,0,0,0,0,Human,3,3,3,yes,
+813,2,Kevin,223,76,yes,0,0,0,0,0,0,0,0,2,3,2,UNKNOWN,Stand-Alone,UNKNOWN,0,0,0,0,0,0,Human,2,2,0,yes,
+814,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+815,2,Brianna,555,77,yes,0,0,0,0,0,0,1,1,4,5,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,4,yes,
+816,2,Leah,3974,77,yes,0,0,0,0,0,0,1,1,4,4,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,4,4,4,yes,
+817,2,Sean,816,77,yes,0,0,0,0,0,0,1,1,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,yes,
+818,2,Grace,25,77,yes,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,3,3,4,yes,
+819,2,Trey,341,77,yes,0,0,0,0,0,0,0,1,5,5,5,Close Launchpad,Stand-Alone,Floor,0,0,0,0,0,0,Human,3,5,4,yes,
+820,2,Kevin,4342,77,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Stand-Alone,Floor,0,0,0,0,0,0,Human,4,4,4,yes,
+821,2,Brianna,1495,78,yes,0,0,0,0,0,0,1,1,2,5,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,2,3,yes,
+822,2,Trey,1370,78,yes,0,0,0,0,0,0,1,1,3,3,2,Key,Stand-Alone,Floor,2,4,50,0,0,0,Human,2,2,3,yes,
+823,2,Leah,1391,78,yes,5,20,0,0,0,0,1,1,4,4,2,Close Launchpad,Stand-Alone,Autoloader,0,0,0,0,0,0,Floor,5,5,3,no,
+824,2,Kevin,1676,78,yes,0,0,0,0,0,0,1,1,2,3,3,UNKNOWN,Stand-Alone,UNKNOWN,0,0,0,0,0,0,Human,2,2,4,yes,
+825,2,Grace,1279,78,yes,0,0,0,0,0,0,0,1,5,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,4,yes,
+826,2,Sean,1807,78,yes,0,0,0,0,0,0,1,1,4,4,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,4,yes,
+827,2,Leah,2607,79,yes,0,0,0,0,0,0,0,0,4,4,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,5,5,4,yes,
+828,2,Brianna,5420,79,yes,0,0,0,0,0,0,0,0,4,4,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,4,yes,
+829,2,,0,0,yes,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,Gear,Floor,0,0,0,0,0,0,UNKNOWN,4,4,4,yes,Average gear cycle time
+830,2,Grace,56,79,yes,0,0,0,0,0,0,0,0,5,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,4,0,yes,Gear can easily be knocked out by defenders
+831,2,Sean,3314,78,yes,0,0,0,0,0,0,1,1,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,no,
+832,2,Cole,102,79,yes,0,0,0,0,0,0,0,0,4,3,3,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,4,4,4,yes,
+833,2,Leah,303,80,yes,0,0,0,0,0,0,1,1,4,4,4,UNKNOWN,Gear,Floor,3,10,0,0,0,0,Human,3,3,4,yes,
+834,2,Adit,433,80,yes,0,0,0,0,0,0,1,1,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,yes,Lost communication 1/3 into match; regained comm. 15 secs later; HP is average (some miscommunication); lost comm. 2/3 way into match & regained comm. 2 secs later
+835,2,Brianna,4750,80,yes,0,0,0,0,0,0,0,1,4,4,4,Key,Gear,Floor,3,5,0,0,0,0,Human,4,4,4,yes,
+836,2,Sean,1257,80,yes,0,0,0,0,0,0,1,1,5,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,5,5,3,yes,
+837,2,Cole,365,80,yes,8,10,80,0,0,0,1,1,4,3,3,Key,Stand-Alone,Autoloader,0,0,0,0,0,0,Human,3,5,4,yes,Had trouble reliably putting gears on
+838,2,Grace,2458,80,yes,0,0,0,0,0,0,0,0,5,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,5,5,0,yes,Fast cycle time; started with a gear in auto but did not use it
+839,2,Adit,4285,81,yes,0,0,0,0,0,0,1,1,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,"Above average speed, quick gear intake"
+840,2,Cole,222,81,yes,0,0,0,0,0,0,1,2,4,3,3,UNKNOWN,Stand-Alone,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,yes,
+841,2,Sean,75,81,no,0,0,0,0,0,0,0,1,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,4,4,3,yes,
+842,2,Grace,834,81,yes,0,0,0,0,0,0,0,1,4,3,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,8,3,yes,
+843,2,Leah,708,81,yes,3,10,30,0,0,0,1,1,4,4,2,Key,Stand-Alone,Autoloader,9,20,0,0,0,0,Floor,3,3,4,yes,Shooting position also 'field'
+844,2,Brianna,5181,81,yes,0,0,0,0,0,0,1,1,3,3,4,UNKNOWN,Defender,Floor,0,0,0,0,0,0,Human,3,3,4,yes,
+845,2,Adit,5407,82,yes,0,0,0,0,0,0,1,1,3,3,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,2,3,4,yes,Side gear auto worked; average gear cycle speed
+846,2,Leah,25,82,yes,0,0,0,0,0,0,1,1,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,
+847,2,Sean,1923,82,yes,0,0,0,0,0,0,1,1,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,4,yes,
+848,2,Brianna,1403,82,yes,0,0,0,0,0,0,1,1,4,3,4,UNKNOWN,Defender,Floor,0,0,0,0,0,0,Human,0,0,3,yes,Played defense entire match
+849,2,Grace,223,82,yes,0,0,0,0,0,0,1,1,4,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,yes,
+850,2,David,2729,82,yes,0,0,0,0,0,0,1,0,4,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,3,3,1,yes,Very slow climb; fast loop
+851,2,Adit,6226,83,yes,0,0,0,0,0,0,0,0,3,3,4,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,Human,0,1,3,yes,
+852,2,Cole,103,83,yes,1,7,0,0,0,0,1,1,4,4,4,Far Launchpad,Stand-Alone,Autoloader,0,0,0,0,0,0,Human,2,2,2,yes,Cannot get gears when there are balls in front of the gears
+853,2,Sean,1640,83,no,0,0,0,0,0,0,0,0,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,5,5,3,yes,
+854,2,Leah,1370,83,yes,0,0,0,0,0,0,0,1,2,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,2,2,yes,Balls  are under the robot
+855,2,Grace,225,83,yes,23,26,0,0,0,0,0,0,5,4,3,Close Launchpad,Stand-Alone,Autoloader,51,55,0,0,0,0,Human,2,3,3,yes,
+856,2,Brianna,2539,83,yes,0,0,0,0,0,0,1,1,4,4,4,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,0,0,2,yes,Human player missed 3 times; okay defense
+857,2,Brianna,3974,84,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,7,7,3,no,
+858,2,Leah,1495,84,yes,0,0,0,0,0,0,0,0,4,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,
+859,2,Cole,1218,84,no,5,10,0,0,0,0,0,0,4,3,4,Far Launchpad,Stand-Alone,Floor,0,0,0,0,0,0,Floor,0,0,3,no,Disabled during climb; handed off 3 gears to 3974; lost comms. near end of match
+860,2,Grace,1807,84,yes,0,0,0,0,0,0,0,0,5,4,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,6,6,3,yes,
+861,2,Adit,293,84,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,yes,Activated autoloader to impede the other alliance's progress; took some time to score gear; took 3 seconds to line up [idk what word this is]
+862,2,Sean,3142,84,yes,0,0,0,0,0,0,0,1,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,3,3,yes,
+863,2,Adit,3929,85,yes,0,0,0,0,0,0,0,1,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,yes,
+864,2,Brianna,219,85,yes,0,0,0,0,0,0,1,1,4,4,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,yes,Slow hang
+865,2,Leah,4637,85,yes,0,0,0,0,0,0,1,1,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,5,5,4,yes,
+866,2,Grace,272,85,yes,0,0,0,0,0,0,1,1,5,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,3,3,3,yes,
+867,2,Cole,303,85,yes,0,0,0,0,0,0,1,1,4,3,3,Key,Gear,Autoloader,0,0,0,0,0,0,Human,3,3,4,yes,
+868,2,Brianna,2590,86,yes,0,0,0,0,0,0,1,1,3,5,3,UNKNOWN,Gear,Floor,5,13,0,0,0,0,Floor,4,4,4,yes,Fast cycles
+869,2,Grace,816,86,yes,0,0,0,0,0,0,0,1,5,3,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,no,
+870,2,Leah,5401,86,yes,0,0,0,0,0,0,0,0,4,2,2,Key,Shooter,Floor,0,0,50,0,0,0,Human,5,5,4,yes,
+871,2,Adit,555,86,yes,0,0,0,0,0,0,0,1,2,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,4,3,yes,
+872,2,Cole,433,86,yes,0,0,0,0,0,0,1,1,4,2,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,3,yes,Died for a brief period after collision died again and died for a third time
+873,2,Trey,747,86,yes,0,0,0,0,0,0,1,1,3,2,3,UNKNOWN,Stand-Alone,Autoloader,0,0,0,0,0,0,Human,3,3,3,yes,
+874,2,Grace,1257,87,yes,0,0,0,0,0,0,1,0,5,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,4,3,yes,
+875,2,Ethan,486,87,no,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,4,4,4,yes,
+876,2,Trey,1279,86,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,4,yes,
+877,2,Adit,56,87,yes,0,0,0,0,0,0,0,0,3,3,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,0,1,3,yes,Switched to def 1/3 way into the match
+878,2,Cole,203,87,yes,0,0,0,0,0,0,0,1,2,3,3,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,3,3,4,no,
+879,2,Brianna,316,87,yes,0,0,0,0,0,0,1,1,4,4,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,3,3,4,yes,
+880,2,Brianna,3637,88,yes,0,0,0,0,0,0,1,1,4,4,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,yes,
+881,2,Grace,4575,88,no,0,0,80,0,0,0,0,0,3,3,3,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,Human,1,2,4,yes,Gear got stuck
+882,2,Trey,4342,88,yes,0,0,0,0,0,0,1,1,3,3,2,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,2,2,4,yes,
+883,2,Ethan,365,88,yes,0,0,0,0,0,0,1,1,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,yes,
+884,2,David,2607,88,yes,0,0,0,0,0,0,0,1,4,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,yes,
+885,2,Adit,102,88,yes,0,0,0,0,0,0,0,1,2,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,0,1,3,no,Lack of communication between station and HP slow hang
+886,2,Ethan,11,89,yes,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,3,4,3,yes,
+887,2,David,4750,89,yes,0,0,0,0,0,0,0,0,4,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,0,yes,
+888,2,Adit,341,89,yes,5,20,0,0,0,0,0,0,5,5,3,UNKNOWN,Stand-Alone,Floor,0,0,0,9,17,0,Human,4,4,3,yes,
+889,2,Brianna,3314,89,yes,3,10,0,0,0,0,0,0,4,4,4,UNKNOWN,Gear,UNKNOWN,0,0,25,0,0,0,UNKNOWN,2,2,3,yes,
+890,2,Trey,1391,89,yes,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,yes,
+891,2,Grace,2600,89,yes,0,0,0,0,0,0,0,0,2,3,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,3,3,yes,
+892,2,,0,0,yes,0,0,0,0,0,0,0,0,1,1,1,UNKNOWN,Gear,Human,0,0,0,0,0,0,Human,0,0,0,yes,
+893,2,Brianna,5420,90,yes,0,0,0,0,0,0,0,1,4,4,4,UNKNOWN,Gear,Human,0,0,0,0,0,0,Human,2,2,3,yes,
+894,2,Adit,1712,90,yes,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,4,yes,
+895,2,David,2458,90,yes,0,0,0,0,0,0,1,1,3,3,2,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,Floor,1,1,3,yes,
+896,2,Trey,193,90,yes,0,0,0,0,0,0,0,1,3,3,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,3,4,yes,
+897,2,Ethan,5895,90,yes,6,6,0,0,0,0,0,1,3,3,3,Key,Stand-Alone,Human,0,0,0,0,0,0,Human,1,1,3,yes,
+898,2,Grace,1676,90,yes,0,0,0,0,0,0,1,1,5,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,yes,
+899,2,Grace,816,91,yes,0,0,0,0,0,0,1,0,4,3,4,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,Human,3,4,0,no,Rope snapped
+900,2,Trey,103,91,yes,7,10,0,0,0,0,0,0,4,3,2,Far Launchpad,Shooter,Floor,0,0,0,0,0,0,Human,2,2,3,yes,
+901,2,Adit,5407,91,yes,0,0,0,0,0,0,1,2,2,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,1,1,3,no,1218 shut 5407 down with their defense
+902,2,Brianna,4285,91,yes,0,0,0,0,0,0,1,1,3,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,yes,
+903,2,Ethan,1218,91,yes,0,0,0,0,0,0,0,1,5,3,5,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,Floor,1,1,3,yes,
+904,2,David,747,91,yes,3,10,0,0,0,0,0,1,4,3,3,Key,Stand-Alone,UNKNOWN,16,60,0,0,0,0,Human,3,3,3,yes,
+905,2,Grace,555,92,yes,0,0,0,0,0,0,0,0,4,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,
+906,2,David,2539,92,yes,0,0,0,0,0,0,0,1,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,yes,
+907,2,Adit,708,92,no,0,0,0,0,0,0,0,0,4,3,2,UNKNOWN,Gear,Floor,0,0,80,0,0,0,Floor,4,5,3,yes,
+908,2,Cole,1495,92,yes,0,0,0,0,0,0,0,0,2,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,3,3,no,Top heavy
+909,2,Ethan,303,92,yes,0,0,0,0,0,0,1,1,3,3,3,Key,Stand-Alone,Floor,6,9,0,0,0,0,Human,4,4,4,yes,
+910,2,Brianna,1257,93,yes,0,0,0,0,0,0,1,1,5,4,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,yes,
+911,2,Grace,3929,93,yes,0,0,0,0,0,0,0,1,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,4,3,yes,
+912,2,Ethan,102,93,yes,0,0,0,0,0,0,0,1,4,3,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,4,4,4,yes,Quick cycles
+913,2,Adit,5181,93,yes,0,0,0,0,0,0,1,1,3,4,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,no,
+914,2,Trey,6226,93,yes,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,yes,
+915,2,David,5401,93,yes,4,4,0,0,0,0,0,0,4,3,3,Key,Stand-Alone,Autoloader,22,35,0,0,0,0,Human,3,3,3,no,Very fast but broke down
+916,2,Brianna,222,94,yes,0,0,0,0,0,0,1,1,3,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,4,yes,
+917,2,Ethan,2600,94,yes,0,0,0,0,0,0,0,1,2,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,4,4,4,yes,
+918,2,Trey,341,94,yes,2,10,0,0,0,0,0,1,5,5,5,Close Launchpad,Stand-Alone,Floor,0,0,0,0,0,0,Human,4,4,4,yes,
+919,2,David,316,94,yes,0,0,0,0,0,0,1,0,4,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,1,yes,
+920,2,Adit,293,94,yes,0,0,0,0,0,0,1,1,4,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,4,no,
+921,2,Grace,433,94,yes,0,0,0,0,0,0,1,1,5,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,4,no,
+922,2,Ethan C,2729,95,yes,0,0,0,0,0,0,1,1,2,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,4,yes,could have done 5 gears but all rotors were spinning
+923,2,Jack S,225,95,yes,10,10,100,0,0,0,0,0,4,4,4,UNKNOWN,Shooter,UNKNOWN,16,20,80,0,0,0,UNKNOWN,4,4,4,yes,GOOD
+924,2,Sanjna,2458,95,no,0,0,0,0,0,0,0,0,4,3,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,2,2,4,yes,tried to score a gear during auton but didnt get it
+925,2,Joseph,3637,95,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,2,3,4,yes,climb = 4-5 secs / can pick up gear even if dropped
+926,2,Sanjit,11,95,no,0,0,0,0,0,0,0,0,5,1,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,7,7,0,no,the pilor gorgot to put the rope down for them..
+927,2,Ethan,2590,96,yes,0,0,0,0,0,0,0,1,2,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,4,yes,slow robot
+928,2,Jack,1676,96,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,0,no,they lost it gg
+929,2,Jack,1712,97,no,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,0,yes,
+930,2,Ethan,5420,97,yes,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,4,4,4,yes,11 sec hang -
+931,2,Jason,75,97,no,0,0,0,0,0,0,1,1,5,5,5,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,5,5,4,yes,soooo good
+932,2,Jason,203,96,yes,0,0,0,0,0,0,0,1,5,5,4,UNKNOWN,Gear,Autoloader,0,0,0,0,0,0,Human,5,5,4,yes,4 sec climb - so fast / smooth with gear
+933,2,Jason,486,95,no,0,0,0,0,0,0,1,1,4,3,3,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Floor,3,3,4,no,stable gear manip. / tried to hang but didnt go all the way up
+934,2,Sanjit,1370,97,no,0,0,0,0,0,0,0,0,2,4,1,Key,Stand-Alone,Autoloader,0,0,20,0,0,0,Human,2,2,2,yes,driver seems confused
+935,2,Joseph,25,96,yes,0,0,0,0,0,0,1,1,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,4,3,yes,4 sec hang
+936,2,Joseph,3974,97,yes,0,0,0,0,0,0,1,1,5,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,5,4,yes,2 sec hang - nice drive system / very effective gear
+937,2,Ethan,56,98,yes,0,0,0,0,0,0,1,1,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,really fast / not sure if they got more than 3 gears
+938,2,Jack,4637,98,yes,0,0,0,0,0,0,0,0,2,2,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,
+939,2,Sanjna,1807,98,yes,0,0,0,0,0,0,1,1,3,3,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,2,3,yes,13 sec climb
+940,2,Jason,1403,98,no,0,0,0,0,0,0,0,0,5,4,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,3,no,stopped in the middle of the match
+941,2,Sanjit,193,98,yes,0,0,0,0,0,0,1,1,4,5,2,UNKNOWN,Gear,Floor,0,0,0,0,0,0,UNKNOWN,2,2,3,yes,7 sec climb - nice gear system
+942,2,Joseph,1391,98,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,4,4,3,no,
+943,2,Sanjna,4342,97,no,0,0,0,0,0,0,1,1,4,4,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,4,yes,7 sec climb
+944,2,Sanjna,272,96,no,0,0,0,0,0,0,1,1,2,4,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,2,2,3,yes,6 sec climb - gets easily psyched out by weak defense
+945,2,Jack,5895,99,yes,22,22,100,0,0,0,0,0,3,4,4,UNKNOWN,Shooter,Human,0,0,0,0,0,0,Human,1,1,3,yes,stopped mid match
+946,2,Ethan,1923,99,yes,0,0,0,0,0,0,1,1,3,3,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,yes,played a lot of defense
+947,2,Sanjit,3314,99,yes,0,0,10,0,0,0,0,0,4,3,4,airship and field,Gear,Floor,0,0,0,0,0,0,Human,2,2,4,yes,1 second climb
+948,2,Joseph,1640,99,no,2,8,25,0,0,0,1,1,4,3,3,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,2,2,4,yes,4 sec climb - 25 penalty points
+949,2,,4575,99,no,5,7,0,0,0,0,0,0,5,3,3,UNKNOWN,Stand-Alone,Autoloader,2,9,20,0,0,0,Human,1,1,3,yes,1-2 sec climb
+950,2,Sanjna,834,99,yes,0,0,0,0,0,0,0,0,3,3,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,yes,5 sec climb
+951,2,Ethan,1279,100,no,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,4,yes,
+952,2,Jack,365,100,yes,3,5,60,0,0,0,0,0,3,3,3,UNKNOWN,Gear,Human,0,0,0,0,0,0,Human,3,3,4,yes,
+953,2,Sanjit,223,100,no,0,0,10,0,0,0,0,1,5,5,5,UNKNOWN,Gear,Human,0,0,0,0,0,0,Human,4,4,4,no,climber broke
+954,2,Joseph,2607,100,yes,0,0,0,0,0,0,1,1,4,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,5,5,4,yes,4 sec hang - can pick up gears well
+955,2,Sanjna,219,100,yes,0,0,35,0,0,0,0,0,2,3,1,Key,Gear,Floor,0,0,50,0,0,0,Human,1,1,4,yes,7 sec climb -
+956,2,Jason,3142,100,yes,0,0,0,0,0,0,0,0,5,5,5,UNKNOWN,Gear,Human,0,0,0,0,0,0,UNKNOWN,4,4,4,yes,3 sec climb
+957,2,Ethan,486,101,yes,0,0,0,0,0,0,0,0,2,2,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,4,4,3,no,
+958,2,Jack,1218,101,yes,5,10,50,0,0,0,0,0,3,3,3,UNKNOWN,Gear,Human,0,0,0,0,0,0,Human,2,2,3,no,Defense God
+959,2,Sanjit,341,101,yes,9,15,0,0,0,0,0,1,4,4,3,Close Launchpad,Shooter,Floor,0,0,90,0,0,0,Human,1,2,3,yes,seemed lost when about to shoot
+960,2,Joseph,303,101,yes,4,5,80,0,0,0,1,1,3,3,3,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,3,3,3,yes,
+961,2,Jason,102,101,no,0,0,0,0,0,0,0,0,4,3,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,no,
+962,2,Sanjna,222,101,yes,0,0,0,0,0,0,0,0,3,3,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,3,yes,5 sec climb
+963,2,Ethan,5181,102,yes,0,0,0,0,0,0,1,1,2,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,1,1,2,yes,BAD HP
+964,2,Jack,5420,102,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,
+965,2,Jack,3637,103,yes,0,0,0,0,0,0,0,0,2,2,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,0,0,2,yes,WOW BAD
+966,2,Ethan,3929,103,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,3,4,3,yes,
+967,2,sanjina,1257,104,yes,0,0,0,0,0,0,1,0,4,3,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,yes,
+968,2,Sanjina,816,103,yes,0,0,0,0,0,0,0,0,4,3,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,2,yes,
+969,2,Jason,1370,104,no,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,Shooter,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,0,yes,doesn't do anything
+970,2,jason,1807,103,no,0,0,0,0,0,0,1,1,5,5,5,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,0,yes,"really fast, stable"
+971,2,Jason,4342,102,no,0,0,0,0,0,0,0,0,4,4,4,Key,Shooter,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,0,no,no impact throughout the match
+972,2,Josph,272,104,yes,8,10,0,0,0,0,0,0,3,3,3,UNKNOWN,Shooter,UNKNOWN,15,20,0,0,0,0,Floor,3,3,4,yes,
+973,2,Sanjit,708,104,yes,0,0,0,0,0,0,0,1,5,4,4,UNKNOWN,Shooter,Floor,12,15,0,0,0,0,Floor,2,2,4,yes,
+974,2,Sanjit,11,103,no,0,0,0,0,0,0,0,1,5,4,4,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,Human,4,5,0,yes,slow climb
+975,2,Josph,2590,103,yes,2,40,0,0,0,0,0,1,3,3,3,Key,Shooter,UNKNOWN,28,40,0,0,0,0,Human,2,2,4,no,
+976,2,Joseph,747,102,yes,5,7,0,0,0,0,1,1,3,3,3,UNKNOWN,Shooter,Floor,26,40,0,0,0,0,UNKNOWN,2,2,3,yes,
+977,2,Sanjit,5407,102,no,0,0,0,0,0,0,0,0,3,3,4,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,yes,
+978,2,Ethan,225,104,yes,0,8,0,0,0,0,0,0,4,3,4,UNKNOWN,Shooter,Floor,0,0,60,0,0,0,UNKNOWN,2,2,3,yes,
+979,2,Jack,5895,104,yes,32,40,0,0,0,0,0,0,3,4,4,UNKNOWN,Shooter,Autoloader,12,15,0,0,0,0,UNKNOWN,0,0,3,yes,aimless driveing'
+980,2,Cole,1923,105,yes,0,0,0,0,0,0,1,1,4,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,5,4,yes,really easy time loading
+981,2,Joseph,1279,105,yes,0,0,0,0,0,0,1,1,2,2,2,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,2,2,0,no,
+982,2,Connor,193,105,yes,0,0,0,0,0,0,0,0,4,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,6,6,0,yes,
+983,2,Ava,293,105,yes,0,0,0,0,0,0,0,0,4,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,0,yes,
+984,2,Davis,2458,105,no,0,0,0,0,0,0,0,0,2,3,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,0,1,2,yes,strat was to collect gears for 193 -  slow
+985,2,Brianna,2539,105,no,0,80,0,0,0,0,0,1,3,3,4,Key,Stand-Alone,UNKNOWN,0,0,0,0,0,0,Floor,2,2,4,yes,
+986,2,Davis,1391,106,no,3,10,0,0,0,0,1,1,3,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Floor,5,5,0,yes,
+987,2,Ava,5401,106,yes,4,11,0,0,0,0,0,0,4,3,3,UNKNOWN,Stand-Alone,Autoloader,2,14,0,0,0,0,Human,3,3,2,yes,consistant
+988,2,Connor,316,106,yes,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Floor,2,3,0,yes,
+989,2,Brianna,3142,106,yes,0,0,0,0,0,0,0,1,3,4,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,5,5,4,yes,fast cycle times
+990,2,Cole,834,106,yes,0,0,0,0,0,0,1,1,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,3,3,0,yes,
+991,2,Davis,203,107,no,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,1,1,3,no,lost coms for last 100 secs of match
+992,2,Sanjina,1712,106,yes,0,0,0,0,0,0,1,0,3,3,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,2,2,4,yes,
+993,2,Brianna,4575,107,yes,0,0,0,0,0,0,0,1,5,3,3,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,Human,4,4,0,no,
+994,2,Ava,1640,107,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,4,4,0,yes,tried to shoot but didn't
+995,2,Cole,3974,107,yes,0,0,0,0,0,0,1,1,3,3,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,0,yes,
+996,2,Connor,6226,107,yes,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,0,yes,
+997,2,Joseph,223,107,yes,4,8,0,0,0,0,0,0,3,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,1,1,0,no,
+998,2,Davis,555,108,no,0,0,0,0,0,0,0,0,4,3,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,4,0,yes,
+999,2,Cole,1495,108,no,0,0,0,0,0,0,1,1,2,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,0,yes,
+1000,2,Ava,4750,108,yes,0,0,0,0,0,0,0,0,4,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,0,yes,
+1001,2,Sanjits,3314,108,yes,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,0,yes,
+1002,2,Connor,4285,108,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,3,3,0,yes,
+1003,2,Brianna,219,108,yes,8,10,0,0,0,0,1,1,5,4,4,UNKNOWN,Shooter,UNKNOWN,0,0,0,0,0,0,Human,2,2,0,yes,
+1004,2,DAvis,103,109,no,3,9,0,0,0,0,0,0,5,5,2,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,3,yes,droped off 5 gears for 75 to deliver
+1005,2,Sanjits,75,109,no,0,0,0,0,0,0,1,0,4,1,4,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,0,0,0,yes,
+1006,2,Connor,433,109,yes,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,0,no,
+1007,2,Ava,2607,109,yes,0,0,0,0,0,0,1,0,3,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,3,3,0,yes,
+1008,2,Cole,4637,109,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Floor,4,4,0,yes,
+1009,2,Brianna,1495,109,yes,0,0,0,0,0,0,0,0,4,3,4,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,2,2,0,yes,
+1010,2,Davis,1676,110,yes,0,0,0,0,0,0,0,0,4,3,2,UNKNOWN,Gear,Human,3,3,0,0,0,0,Human,4,4,4,yes,
+1011,2,Cole,365,110,yes,6,10,0,0,0,0,1,1,4,4,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,25,0,0,0,Human,3,3,0,yes,
+1012,2,Connor,56,110,yes,0,0,0,0,0,0,1,1,4,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,0,0,0,yes,
+1013,2,Sanjit,25,110,yes,0,0,0,0,0,0,1,1,4,3,4,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,4,4,0,no,gear fell out at the loading station
+1014,2,Ava,2600,110,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,0,yes,
+1015,2,Bri,2729,110,yes,0,0,0,0,0,0,1,1,4,4,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,4,3,yes,
+1016,2,Davis,1712,111,yes,0,0,0,0,0,0,0,0,2,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,2,2,3,no,time ran out during climb / penalty for touching during last 20 secs
+1017,2,Connor,1807,111,yes,0,0,0,0,0,0,1,1,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,3,no,
+1018,2,Bri,272,111,yes,0,0,0,0,0,0,1,1,5,4,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,4,yes,
+1019,2,Cole,102,111,yes,0,0,0,0,0,0,0,1,3,3,3,Key,Gear,Floor,0,0,0,0,0,0,Human,2,2,4,yes,missed shots into the low goal
+1020,2,Ava,1923,111,yes,0,0,0,0,0,0,1,1,4,3,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,0,no,played defense at the end - ran out of time during climb
+1021,2,Sanjit,816,111,yes,0,0,0,0,0,0,1,1,2,4,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,0,yes,fast but reckless driving
+1022,2,Davis,316,112,yes,0,0,0,0,0,0,0,1,2,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,3,3,3,yes,floor loader isnt great...
+1023,2,David,3929,112,yes,0,0,0,0,0,0,1,1,2,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,0,yes,reckless driving
+1024,2,Cole,5181,112,yes,0,0,0,0,0,0,0,1,3,3,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,0,yes,
+1025,2,Bri,203,112,yes,0,0,0,0,0,0,1,1,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,4,yes,
+1026,2,Ava,1391,112,yes,1,7,0,0,0,0,1,1,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,1,1,0,yes,bad defense
+1027,2,Connor,2458,112,yes,0,0,0,0,0,0,0,1,2,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,2,2,3,yes,
+1028,2,Davis,3974,113,yes,0,0,0,0,0,0,0,0,4,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,4,4,0,yes,Fast climb
+1029,2,Connor,5407,113,yes,2,10,20,0,0,0,0,1,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,3,3,3,yes,
+1030,2,Cole,708,113,yes,2,20,10,0,0,0,0,1,3,3,2,Key,Gear,Floor,9,20,45,0,0,0,Floor,5,5,4,yes,
+1031,2,Bri,3314,113,yes,6,10,60,0,0,0,0,1,4,4,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,4,yes,
+1032,2,David,1279,113,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,0,yes,
+1033,2,Davis,219,114,yes,0,0,0,0,0,0,0,1,1,3,2,Key,Gear,Floor,1,20,10,0,0,0,UNKNOWN,2,2,3,no,"touched a robot trying to climb, giving them the free climb points"
+1034,2,Connor,1218,114,yes,2,10,20,0,0,0,0,1,3,3,4,Close Launchpad,Shooter,Floor,9,47,17,0,0,0,Floor,1,1,3,yes,
+1035,2,Cole,486,114,yes,0,0,0,0,0,0,0,0,2,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,2,2,3,no,gear under drive base / went to shoot instead of hanging
+1036,2,Ava,75,114,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,0,yes,slow hang
+1037,2,Bri,4575,114,yes,6,10,60,0,0,0,0,0,4,4,4,Key,Gear,Floor,0,1,0,0,0,0,Human,2,2,3,yes,
+1038,2,David,293,114,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,0,yes,
+1039,2,Ethan,5420,115,yes,0,0,0,0,0,0,1,1,2,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,yes,good defense
+1040,2,,1403,115,yes,0,0,0,0,0,0,1,1,2,2,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,3,yes,
+1041,2,Snajna,555,115,yes,0,0,0,0,0,0,0,0,3,3,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,4,yes,
+1042,2,Bri,222,115,yes,0,0,0,0,0,0,0,1,4,4,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,4,4,4,yes,
+1043,2,David,103,115,yes,0,0,0,0,0,0,1,1,4,5,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,0,no,
+1044,2,Ethan,56,116,yes,0,0,0,0,0,0,0,1,3,3,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,
+1045,2,Joseph,25,116,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,5,5,3,yes,
+1046,2,David,3142,116,yes,0,0,0,0,0,0,0,0,3,3,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,0,yes,needed all 30 seconds to climb
+1047,2,Bri,4285,116,yes,0,0,0,0,0,0,0,1,5,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,3,yes,
+1048,2,Sanjna,6226,116,yes,0,0,0,0,0,0,1,1,3,3,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,yes,bumpers came off
+1049,2,REDACTED,5401,117,yes,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,0,no,the robot broke
+1050,2,David,1495,117,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,0,no,
+1051,2,Sanjna,341,117,yes,0,2,0,0,0,0,1,1,4,5,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,4,yes,we were hit hard with defense
+1052,2,Joseph,2590,117,yes,14,20,70,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,4,4,yes,
+1053,2,Bri,223,117,yes,0,0,0,0,0,0,1,1,4,5,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,2,3,yes,
+1054,2,Ethan,4342,118,yes,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,0,0,0,no,fast gear cycle
+1055,2,Joseph,2729,118,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,0,no,fell off rope
+1056,2,David,2539,118,yes,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,0,yes,missed in auto
+1057,2,David,2539,118,yes,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,0,yes,
+1058,2,Bri,4750,118,yes,0,0,0,0,0,0,1,1,4,4,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,gear kept falling out at HP station
+1059,2,Sanjna,5895,118,yes,1,10,10,0,0,0,0,0,4,3,4,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,Human,0,1,3,yes,
+1060,2,Ethan,747,119,yes,3,10,30,0,0,0,0,0,3,3,3,Key,Stand-Alone,Floor,2,30,0,0,0,0,Human,2,2,3,no,easily pushed around - bad at HP station
+1061,2,David,2600,119,yes,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,0,no,trouble loading - climber broke down
+1062,2,Joseph,834,119,yes,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,3,4,yes,
+1063,2,Bri,303,119,yes,0,0,0,0,0,0,1,1,5,4,4,Key,Gear,Floor,10,30,33,0,0,0,Human,4,4,3,yes,
+1064,2,Sanjna,193,119,yes,0,0,0,0,0,0,0,0,3,4,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,4,yes,
+1065,2,Ethan,11,120,yes,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,5,5,0,yes,
+1066,2,Joseph,1640,120,yes,6,8,75,0,0,0,0,1,3,3,3,UNKNOWN,Gear,Floor,12,20,60,0,0,0,UNKNOWN,2,3,0,yes,
+1067,2,Sanjna,2607,120,yes,0,0,0,0,0,0,1,0,3,3,1,UNKNOWN,Shooter,UNKNOWN,0,0,0,0,0,0,Human,3,3,4,yes,
+1068,2,Bri,1676,120,yes,0,0,0,0,0,0,1,1,4,4,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,4,yes,
+1069,2,David,1257,120,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,4,4,0,yes,
+1070,4,James,4505,1,yes,0,0,0,0,0,0,0,0,2,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,no,required lots of setup to place a gear
+1071,4,Emily,4638,1,yes,0,0,0,0,0,0,1,0,4,4,4,UNKNOWN,UNKNOWN,Human,0,0,0,0,0,0,Human,2,2,1,yes,
+1072,4,Katie,303,1,yes,0,0,0,0,0,0,1,0,5,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,5,3,yes,
+1073,4,Caleb,271,1,yes,0,0,0,0,0,0,0,1,2,4,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,
+1074,4,Damian,2729,1,yes,0,0,0,0,0,0,1,1,2,4,2,Field,Gear,Floor,0,0,0,0,0,0,Human,3,3,2,yes,Bad shooter. Rigid movement
+1075,4,Ethan,4637,1,no,0,0,0,0,0,0,0,1,1,1,1,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Floor,0,1,3,no,floor loader never worked
+1076,4,James,533,2,yes,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,2,yes,
+1077,4,Emily,747,2,yes,0,0,0,0,0,0,0,0,2,3,5,UNKNOWN,UNKNOWN,Human,0,0,0,0,0,0,UNKNOWN,0,0,0,no,
+1078,4,Katie,203,2,yes,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,3,3,2,yes,
+1079,4,Ethan,321,2,yes,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,0,1,2,no,"had two gears in robot, tried to play defense"
+1080,4,Ethan,87,2,yes,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,2,no,
+1081,4,Damian,87,2,yes,0,0,0,0,0,0,0,0,2,2,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,1,yes,
+1082,4,Katie,3941,3,yes,0,0,0,0,0,0,0,0,2,4,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,3,0,no,
+1083,4,Ethan,1626,3,no,0,0,0,0,0,0,0,0,2,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,2,no,
+1084,4,Caleb,2495,3,yes,0,0,0,0,0,0,0,0,3,4,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,2,no,
+1085,4,Emily,5310,3,yes,0,0,0,0,0,0,1,0,4,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Floor,0,0,0,yes,
+1086,4,Damian,1626,3,yes,0,0,0,0,0,0,1,0,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,2,2,0,no,promising
+1087,4,James,1218,3,yes,0,0,0,0,0,0,0,0,4,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,3,3,3,no,
+1088,4,Caleb,1089,4,yes,0,0,0,0,0,0,0,0,4,4,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,2,yes,
+1089,4,Katie,1370,4,yes,0,0,0,0,0,0,0,0,2,2,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,2,2,yes,
+1090,4,Emily,316,4,yes,0,0,0,0,0,0,0,0,1,4,5,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,0,yes,
+1091,4,Demian,316,4,yes,0,0,0,0,0,0,0,0,1,1,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,0,1,0,yes,
+1092,4,Ethan,5420,4,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,3,0,yes,
+1093,4,James,225,3,no,13,21,0,0,0,0,0,1,4,4,3,Airship,Stand-Alone,Autoloader,90,120,0,0,0,0,Human,3,3,3,no,
+1094,4,Emily,1640,5,yes,0,0,0,0,0,0,2,1,5,5,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,3,3,1,yes,
+1095,4,James,6226,5,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,3,yes,
+1096,4,Caleb,369,5,yes,0,0,0,0,0,0,0,1,4,4,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,2,no,
+1097,4,Katie,341,5,yes,0,12,0,0,0,0,0,1,4,3,1,Key,Gear,Floor,4,20,20,0,0,0,Human,4,0,2,yes,
+1098,4,Ethan,2180,5,no,1,1,0,0,0,0,1,0,2,3,3,UNKNOWN,Stand-Alone,UNKNOWN,0,0,0,0,0,0,UNKNOWN,2,2,2,yes,
+1099,4,Damian,2180,5,yes,0,0,0,0,0,0,0,0,4,3,3,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,Human,1,2,2,yes,good at defending
+1100,4,Emily,533,6,yes,0,0,0,0,0,0,1,1,5,4,4,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Floor,1,1,0,yes,
+1101,4,Ethan,4637,6,yes,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,2,no,
+1102,4,Brianna,4505,6,yes,0,0,0,0,0,0,0,1,3,3,2,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,1,1,2,no,had trouble lining up the gears
+1103,4,Damian,2458,6,yes,0,0,0,0,0,0,0,0,3,2,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,0,0,0,yes,driver could be better
+1104,4,Katie,2458,6,yes,0,0,0,0,0,0,1,1,1,2,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,0,0,2,yes,
+1105,4,James,2495,6,yes,0,0,0,0,0,0,0,0,2,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,2,2,no,Gear went into their robot
+1106,4,James,369,87,yes,0,0,0,0,0,0,0,0,3,2,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,0,3,0,no,
+1107,4,Brianna,3941,7,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,2,no,
+1108,4,Katie,5310,7,no,0,0,0,0,0,0,0,2,1,1,1,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,0,no,Did nothing
+1109,4,Ethan Crowley,4638,7,yes,0,0,0,0,0,0,2,1,3,3,4,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,
+1110,4,Damian,87,7,no,0,0,0,0,0,0,0,0,4,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,1,no,
+1111,4,Emily,5420,7,yes,0,0,0,0,0,0,2,2,5,5,5,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Floor,3,3,2,yes,
+1112,4,Ethan,4342,8,yes,0,0,0,0,0,0,0,0,4,4,3,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,3,3,2,yes,
+1113,4,Brianna,1719,8,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Stand-Alone,Floor,0,0,0,0,0,0,UNKNOWN,0,0,2,no,lost gears in the middle of the field
+1114,4,Katie,747,8,yes,0,0,0,0,0,0,0,0,4,3,1,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Floor,1,1,2,no,
+1115,4,Emily,1218,8,no,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,UNKNOWN,Floor,0,0,0,0,0,0,Floor,1,1,1,no,
+1116,4,James,271,8,yes,0,0,0,0,0,0,0,0,2,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,1,2,0,yes,
+1117,4,Damian,4342,8,yes,0,0,0,0,0,0,1,0,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,2,yes,
+1118,4,Davis,225,9,yes,2,5,0,0,0,0,0,0,4,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,2,no,
+1119,4,Davis,225,9,yes,2,5,0,0,0,0,0,0,4,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,2,no,
+1120,4,Brianna,203,9,yes,0,0,0,0,0,0,0,0,3,5,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,2,no,
+1121,4,James,1640,9,yes,0,0,0,0,0,0,0,0,3,4,3,UNKNOWN,Stand-Alone,Autoloader,0,0,0,0,0,0,Human,2,2,3,no,
+1122,4,Damian,2180,9,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,1,no,
+1123,4,Katie,1370,9,yes,0,0,0,0,0,0,0,0,1,3,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,2,no,
+1124,4,Emily,303,9,no,0,0,0,0,0,0,0,1,3,3,3,Airship,Shooter,UNKNOWN,12,60,0,0,0,0,Floor,1,1,1,yes,
+1125,4,Emily,6226,10,yes,0,0,0,0,0,0,2,2,3,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,3,3,2,yes,
+1126,4,Brianna,321,10,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,2,no,
+1127,4,James,341,10,yes,0,0,0,0,0,0,0,0,1,3,3,UNKNOWN,Stand-Alone,Autoloader,4,50,0,0,0,0,Human,0,1,2,yes,
+1128,4,Davis,1089,10,yes,0,0,0,0,0,0,0,0,2,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,2,yes,
+1129,4,Damian,365,10,yes,0,10,0,0,0,0,0,0,3,3,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,1,yes,
+1130,4,Katie,2729,10,yes,0,0,0,0,0,0,1,1,5,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,2,yes,
+1131,4,Arjun,533,11,yes,0,0,0,0,0,0,1,0,1,1,1,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,1,1,0,yes,"Bad driver, 1 gear scored"
+1132,4,Paolo,2180,11,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,0,no,Robot began to fall apart. Top was coming off.
+1133,4,Arnav,225,11,yes,0,0,50,0,0,0,0,0,4,3,2,Field,Shooter,Floor,0,0,33,0,0,0,Human,0,0,2,yes,
+1134,4,Connor,4638,11,yes,0,0,0,0,0,0,1,1,2,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,3,2,yes,
+1135,4,Caleb,87,11,yes,0,0,0,0,0,0,0,0,3,5,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,2,2,no,
+1136,4,Luna,4342,11,no,0,0,0,0,0,0,0,0,4,3,3,Airship,Gear,Autoloader,0,0,0,0,0,0,Human,3,3,3,yes,
+1137,4,Connor,341,12,yes,0,0,0,0,0,0,0,0,5,5,5,UNKNOWN,Stand-Alone,Floor,0,0,0,0,0,0,Human,0,1,0,yes,
+1138,4,Luna,1626,12,no,0,0,0,0,0,0,0,0,3,3,1,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,no,
+1139,4,Paolo,303,12,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,Floor,0,0,30,0,0,0,UNKNOWN,2,2,2,no,
+1140,4,Caleb,369,12,yes,0,0,0,0,0,0,0,0,3,4,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,
+1141,4,Daniel,2458,12,yes,0,0,0,0,0,0,0,0,4,5,2,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Floor,2,3,2,yes,
+1142,4,Arjun,1218,12,no,0,0,0,0,0,0,0,0,1,1,1,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,0,no,Robot got stuck after auton and didn't move after that
+1143,4,Paolo,747,13,no,0,0,0,0,0,0,0,0,5,4,3,UNKNOWN,Gear,UNKNOWN,0,0,70,0,0,0,Human,0,0,0,yes,
+1144,4,Arnav,2729,13,yes,0,0,0,0,0,0,1,0,3,3,4,Close Launchpad,UNKNOWN,Floor,0,0,0,0,0,0,UNKNOWN,2,2,0,yes,
+1145,4,Arjun,5310,13,no,0,0,0,0,0,0,0,0,1,1,1,UNKNOWN,UNKNOWN,Autoloader,0,0,0,0,0,0,UNKNOWN,0,0,0,no,"failed auton, unable to move afterwards"
+1146,4,Luna,6226,13,no,0,0,0,0,0,0,0,0,2,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,no,
+1147,4,Connor,1370,13,yes,0,0,0,0,0,0,0,0,2,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,1,1,1,no,
+1148,4,Daniel Kim,2495,13,yes,0,0,0,0,0,0,0,0,2,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,0,1,2,no,
+1149,4,Arjun,203,14,yes,5,8,0,0,0,0,0,0,5,5,3,Close Launchpad,Gear,Human,0,0,0,0,0,0,UNKNOWN,2,2,0,yes,
+1150,4,Luna,365,14,yes,0,0,0,0,0,0,0,0,4,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,2,yes,Gear got stuck in intake
+1151,4,Arnav,365,14,yes,0,0,0,0,0,0,1,2,3,5,2,Close Launchpad,Gear,Floor,0,0,0,0,0,0,Human,2,2,2,yes,
+1152,4,Connor,4505,14,yes,0,0,0,0,0,0,0,0,2,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,3,no,
+1153,4,Paolo,1719,14,yes,0,0,0,0,0,0,0,0,1,4,2,UNKNOWN,UNKNOWN,Floor,0,0,0,0,0,0,UNKNOWN,0,0,0,no,
+1154,4,Daniel,5420,14,yes,0,0,0,0,0,0,1,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,3,3,yes,
+1155,4,Arnav,271,15,yes,0,0,0,0,0,0,0,0,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,1,no,Excellent gears
+1156,4,Connor,1640,15,yes,0,0,0,0,0,0,0,0,4,4,3,Key,Stand-Alone,Autoloader,33,43,0,0,0,0,Human,2,2,3,yes,
+1157,4,Mei Rose,321,15,yes,0,0,0,0,0,0,0,0,2,3,4,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,Human,0,1,2,no,
+1158,4,Arjun,4637,15,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,1,yes,didn't score its gear in auton
+1159,4,Paolo,3941,15,yes,0,0,0,0,0,0,1,1,4,4,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,4,2,yes,
+1160,4,Daniel,316,15,yes,0,0,0,0,0,0,1,1,5,3,5,Close Launchpad,Gear,UNKNOWN,0,0,0,0,0,0,Floor,2,3,3,yes,
+1161,4,N/A,365,16,yes,0,0,0,0,0,0,1,0,3,3,4,UNKNOWN,UNKNOWN,Human,0,0,25,0,0,0,Human,0,0,2,yes,
+1162,4,Daniel,225,16,yes,0,95,0,0,0,0,0,0,5,5,4,UNKNOWN,Stand-Alone,Floor,0,0,65,0,0,0,Human,1,1,3,yes,
+1163,4,Connor,747,16,no,0,0,0,0,0,0,0,0,3,2,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,3,3,3,yes,
+1164,4,Mei Rose,4342,16,yes,0,0,0,0,0,0,0,0,4,4,3,Key,Gear,Autoloader,0,3,0,0,0,0,Human,3,3,3,yes,
+1165,4,Brianna,369,16,yes,0,0,0,0,0,0,1,0,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,3,3,3,yes,
+1166,4,Paolo,4505,16,yes,0,0,0,0,0,0,1,0,4,4,4,UNKNOWN,UNKNOWN,Floor,0,0,0,0,0,0,Floor,1,2,1,yes,
+1167,4,Connor,341,17,yes,0,0,0,0,0,0,0,0,5,5,5,UNKNOWN,Stand-Alone,Floor,0,0,0,0,0,0,Human,0,0,2,no,
+1168,4,Mei Rose,4638,17,yes,0,0,0,0,0,0,1,1,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,2,2,yes,
+1169,4,Paolo,1370,17,yes,0,0,0,0,0,0,1,1,4,4,4,UNKNOWN,Gear,Floor,0,0,0,0,0,0,UNKNOWN,1,1,1,yes,
+1170,4,Paolo,1370,17,yes,0,0,0,0,0,0,1,1,4,4,4,UNKNOWN,Gear,Floor,0,0,0,0,0,0,UNKNOWN,1,1,1,yes,
+1171,4,Arnav,2458,17,yes,0,0,0,0,0,0,0,0,2,4,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,0,0,1,yes,team only got one gear
+1172,4,Daniel,1719,17,yes,0,0,0,0,0,0,0,0,4,4,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Human,1,1,2,yes,
+1173,4,Arnav,4637,18,yes,0,0,0,0,0,0,0,0,1,5,2,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Floor,0,0,0,yes,terrible driver and gear loading mechanism
+1174,4,Connor,1089,18,yes,0,0,0,0,0,0,0,0,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,2,no,
+1175,4,Mei Rose,5310,18,no,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,0,no,Did not move the entire match
+1176,4,Daniel,2180,18,yes,0,0,0,0,0,0,0,0,5,3,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,0,2,0,yes,got stuck on fuel
+1177,4,Paolo,321,18,no,0,0,0,0,0,0,0,0,5,4,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,3,2,no,
+1178,4,Brianna,1218,18,yes,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,2,2,0,yes,
+1179,4,Daniel,271,19,yes,0,0,0,0,0,0,0,1,4,5,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,2,3,3,yes,
+1180,4,Arnav,533,19,yes,0,0,0,0,0,0,1,1,3,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,2,no,
+1181,4,Mei Rose,303,19,yes,0,0,0,0,0,0,1,1,4,5,4,UNKNOWN,Stand-Alone,Autoloader,0,0,10,0,0,0,Human,2,2,0,yes,
+1182,4,Paolo,5420,19,yes,0,0,0,0,0,0,0,0,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,4,4,3,yes,
+1183,4,Connor,2495,19,yes,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,Gear,UNKNOWN,0,6,0,0,0,0,Human,3,3,3,yes,
+1184,4,Brianna,6226,19,yes,0,0,0,0,0,0,1,1,4,4,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,no,
+1185,4,Paolo,1640,20,yes,0,0,0,0,0,0,0,0,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,3,yes,
+1186,4,Arnav,203,20,yes,0,0,0,0,0,0,0,0,4,4,3,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Floor,3,3,3,yes,
+1187,4,Arnav,316,20,yes,0,0,0,0,0,0,0,1,4,5,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,3,3,0,yes,
+1188,4,Daniel,316,20,yes,0,0,0,0,0,0,0,1,4,5,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,3,3,0,yes,
+1189,4,Caleb,87,20,yes,0,0,0,0,0,0,0,0,2,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,3,no,
+1190,4,Mei Rose,1626,20,yes,0,0,0,0,0,0,0,0,5,4,3,Key,Gear,UNKNOWN,0,0,0,0,0,0,Floor,3,3,3,yes,
+1191,4,Brianna,2729,20,yes,0,0,0,0,0,0,1,1,4,4,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,
+1192,4,James,4638,21,yes,0,0,0,0,0,0,1,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,3,0,yes,
+1193,4,Caleb,1089,21,yes,0,0,0,0,0,0,0,0,3,4,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,2,no,
+1194,4,Daniel,2458,21,yes,0,0,0,0,0,0,0,0,4,2,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,0,1,3,yes,
+1195,4,Sean,6226,21,yes,0,0,0,0,0,0,0,0,3,4,3,Close Launchpad,Gear,Floor,0,0,0,0,0,0,Human,2,3,2,yes,
+1196,4,Emily,225,21,yes,10,10,0,0,0,0,1,1,5,3,4,UNKNOWN,UNKNOWN,UNKNOWN,9,10,0,0,0,0,Floor,1,1,1,yes,
+1197,4,Damian,271,21,yes,0,0,0,0,0,0,0,0,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,
+1198,4,Caleb,2180,22,yes,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,2,3,yes,
+1199,4,Emily,1218,22,yes,0,0,0,0,0,0,1,1,4,4,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,1,1,1,yes,
+1200,4,James,3941,22,yes,0,0,0,0,0,0,0,0,2,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,1,2,3,yes,
+1201,4,Damian,747,22,yes,0,0,0,0,0,0,0,0,5,4,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,5,5,3,yes,
+1202,4,Daniel,533,22,no,0,0,0,0,0,0,0,0,4,4,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,3,3,no,
+1203,4,Caleb,365,23,yes,0,0,0,0,0,0,1,1,3,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,1,1,3,yes,
+1204,4,James,87,23,yes,0,0,0,0,0,0,2,0,1,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,1,2,no,failed to climb for twenty seconds
+1205,4,Emily,1719,23,yes,0,0,0,0,0,0,1,0,2,5,4,UNKNOWN,Defender,Floor,0,0,0,0,0,0,UNKNOWN,1,1,1,no,
+1206,4,Sean,316,23,yes,0,0,0,0,0,0,1,1,4,3,4,UNKNOWN,Defender,Floor,0,0,0,0,0,0,UNKNOWN,1,1,3,yes,
+1207,4,Daniel,303,23,yes,0,0,0,0,0,0,1,2,3,3,3,UNKNOWN,Stand-Alone,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,no,
+1208,4,Damian,5310,23,no,0,0,0,0,0,0,0,0,3,3,3,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,0,no,
+1209,4,James,4637,24,yes,0,0,0,0,0,0,1,0,1,2,3,UNKNOWN,UNKNOWN,UNKNOWN,0,0,0,0,0,0,Floor,0,3,1,yes,
+1210,4,Caleb,1640,24,yes,0,0,0,0,0,0,0,1,3,4,2,Key,Gear,Human,0,0,80,0,0,0,Human,1,1,3,yes,
+1211,4,Sean,4342,24,no,0,0,0,0,0,0,0,1,4,3,3,Key,UNKNOWN,Floor,3,3,0,0,0,0,Human,2,2,3,yes,
+1212,4,Emily,2495,24,yes,0,0,0,0,0,0,0,0,2,3,5,UNKNOWN,Defender,UNKNOWN,0,0,0,0,0,0,UNKNOWN,0,0,0,yes,
+1213,4,Damian,203,24,yes,0,0,0,0,0,0,0,0,2,2,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,0,0,0,yes,
+1214,4,Daniel,747,24,yes,0,0,0,0,0,0,0,0,5,5,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,3,yes,
+1215,4,Emily,1370,25,yes,0,0,0,0,0,0,1,0,4,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,1,1,0,no,
+1216,4,Emily,1370,25,yes,0,0,0,0,0,0,1,0,4,3,2,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,1,1,0,no,
+1217,4,Damian,369,25,yes,0,0,0,0,0,0,0,0,3,4,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Floor,2,3,3,yes,
+1218,4,Daniel,321,25,yes,0,0,0,0,0,0,1,1,3,3,4,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,3,3,0,yes,
+1219,4,Sean,1626,25,yes,0,0,0,0,0,0,0,1,3,3,3,UNKNOWN,Gear,Floor,0,0,0,0,0,0,Human,1,2,2,yes,
+1220,4,James,4505,25,yes,0,0,0,0,0,0,1,0,2,3,3,UNKNOWN,Gear,UNKNOWN,0,0,0,0,0,0,Human,2,3,3,no,

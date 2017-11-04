@@ -1,4 +1,9 @@
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
+import java.util.Scanner;
+
+import javax.swing.JTable;
 
 public class Event
 {
@@ -68,8 +73,27 @@ public class Event
 	{
 		
 	}
-	public void importDatabase()
+	/*
+	public JTable importDatabase() throws FileNotFoundException
 	{
+		JTable objs = new JTable();
 		
-	}
+		ArrayList<Integer> objAR = new ArrayList<Integer>();
+		
+		Scanner in = new Scanner( new File( "matchRecords.csv" ) );
+		
+		for( int i = 0; in.hasNext(); i++ )
+		{
+			String line = in.nextLine();
+			String[] bits = line.split(",");
+			if( i != 0 )
+			{
+				
+			}
+		}
+		
+			
+        return objs;
+    }
+    */
 }

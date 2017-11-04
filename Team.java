@@ -1,4 +1,10 @@
 import java.util.ArrayList;
+import java.util.Scanner;
+
+import javax.swing.JTable;
+
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.sql.*;
 
 public class Team
@@ -100,6 +106,13 @@ public class Team
 		matchesPlayedIn = new ArrayList<Integer>();
 		predictedMatchesWon = new ArrayList<Integer>();
 		
+		try {
+			this.importTeamData();
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 		//eventsAttended = new ArrayList<String>();
 	}
 	
@@ -160,6 +173,13 @@ public class Team
 		
 		matchesPlayedIn = new ArrayList<Integer>();
 		predictedMatchesWon = new ArrayList<Integer>();
+		
+		try {
+			this.importTeamData();
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 		//eventsAttended = new ArrayList<String>();
 	}
@@ -1045,6 +1065,28 @@ public class Team
 	{
 		predictedMatchesWon.add(matchNum);
 	}
+	
+	public void importTeamData() throws FileNotFoundException
+	{
+		ArrayList<Integer> objAR = new ArrayList<Integer>();
+		
+		Scanner in = new Scanner( new File( "matchRecords.csv" ) );
+		
+		for( int i = 0; in.hasNext(); i++ )
+		{
+			String line = in.nextLine();
+			String[] bits = line.split(",");
+			if( i != 0 && bits.length >= 28 )
+			{
+				if( Integer.parseInt(bits[3]) == this.teamNum )
+				{
+					this.autoGearsMade += Integer.parseInt(bits[12]);
+					this.teleOpGearsMade += Integer.parseInt(bits[27]);
+					matchesPlayed++;
+				}
+			}
+		}
+    }
 	
 	/* (non-Javadoc)
 	 * @see java.lang.Object#toString()

@@ -20,12 +20,19 @@ public class TeamDataPage extends javax.swing.JPanel
      * @param frame
      * @param team
      */
+	
+	private Team team;
+	
     public TeamDataPage( JFrame frame, HomePage homePage, Team team )
     {
         initComponents();
+        
+        this.team = team;
+        
         jList1.setModel(new javax.swing.AbstractListModel<String>() {
             String[] strings = { team.getTeamNum() + "", team.getTotalScore() + "", team.getMatchesPlayed() + "",
-                team.getAverageScore() + "", team.getTeleOpAverageScore() + "", team.getAutoAverageScore() + "" };
+            team.getAverageScore() + "", team.getTeleOpAverageScore() + "", team.getAutoAverageScore() + "",
+            (double) team.getAutoGearsMade() / team.getMatchesPlayed() + "", (double) team.getTeleOpGearsMade() /team.getMatchesPlayed() + "" };
             public int getSize() { return strings.length; }
             public String getElementAt(int i) { return strings[i]; }
         });
@@ -62,7 +69,7 @@ public class TeamDataPage extends javax.swing.JPanel
 
         jList2.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jList2.setModel(new javax.swing.AbstractListModel<String>() {
-            String[] strings = { "Team Number:", "Total Score:", "Games Played:", "Average Score:", "Average Tele-Op Score:", "Average Auto Score:" };
+            String[] strings = { "Team Number:", "Total Score:", "Games Played:", "Average Score:", "Average Tele-Op Score:", "Average Auto Score:","Average Auto Gears", "Average Tele-Op Gears" };
             public int getSize() { return strings.length; }
             public String getElementAt(int i) { return strings[i]; }
         });
