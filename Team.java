@@ -1131,10 +1131,12 @@ public class Team
 			}
 		}
 		
-		this.autoHigherShootingPercentage /= matchesPlayed;
+		if( autoHigherShootingPercentage > 0)
+			this.autoHigherShootingPercentage /= matchesPlayed;
 		if( autoHigherShotsAttempted > 0 )
 			this.autoHigherShootingPercentage = (double) ( (autoHigherShotsMade /
 				autoHigherShotsAttempted * 100) + ( autoHigherShootingPercentage ) ) / 2.0 ;
+		
 		
 		this.teleOpHigherShootingPercentage /= matchesPlayed;
 		if( teleOpHigherShotsAttempted > 0 )
